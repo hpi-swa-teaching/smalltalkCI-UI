@@ -1,0 +1,14 @@
+{
+	"category" : "SWT16-Project-11-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TestClass",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
