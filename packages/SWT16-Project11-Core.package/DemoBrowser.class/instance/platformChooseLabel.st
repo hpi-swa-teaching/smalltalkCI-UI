@@ -1,0 +1,4 @@
+user interface
+platformChooseLabel
+
+	^ 'platforms'.
