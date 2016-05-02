@@ -1,0 +1,4 @@
+constants
+platforms
+
+	^ #('Hello' 'Goodbye').

@@ -1,0 +1,14 @@
+{
+	"category" : "SWT16-Project11-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SGITestClassTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
