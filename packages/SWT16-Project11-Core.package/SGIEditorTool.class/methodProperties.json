@@ -2,7 +2,6 @@
 	"class" : {
 		"open" : "nk 5/2/2016 09:38" },
 	"instance" : {
-		"baselineChooseLabel" : "nk 5/2/2016 10:32",
-		"buildWith:" : "nk 5/2/2016 10:36",
-		"platformChooseLabel" : "nk 5/2/2016 10:34",
-		"platforms" : "nk 5/2/2016 10:22" } }
+		"buildWith:" : "CF 5/8/2016 22:24",
+		"closeButtonLabel" : "CF 5/8/2016 22:24",
+		"saveButtonLabel" : "CF 5/8/2016 22:22" } }

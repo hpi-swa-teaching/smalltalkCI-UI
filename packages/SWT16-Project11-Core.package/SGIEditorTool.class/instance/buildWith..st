@@ -1,28 +1,29 @@
 user interface
 buildWith: builder 
 
-	| windowSpec listSpec multiSelectionListSpec|
+	| windowSpec saveButtonSpec closeButtonSpec |
 	windowSpec := builder pluggableWindowSpec new.
-	listSpec := builder pluggableListSpec new.
-	multiSelectionListSpec := builder pluggableMultiSelectionListSpec new.
+	saveButtonSpec := builder pluggableButtonSpec new.
+	closeButtonSpec := builder pluggableButtonSpec new.
 		
 	windowSpec 
 		model: self;
 		label: 'smalltalkCI';
-		extent: 500@300;
+		extent: 800@600;
 		children: OrderedCollection new.
 		
-	multiSelectionListSpec 
-		list: #platforms;
+	saveButtonSpec
 		model: self;
-		frame: (0@0.05 corner: 0.167@0.25).
+		label: #saveButtonLabel;
+		frame: (0.8@0.95 corner: 0.9@1).
 	
-	listSpec
+	closeButtonSpec
 		model: self;
-		frame: (0@0.25 corner: 0.167@1).
+		label: #closeButtonLabel;
+		frame: (0.9@0.95 corner: 1@1).
 		
-	windowSpec children add: listSpec.
-	windowSpec children add: multiSelectionListSpec.
+	windowSpec children add: saveButtonSpec.
+	windowSpec children add: closeButtonSpec.
 		
 		
 	^ builder build: windowSpec.

@@ -1,4 +1,0 @@
-constants
-platforms
-
-	^ #('Hello' 'Goodbye').
