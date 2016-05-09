@@ -3,10 +3,10 @@
 Lars Lange, Leonard Pabst, Christian Friedow, Sven Ladusch, Niklas Kiefer
 
 ## Setup
-For the Squeak image setup instructions see (this)[docs/setup.md].
+For the Squeak image setup instructions see [this](docs/setup.md).
 
 ## Conventions
-For development conventions see (this)[docs/development-conventions.md] document.
+For development conventions see [this](docs/development-conventions.md) document.
 
 ## UI Drafts
-See recent ui drafts (here)[docs/ui-drafts.md].
+See recent ui drafts [here](docs/ui-drafts.md).
