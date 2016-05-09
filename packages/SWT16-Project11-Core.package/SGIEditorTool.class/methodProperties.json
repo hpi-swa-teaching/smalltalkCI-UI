@@ -2,6 +2,10 @@
 	"class" : {
 		"open" : "nk 5/2/2016 09:38" },
 	"instance" : {
-		"buildWith:" : "CF 5/8/2016 22:24",
+		"baselineConfigChoseButtonLabel" : "nk 5/9/2016 10:19",
+		"baselineConfigChoseLabel" : "nk 5/9/2016 10:15",
+		"buildBaselineConfigChoseWith:" : "nk 5/9/2016 10:25",
+		"buildWith:" : "nk 5/9/2016 10:02",
 		"closeButtonLabel" : "CF 5/8/2016 22:24",
+		"promptForBaselineConfigs" : "nk 5/9/2016 10:24",
 		"saveButtonLabel" : "CF 5/8/2016 22:22" } }
