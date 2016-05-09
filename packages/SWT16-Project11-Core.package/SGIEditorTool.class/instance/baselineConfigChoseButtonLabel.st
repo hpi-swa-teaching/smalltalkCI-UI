@@ -1,0 +1,4 @@
+constants
+baselineConfigChoseButtonLabel
+
+	^ #'Baseline | Config ...'.
