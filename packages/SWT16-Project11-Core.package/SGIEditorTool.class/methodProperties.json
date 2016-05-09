@@ -1,11 +1,24 @@
 {
 	"class" : {
+		"baselineConfigChoseFrame" : "nk 5/9/2016 14:56",
+		"baselineConfigInputFrame" : "nk 5/9/2016 14:55",
+		"baselineConfigPanelFrame" : "nk 5/9/2016 14:56",
+		"baselineOfPrefix" : "nk 5/9/2016 15:15",
+		"configurationPrefix" : "nk 5/9/2016 15:15",
 		"open" : "nk 5/2/2016 09:38" },
 	"instance" : {
+		"baseline" : "nk 5/9/2016 15:03",
+		"baseline:" : "nk 5/9/2016 15:03",
 		"baselineConfigChoseButtonLabel" : "nk 5/9/2016 10:19",
 		"baselineConfigChoseLabel" : "nk 5/9/2016 10:15",
-		"buildBaselineConfigChoseWith:" : "nk 5/9/2016 10:25",
+		"buildBaselineConfigChoseWith:" : "nk 5/9/2016 15:56",
 		"buildWith:" : "nk 5/9/2016 10:02",
+		"choseBaselineOrConfig:" : "nk 5/9/2016 15:40",
 		"closeButtonLabel" : "CF 5/8/2016 22:24",
-		"promptForBaselineConfigs" : "nk 5/9/2016 10:24",
+		"configuration" : "nk 5/9/2016 15:03",
+		"configuration:" : "nk 5/9/2016 15:03",
+		"projectName" : "nk 5/9/2016 15:47",
+		"projectName:" : "nk 5/9/2016 15:45",
+		"promptForBaselineConfigs" : "nk 5/9/2016 15:16",
+		"retrieveName:" : "nk 5/9/2016 16:18",
 		"saveButtonLabel" : "CF 5/8/2016 22:22" } }

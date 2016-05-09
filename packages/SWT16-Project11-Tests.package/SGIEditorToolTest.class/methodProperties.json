@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setup" : "nk 5/9/2016 16:05",
+		"testBuildBaselineConfigWith" : "nk 5/9/2016 16:20",
+		"testRetrieveName" : "nk 5/9/2016 16:22",
+		"testSetup" : "nk 5/9/2016 16:06" } }

@@ -1,27 +1,28 @@
 user interface
 buildBaselineConfigChoseWith: builder
 
-	| panelSpec nameLabelSpec choseSpec |
+	| panelSpec inputSpec choseSpec |
 	
 	panelSpec := builder pluggablePanelSpec new.
-	nameLabelSpec := builder pluggableInputFieldSpec new.
+	inputSpec := builder pluggableInputFieldSpec new.
 	choseSpec := builder pluggableButtonSpec new.
 	
 	panelSpec 
 		model: self;
-		frame: (0.5@0.33 corner: 1@0.4);
+		frame: self class baselineConfigPanelFrame;
 		children: OrderedCollection new.
-	nameLabelSpec
+	inputSpec
 		model: self;
-		setText: #baselineConfigChoseLabel;
-		frame: (0@0 corner: 0.5@1).
+		setText: #projectName:;
+		getText: #projectName;
+		frame: self class baselineConfigInputFrame.
 	choseSpec 
 		model: self;
 		label: #baselineConfigChoseButtonLabel;
-		frame: (0.5@0 corner: 1@1);
-		action: #promptForBaselineConfigs.
+		frame: self class baselineConfigChoseFrame;
+		action: [self choseBaselineOrConfig: inputSpec].
 		
-	panelSpec children add: nameLabelSpec.
+	panelSpec children add: inputSpec.
 	panelSpec children add: choseSpec.
 	
 	 ^ panelSpec.

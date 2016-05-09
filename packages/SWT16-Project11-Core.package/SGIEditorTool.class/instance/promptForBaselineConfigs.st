@@ -1,13 +1,10 @@
-help
+chosing
 promptForBaselineConfigs
 	| packages |
 	packages := (PackageOrganizer default packages
-				reject: [:package | (package packageName beginsWith: 'Kernel')
-						or: [(package packageName beginsWith: 'Collections')
-								or: [(package packageName beginsWith: 'Exceptions')
-										or: [(package packageName beginsWith: 'SUnit')
-												or: [(package packageName beginsWith: 'System')
-														or: [package packageName includesSubstring: 'Test' caseSensitive: false]]]]]])
+				select: [:package | (package packageName beginsWith: self class baselineOfPrefix)
+						or: [(package packageName beginsWith: self class configurationPrefix)
+								]])
 				sort: [:a :b | a packageName < b packageName].
 	packages := Array
 				with: (UIManager default
@@ -15,4 +12,4 @@ promptForBaselineConfigs
 								collect: [:package | package packageName])
 						values: packages
 						title: 'Select Package').
-	^ packages
+	^ packages.
