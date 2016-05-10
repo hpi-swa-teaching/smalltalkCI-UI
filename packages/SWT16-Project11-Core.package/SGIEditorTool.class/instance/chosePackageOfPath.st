@@ -3,7 +3,7 @@ chosePackageOfPath
 	| fc stream |
 	fc := FileChooser new.
 	fc initializeAsDialogBox.
-	fc setDirectory: (FileDirectory on: 'C:\Windows')       ."root."
+	fc setDirectory: (FileDirectory on: self path)       ."root."
 	"path."
 	fc setCaption: 'Choose your package' translated.
 	stream := self promptForPackagePath: fc.

@@ -1,3 +1,4 @@
 accessing
 path
-	^ path
+	path ifNotNil: [^ path].
+	^ ''.
