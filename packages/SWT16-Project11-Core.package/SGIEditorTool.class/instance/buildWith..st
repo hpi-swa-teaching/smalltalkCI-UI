@@ -1,11 +1,12 @@
 user interface
 buildWith: builder 
 
-	| windowSpec saveButtonSpec closeButtonSpec namePanelSpec |
+	| windowSpec saveButtonSpec closeButtonSpec baselineConfigSpec packagePathSpec |
 	windowSpec := builder pluggableWindowSpec new.
 	saveButtonSpec := builder pluggableButtonSpec new.
 	closeButtonSpec := builder pluggableButtonSpec new.
-	namePanelSpec := self buildBaselineConfigChoseWith: builder.
+	baselineConfigSpec := self buildBaselineConfigChoseWith: builder.
+	packagePathSpec := self buildPackagePathWith: builder.
 		
 	windowSpec 
 		model: self;
@@ -25,7 +26,8 @@ buildWith: builder
 		
 	windowSpec children add: saveButtonSpec.
 	windowSpec children add: closeButtonSpec.
-	windowSpec children add: namePanelSpec.
+	windowSpec children add: baselineConfigSpec.
+	windowSpec children add: packagePathSpec.
 		
 		
 	^ builder build: windowSpec.
