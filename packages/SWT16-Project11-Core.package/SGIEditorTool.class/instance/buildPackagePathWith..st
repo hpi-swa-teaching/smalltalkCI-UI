@@ -1,5 +1,5 @@
 user interface
-buildBaselineConfigChoseWith: builder
+buildPackagePathWith: builder
 
 	| panelSpec inputSpec choseSpec |
 	
@@ -9,18 +9,18 @@ buildBaselineConfigChoseWith: builder
 	
 	panelSpec 
 		model: self;
-		frame: self class baselineConfigPanelFrame;
+		frame: self class packagePathPanelFrame;
 		children: OrderedCollection new.
 	inputSpec
 		model: self;
-		setText: #projectName:;
-		getText: #projectName;
-		frame: self class baselineConfigInputFrame.
+		getText: #package;
+		setText: #package:;
+		frame: self class packagePathInputFrame.
 	choseSpec 
 		model: self;
-		label: #baselineConfigChoseButtonLabel;
-		frame: self class baselineConfigChoseFrame;
-		action: [self choseBaselineOrConfig: inputSpec].
+		label: #packagePathChoseButtonLabel;
+		frame: self class packagePathChoseFrame;
+		action: [self chosePackageOfPath].
 		
 	panelSpec children add: inputSpec.
 	panelSpec children add: choseSpec.
