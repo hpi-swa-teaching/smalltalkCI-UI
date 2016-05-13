@@ -8,7 +8,8 @@
 		"open" : "nk 5/2/2016 09:38",
 		"packagePathChoseFrame" : "Lars Lange 5/10/2016 11:51",
 		"packagePathInputFrame" : "Lars Lange 5/10/2016 11:56",
-		"packagePathPanelFrame" : "Lars Lange 5/10/2016 11:49" },
+		"packagePathPanelFrame" : "Lars Lange 5/10/2016 11:49",
+		"saveAndCloseButtonFrame" : "CF 5/13/2016 19:20" },
 	"instance" : {
 		"baseline" : "nk 5/9/2016 15:03",
 		"baseline:" : "nk 5/9/2016 15:03",
@@ -16,7 +17,8 @@
 		"baselineConfigChoseLabel" : "nk 5/9/2016 10:15",
 		"buildBaselineConfigChoseWith:" : "nk 5/9/2016 15:56",
 		"buildPackagePathWith:" : "Lars Lange 5/10/2016 12:53",
-		"buildWith:" : "Lars Lange 5/10/2016 11:54",
+		"buildSaveAndCloseButtonWith:" : "CF 5/13/2016 19:21",
+		"buildWith:" : "CF 5/13/2016 19:16",
 		"choseBaselineOrConfig:" : "nk 5/10/2016 12:07",
 		"chosePackageOfPath" : "Lars Lange 5/10/2016 19:43",
 		"closeButtonLabel" : "CF 5/8/2016 22:24",
@@ -32,4 +34,4 @@
 		"promptForBaselineConfigs" : "nk 5/9/2016 15:16",
 		"promptForPackagePath:" : "nk 5/10/2016 16:16",
 		"retrieveName:" : "nk 5/9/2016 16:18",
-		"saveButtonLabel" : "CF 5/8/2016 22:22" } }
+		"saveButtonLabel" : "CF 5/13/2016 19:18" } }
