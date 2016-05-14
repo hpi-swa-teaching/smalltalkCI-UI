@@ -15,7 +15,8 @@ buildSaveAndCloseButtonWith: builder
 	saveButtonSpec
 		model: self;
 		label: #saveButtonLabel;
-		frame: (0@0 corner: 0.5@1).
+		frame: (0@0 corner: 0.5@1);
+		action: #saveButtonAction.
 	
 	closeButtonSpec
 		model: self;

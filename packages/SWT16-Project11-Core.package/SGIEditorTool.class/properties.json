@@ -10,7 +10,9 @@
 		"configuration",
 		"projectName",
 		"path",
-		"package" ],
+		"package",
+		"saveDialog",
+		"windowBuilder" ],
 	"name" : "SGIEditorTool",
 	"pools" : [
 		 ],

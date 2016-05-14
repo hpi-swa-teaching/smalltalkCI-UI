@@ -6,6 +6,7 @@ buildWith: builder
 	baselineConfigSpec := self buildBaselineConfigChoseWith: builder.
 	packagePathSpec := self buildPackagePathWith: builder.
 	saveAndCloseButtonSpec := self buildSaveAndCloseButtonWith: builder.
+	windowBuilder := builder.
 		
 	windowSpec 
 		model: self;
@@ -16,5 +17,7 @@ buildWith: builder
 	windowSpec children add: baselineConfigSpec.
 	windowSpec children add: packagePathSpec.
 	windowSpec children add: saveAndCloseButtonSpec.		
-		
+	self saveButtonActionWith: builder.
+	
+	
 	^ builder build: windowSpec. 

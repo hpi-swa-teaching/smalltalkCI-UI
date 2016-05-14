@@ -1,0 +1,5 @@
+constants
+exitSaveWindow
+
+
+'todo exitfunktion'
