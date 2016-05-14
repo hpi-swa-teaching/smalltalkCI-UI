@@ -12,7 +12,8 @@
 		"path",
 		"package",
 		"saveDialog",
-		"windowBuilder" ],
+		"windowBuilder",
+		"closeDialog" ],
 	"name" : "SGIEditorTool",
 	"pools" : [
 		 ],

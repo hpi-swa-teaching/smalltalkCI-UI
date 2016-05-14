@@ -1,5 +1,5 @@
 constants
-exitSaveWindow
+exitSGIEditor
 
 
 'todo exitfunktion'

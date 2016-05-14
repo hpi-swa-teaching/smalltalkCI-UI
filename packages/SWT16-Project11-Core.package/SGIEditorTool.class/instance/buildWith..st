@@ -17,7 +17,6 @@ buildWith: builder
 	windowSpec children add: baselineConfigSpec.
 	windowSpec children add: packagePathSpec.
 	windowSpec children add: saveAndCloseButtonSpec.		
-	self saveButtonActionWith: builder.
 	
 	
 	^ builder build: windowSpec. 

@@ -1,0 +1,5 @@
+constants
+exitSaveDialog
+
+^ saveDialog delete.
+

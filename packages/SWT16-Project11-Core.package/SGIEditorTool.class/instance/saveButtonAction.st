@@ -1,4 +1,4 @@
-constants
+user interface
 saveButtonAction
 
 	| yesButtonSpec noButtonSpec |
@@ -8,22 +8,22 @@ saveButtonAction
 		
  	saveDialog 
 		model: self;
-		label: '.Ston allready exists, overwrite?';
-		extent: 200@100;
+		label: 'Name allready exists, overwrite?';
+		extent: 330@50;
 		children: OrderedCollection new;
 		isDialog: true.
 
 	yesButtonSpec
 		model: self;
-		label: #saveButtonLabel;
+		label: #overwriteButtonLabel;
 		frame: (0@0 corner: 0.5@1);
 		action: #writeSton.
 		
 	noButtonSpec
 		model: self;
-		label: #closeButtonLabel ;
+		label: #dontSaveButtonLabel;
 		frame: (0.5@0 corner: 1@1);
-		action: #exitSaveWindow.
+		action: #exitSaveDialog.
 	
 	saveDialog children add: yesButtonSpec.
 	saveDialog children add: noButtonSpec.
