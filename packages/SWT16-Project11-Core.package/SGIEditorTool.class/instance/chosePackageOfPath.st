@@ -1,19 +1,18 @@
 chosing
 chosePackageOfPath
-	| fc stream temp |
+	| fc stream containsPath stringCollection choosenPackage |
 	fc := FileChooser new.
 	fc initializeAsDialogBox.
 	fc setDirectory: (FileDirectory on: self path).
 	fc setCaption: 'Choose your package' translated.
 	stream := self promptForPath: fc.
 	stream ifNotNil: [
-		temp := stream includesSubString: self path.
-		temp
+		containsPath := stream includesSubString: self path.
+		containsPath
 		ifTrue: [
-			temp := (stream subStrings: '\') asOrderedCollection.
-			temp := temp at: temp size.
-			self package: temp.
-			]
+			stringCollection := (stream subStrings: '\') asOrderedCollection.
+			choosenPackage := stringCollection at: stringCollection size.
+			self package: choosenPackage.
+			];
 		ifFalse: [].
-		
 		].
