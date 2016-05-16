@@ -1,10 +1,10 @@
 user interface
-testBuildPackagePath
+testBuildPath
 
 	| builder editorTool panel |
 	builder := ToolBuilder default.
 	editorTool := self setup.
-	panel := editorTool buildPackagePathWith: builder.
+	panel := editorTool buildPathWith: builder.
 	self 
 		assert: (panel notNil);
 		assert: (panel children size = 2);
