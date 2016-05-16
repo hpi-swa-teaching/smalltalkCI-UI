@@ -1,4 +1,4 @@
 accessing
 path: anObject
 	path := anObject.
-	self changed: #package.
+	self changed: #path.
