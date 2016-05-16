@@ -1,5 +1,5 @@
 chosing
-promptForPackagePath: fileChooser
+promptForPath: fileChooser
 	| model |
 	fileChooser postOpen.
 	fileChooser morphicView openInWorld.
