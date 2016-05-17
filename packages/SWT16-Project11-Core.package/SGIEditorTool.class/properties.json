@@ -10,7 +10,8 @@
 		"configuration",
 		"projectName",
 		"path",
-		"package" ],
+		"package",
+		"loadingSpecs" ],
 	"name" : "SGIEditorTool",
 	"pools" : [
 		 ],
