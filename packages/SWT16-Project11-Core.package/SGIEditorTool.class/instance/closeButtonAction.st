@@ -1,12 +1,12 @@
 user interface
 closeButtonAction
 
-	| yesButtonSpec noButtonSpec |
-	closeDialog := windowBuilder pluggableWindowSpec new.
+	| closeDialogSpec yesButtonSpec noButtonSpec |
+	closeDialogSpec := windowBuilder pluggableWindowSpec new.
 	yesButtonSpec := windowBuilder pluggableButtonSpec new.
 	noButtonSpec := windowBuilder pluggableButtonSpec new.
 		
- 	closeDialog
+ 	closeDialogSpec
 		model: self;
 		label: 'do you really want to close SGIEditor?';
 		extent: 350@50;
@@ -25,7 +25,9 @@ closeButtonAction
 		frame: (0.5@0 corner: 1@1);
 		action: #exitCloseDialog.
 	
-	closeDialog children add: yesButtonSpec.
-	closeDialog children add: noButtonSpec.
+	closeDialogSpec children add: yesButtonSpec.
+	closeDialogSpec children add: noButtonSpec.
 		
-	ToolBuilder default open: ( windowBuilder build: closeDialog).
+	self closeDialog:(ToolBuilder default open: ( windowBuilder build: closeDialogSpec)).
+
+	^closeDialogSpec.

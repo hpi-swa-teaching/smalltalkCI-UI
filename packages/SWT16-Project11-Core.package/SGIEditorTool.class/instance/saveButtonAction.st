@@ -1,12 +1,12 @@
 user interface
 saveButtonAction
 
-	| yesButtonSpec noButtonSpec |
-	saveDialog := windowBuilder pluggableWindowSpec new.
+	| saveDialogSpec yesButtonSpec noButtonSpec |
+	saveDialogSpec:= windowBuilder pluggableWindowSpec new.
 	yesButtonSpec := windowBuilder pluggableButtonSpec new.
 	noButtonSpec := windowBuilder pluggableButtonSpec new.
 		
- 	saveDialog 
+ 	saveDialogSpec 
 		model: self;
 		label: 'Name allready exists, overwrite?';
 		extent: 330@50;
@@ -17,7 +17,7 @@ saveButtonAction
 		model: self;
 		label: #overwriteButtonLabel;
 		frame: (0@0 corner: 0.5@1);
-		action: #writeSton.
+		action: #saveSton.
 		
 	noButtonSpec
 		model: self;
@@ -25,7 +25,7 @@ saveButtonAction
 		frame: (0.5@0 corner: 1@1);
 		action: #exitSaveDialog.
 	
-	saveDialog children add: yesButtonSpec.
-	saveDialog children add: noButtonSpec.
+	saveDialogSpec children add: yesButtonSpec.
+	saveDialogSpec children add: noButtonSpec.
 		
-	ToolBuilder default open: ( windowBuilder build: saveDialog).
+	self saveDialog: (ToolBuilder default open: ( windowBuilder build: saveDialogSpec)).

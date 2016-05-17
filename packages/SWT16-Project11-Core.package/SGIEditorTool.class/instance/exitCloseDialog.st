@@ -1,5 +1,4 @@
-constants
+user interface
 exitCloseDialog
 
-
-'todo exitfunktion'
+self closeDialog delete.

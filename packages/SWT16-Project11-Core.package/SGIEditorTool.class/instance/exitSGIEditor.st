@@ -1,5 +1,5 @@
-constants
+user interface
 exitSGIEditor
 
-
-'todo exitfunktion'
+self closeDialog delete.
+self mainWindow delete.

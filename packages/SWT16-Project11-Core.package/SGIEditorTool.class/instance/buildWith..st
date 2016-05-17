@@ -1,22 +1,23 @@
 user interface
 buildWith: builder 
 
-	| windowSpec baselineConfigSpec packagePathSpec saveAndCloseButtonSpec |
-	windowSpec := builder pluggableWindowSpec new.
+	| mainWindowSpec baselineConfigSpec packagePathSpec saveAndCloseButtonSpec |
+	mainWindowSpec := builder pluggableWindowSpec new.
 	baselineConfigSpec := self buildBaselineConfigChoseWith: builder.
 	packagePathSpec := self buildPackagePathWith: builder.
 	saveAndCloseButtonSpec := self buildSaveAndCloseButtonWith: builder.
 	windowBuilder := builder.
 		
-	windowSpec 
+	mainWindowSpec 
 		model: self;
 		label: 'smalltalkCI';
 		extent: 800@600;
 		children: OrderedCollection new.
 
-	windowSpec children add: baselineConfigSpec.
-	windowSpec children add: packagePathSpec.
-	windowSpec children add: saveAndCloseButtonSpec.		
+	mainWindowSpec children add: baselineConfigSpec.
+	mainWindowSpec children add: packagePathSpec.
+	mainWindowSpec children add: saveAndCloseButtonSpec.		
 	
+	self mainWindow: (builder build: mainWindowSpec).
 	
-	^ builder build: windowSpec. 
+	 ^ self mainWindow 

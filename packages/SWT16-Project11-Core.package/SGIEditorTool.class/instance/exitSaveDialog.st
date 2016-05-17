@@ -1,5 +1,5 @@
-constants
+user interface
 exitSaveDialog
 
-^ saveDialog delete.
+self saveDialog delete.
 
