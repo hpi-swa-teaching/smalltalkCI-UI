@@ -9,6 +9,7 @@ buildWith: builder
 	packagePathSpec := self buildPackagePathWith: builder.
 	saveAndCloseButtonSpec := self buildSaveAndCloseButtonWith: builder.
 	loadingSpecsSpec := self buildLoadingSpecsWith: builder.
+	self windowBuilder: builder.
 		
 	windowSpec 
 		model: self;
@@ -21,5 +22,7 @@ buildWith: builder
 	windowSpec children add: packagePathSpec.
 	windowSpec children add: saveAndCloseButtonSpec.
 	windowSpec children add: loadingSpecsSpec.		
+			
+	self mainWindow: (builder build: windowSpec).
 		
-	^ builder build: windowSpec. 
+	^ self mainWindow.

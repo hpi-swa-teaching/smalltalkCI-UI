@@ -1,0 +1,4 @@
+constants
+dontSaveButtonLabel
+
+	^ #'dont save!'.

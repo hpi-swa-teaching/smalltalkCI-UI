@@ -11,7 +11,11 @@
 		"projectName",
 		"path",
 		"package",
-		"loadingSpecs" ],
+		"loadingSpecs",
+		"closeDialog",
+		"saveDialog",
+		"mainWindow",
+		"windowBuilder" ],
 	"name" : "SGIEditorTool",
 	"pools" : [
 		 ],
