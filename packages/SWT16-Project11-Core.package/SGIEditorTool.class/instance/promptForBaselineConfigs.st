@@ -1,15 +1,17 @@
 chosing
 promptForBaselineConfigs
-	| packages |
-	packages := (PackageOrganizer default packages
-				select: [:package | (package packageName beginsWith: self class baselineOfPrefix)
-						or: [(package packageName beginsWith: self class configurationPrefix)
-								]])
-				sort: [:a :b | a packageName < b packageName].
-	packages := Array
+
+	| subclasses baselines configurations |
+	baselines := BaselineOf allSubclasses.
+	configurations := (Object allSubclasses
+		select: [:subclass | (subclass asString beginsWith: self class configurationPrefix)])
+			reject: [:subclass | (subclass asString endsWith: ' class')].
+
+	subclasses := (baselines , configurations) sort: [:a :b | a  asString < b asString].
+	subclasses := Array
 				with: (UIManager default
-						chooseFrom: (packages
-								collect: [:package | package packageName])
-						values: packages
-						title: 'Select Package').
-	^ packages.
+						chooseFrom: (subclasses 
+								collect: [:subclass | subclass asString ])
+						values: subclasses
+						title: 'Select Baseline or Configuration').
+	^ subclasses.
