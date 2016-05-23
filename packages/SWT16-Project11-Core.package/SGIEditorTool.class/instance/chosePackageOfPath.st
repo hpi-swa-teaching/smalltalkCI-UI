@@ -1,8 +1,8 @@
 chosing
 chosePackageOfPath
-	| folder containsPath stringCollection choosenPackage|
-	folder:= FileList2 modalFolderSelector.
-	folder ifNotNil: [
+	| folder containsPath stringCollection choosenPackage |
+	folder := FileList2 modalFolderSelector: (FileDirectory on: self path).
+		folder ifNotNil: [
 		folder := folder fullName.
 		containsPath := folder includesSubString: self path.
 		containsPath
