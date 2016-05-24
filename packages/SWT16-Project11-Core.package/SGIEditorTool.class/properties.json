@@ -15,7 +15,8 @@
 		"closeDialog",
 		"saveDialog",
 		"mainWindow",
-		"windowBuilder" ],
+		"windowBuilder",
+		"fileName" ],
 	"name" : "SGIEditorTool",
 	"pools" : [
 		 ],
