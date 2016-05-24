@@ -1,8 +1,5 @@
 chosing
 chosePath
 	| folder|
-	folder:= FileList2 modalFolderSelector.
-	folder ifNotNil: [
-		folder := folder fullName.
-		self path: folder.
-		].
+	folder:= FileList2 modalFolderSelector: FileDirectory root.
+		folder ifNotNil: [self path: folder fullName.].

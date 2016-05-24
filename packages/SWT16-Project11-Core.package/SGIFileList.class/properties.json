@@ -1,0 +1,14 @@
+{
+	"category" : "SWT16-Project11-Core",
+	"classinstvars" : [
+		"path" ],
+	"classvars" : [
+		"Path" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SGIFileList",
+	"pools" : [
+		 ],
+	"super" : "FileList2",
+	"type" : "normal" }
