@@ -29,5 +29,4 @@ closeButtonAction
 	closeDialogSpec children add: noButtonSpec.
 		
 	self closeDialog:(ToolBuilder default open: ( windowBuilder build: closeDialogSpec)).
-
 	^closeDialogSpec.

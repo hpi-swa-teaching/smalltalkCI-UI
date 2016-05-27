@@ -16,7 +16,10 @@
 		"saveDialog",
 		"mainWindow",
 		"windowBuilder",
-		"fileName" ],
+		"fileName",
+		"useSqueakPlatform",
+		"usePharoPlatform",
+		"useGemStonePlatform" ],
 	"name" : "SGIEditorTool",
 	"pools" : [
 		 ],
