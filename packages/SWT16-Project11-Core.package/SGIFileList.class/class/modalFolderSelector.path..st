@@ -1,6 +1,5 @@
 modal dialogs
 modalFolderSelector: aDir path: aPath
-
 	| window fileModel |
 	self path: aPath.
 	window := self morphicViewFolderSelector: aDir.
