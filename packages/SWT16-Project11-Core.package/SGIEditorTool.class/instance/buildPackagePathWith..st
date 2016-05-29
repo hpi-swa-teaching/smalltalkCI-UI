@@ -26,4 +26,4 @@ buildPackagePathWith: builder
 		add: inputSpec;
 		add: choseSpec.
 	
-	 ^ panelSpec.
+	 ^ panelSpec

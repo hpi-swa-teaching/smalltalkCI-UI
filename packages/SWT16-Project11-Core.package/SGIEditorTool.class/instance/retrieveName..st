@@ -17,5 +17,4 @@ retrieveName: aPackageName
 				self baseline: nil.
 				self projectName: configuration.
 				^ configuration]
-			ifFalse: [^ nil.]].
-			.
+			ifFalse: [^ nil.]]

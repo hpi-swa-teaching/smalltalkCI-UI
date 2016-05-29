@@ -26,4 +26,4 @@ buildBaselineConfigChoseWith: builder
 		add: inputSpec;
 		add: choseSpec.
 	
-	 ^ panelSpec.
+	 ^ panelSpec

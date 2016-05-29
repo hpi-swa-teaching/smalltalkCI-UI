@@ -28,4 +28,4 @@ buildSaveAndCloseButtonWith: builder
 		add: saveButtonSpec;
 		add: closeButtonSpec.
 	
-	 ^ panelSpec.
+	 ^ panelSpec

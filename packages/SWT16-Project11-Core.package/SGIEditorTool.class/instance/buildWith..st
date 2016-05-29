@@ -28,4 +28,4 @@ buildWith: builder
 			
 	self mainWindow: (builder build: windowSpec).
 		
-	^ self mainWindow.
+	^ self mainWindow

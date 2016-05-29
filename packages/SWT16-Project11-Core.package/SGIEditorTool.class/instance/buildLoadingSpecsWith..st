@@ -33,4 +33,4 @@ buildLoadingSpecsWith: builder
 		add: addButtonSpec;
 		add: removeButtonSpec.
 	
-	 ^ panelSpec.
+	 ^ panelSpec

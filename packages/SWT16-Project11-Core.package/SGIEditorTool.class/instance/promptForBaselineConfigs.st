@@ -14,4 +14,4 @@ promptForBaselineConfigs
 								collect: [:subclass | subclass asString ])
 						values: subclasses
 						title: 'Select Baseline or Configuration').
-	^ subclasses.
+	^ subclasses

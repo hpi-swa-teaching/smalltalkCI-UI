@@ -36,4 +36,4 @@ buildPlatformChoseWith: builder
 		add: pharoButtonSpec;
 		add: gemStoneButtonSpec.
 	
-	 ^ panelSpec.
+	 ^ panelSpec

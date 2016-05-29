@@ -12,4 +12,4 @@ chosePackageOfPath
 			self package: choosenPackage.
 			];
 		ifFalse: [].
-		].
+		]

@@ -3,4 +3,4 @@ projectName
 
 	(projectName isNil)
 		ifTrue: [^ 'Project Name'.]
-		ifFalse: [^ projectName.].
+		ifFalse: [^ projectName.]
