@@ -8,18 +8,18 @@ closeButtonAction
  	closeDialogSpec
 		model: self;
 		label: 'do you really want to close SGIEditor?';
-		extent: 350@50;
+		extent: self class dialogExtent;
 		children: OrderedCollection new;
 		isDialog: true.
 	yesButtonSpec
 		model: self;
 		label: #exitSGIEditorButtonLabel;
-		frame: (0@0 corner: 0.5@1);
+		frame: self class dialogYesButtonFrame;
 		action: #exitSGIEditor.
 	noButtonSpec
 		model: self;
 		label: #dontCloseButtonLabel ;
-		frame: (0.5@0 corner: 1@1);
+		frame: self class dialogNoButtonFrame;
 		action: #exitCloseDialog.
 	closeDialogSpec children
 		add: yesButtonSpec;

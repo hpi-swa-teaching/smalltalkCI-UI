@@ -11,18 +11,18 @@ saveButtonAction
  			saveDialogSpec 
 				model: self;
 				label: 'Name allready exists, overwrite?';
-				extent: 330@50;
+				extent: self class dialogExtent;
 				children: OrderedCollection new;
 				isDialog: true.
 			yesButtonSpec
 				model: self;
 				label: #overwriteButtonLabel;
-				frame: (0@0 corner: 0.5@1);
+				frame: self class dialogYesButtonFrame;
 				action: #overwriteSton.
 			noButtonSpec
 				model: self;
 				label: #dontSaveButtonLabel;
-				frame: (0.5@0 corner: 1@1);
+				frame: self class dialogNoButtonFrame;
 				action: #exitSaveDialog.
 			saveDialogSpec children
 				add: yesButtonSpec;
