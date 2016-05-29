@@ -28,8 +28,9 @@ buildLoadingSpecsWith: builder
 		label: #removeButtonLabel;
 		frame: self class loadingSpecsRemoveButtonFrame.
 		
-	panelSpec children add: loadingSpecsListSpec.	
-	panelSpec children add: addButtonSpec.
-	panelSpec children add: removeButtonSpec.
+	panelSpec children 
+		add: loadingSpecsListSpec;
+		add: addButtonSpec;
+		add: removeButtonSpec.
 	
 	 ^ panelSpec.

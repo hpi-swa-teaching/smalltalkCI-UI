@@ -18,12 +18,13 @@ buildWith: builder
 		extent: 800@600;
 		children: OrderedCollection new.
 
-	windowSpec children add: pathSpec.
-	windowSpec children add: baselineConfigSpec.
-	windowSpec children add: packagePathSpec.
-	windowSpec children add: platformSpec.
-	windowSpec children add: saveAndCloseButtonSpec.
-	windowSpec children add: loadingSpecsSpec.		
+	windowSpec children 
+		add: pathSpec;
+		add: baselineConfigSpec;
+		add: packagePathSpec;
+		add: platformSpec;
+		add: saveAndCloseButtonSpec;
+		add: loadingSpecsSpec.
 			
 	self mainWindow: (builder build: windowSpec).
 		

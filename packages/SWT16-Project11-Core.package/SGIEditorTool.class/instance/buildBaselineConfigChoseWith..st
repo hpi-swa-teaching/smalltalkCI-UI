@@ -22,7 +22,8 @@ buildBaselineConfigChoseWith: builder
 		frame: self class baselineConfigChoseFrame;
 		action: [self choseBaselineOrConfig: inputSpec].
 		
-	panelSpec children add: inputSpec.
-	panelSpec children add: choseSpec.
+	panelSpec children 
+		add: inputSpec;
+		add: choseSpec.
 	
 	 ^ panelSpec.

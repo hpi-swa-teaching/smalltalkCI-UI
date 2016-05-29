@@ -24,7 +24,8 @@ buildSaveAndCloseButtonWith: builder
 		action: #closeButtonAction;
 		frame: (0.5@0 corner: 1@1).
 		
-	panelSpec children add: saveButtonSpec.
-	panelSpec children add: closeButtonSpec.
+	panelSpec children 
+		add: saveButtonSpec;
+		add: closeButtonSpec.
 	
 	 ^ panelSpec.

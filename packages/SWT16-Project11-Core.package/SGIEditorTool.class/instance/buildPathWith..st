@@ -22,7 +22,8 @@ buildPathWith: builder
 		frame: self class pathChoseFrame;
 		action: [self chosePath].
 		
-	panelSpec children add: inputSpec.
-	panelSpec children add: choseSpec.
+	panelSpec children 
+		add: inputSpec;
+		add: choseSpec.
 	
 	 ^ panelSpec.
