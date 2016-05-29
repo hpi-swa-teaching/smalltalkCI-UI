@@ -6,7 +6,7 @@ buildLoadingSpecsWith: builder
 	addButtonSpec := builder pluggableButtonSpec new.
 	removeButtonSpec := builder pluggableButtonSpec new.
 	
-	panelSpec 
+	panelSpec
 		model: self;
 		frame: self class loadingSpecsFrame;
 		children: OrderedCollection new.
