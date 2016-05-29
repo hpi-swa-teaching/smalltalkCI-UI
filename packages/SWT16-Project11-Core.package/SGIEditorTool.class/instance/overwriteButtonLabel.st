@@ -1,4 +1,4 @@
 constants
 overwriteButtonLabel
 
-	^ #'Overwrite!'
+	^ 'Overwrite!'
