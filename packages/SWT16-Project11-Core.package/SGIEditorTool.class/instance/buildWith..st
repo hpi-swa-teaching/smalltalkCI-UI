@@ -13,7 +13,7 @@ buildWith: builder
 	windowSpec 
 		model: self;
 		label: 'smalltalkCI';
-		extent: 800@600;
+		extent: self class editorExtent;
 		children: OrderedCollection new.
 	windowSpec children 
 		add: pathSpec;
