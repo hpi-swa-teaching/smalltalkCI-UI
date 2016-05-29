@@ -1,4 +1,4 @@
 constants
 packagePathChoseButtonLabel
 
-	^ #'Package ...'.
+	^ #'Package ...'

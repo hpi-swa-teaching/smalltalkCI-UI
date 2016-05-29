@@ -1,4 +1,4 @@
 constants
 baselineConfigChoseLabel
 
-	^ 'ProjectName'.
+	^ 'ProjectName'

@@ -28,8 +28,9 @@ saveButtonAction
 				frame: (0.5@0 corner: 1@1);
 				action: #exitSaveDialog.
 	
-			saveDialogSpec children add: yesButtonSpec.
-			saveDialogSpec children add: noButtonSpec.
+			saveDialogSpec children
+				add: yesButtonSpec;
+				add: noButtonSpec.
 		
 			self saveDialog: (ToolBuilder default open: ( windowBuilder build: saveDialogSpec)).
 		]

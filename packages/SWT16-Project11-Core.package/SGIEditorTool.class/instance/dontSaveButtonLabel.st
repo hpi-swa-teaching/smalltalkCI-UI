@@ -1,4 +1,4 @@
 constants
 dontSaveButtonLabel
 
-	^ #'dont save!'.
+	^ #'dont save!'

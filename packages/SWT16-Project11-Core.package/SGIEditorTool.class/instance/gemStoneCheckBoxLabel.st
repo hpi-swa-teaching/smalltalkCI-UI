@@ -1,4 +1,4 @@
 constants
 gemStoneCheckBoxLabel
 
-	^ 'GemStone'.
+	^ 'GemStone'

@@ -1,4 +1,4 @@
 constants
 squeakCheckBoxLabel
 
-	^ 'Squeak'.
+	^ 'Squeak'
