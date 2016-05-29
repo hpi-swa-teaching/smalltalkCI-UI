@@ -1,6 +1,5 @@
 functionality
 testRetrieveName
-
 	| editorTool baselineName configurationName |
 	editorTool := self setup.
 	baselineName := editorTool retrieveName: 'BaselineOfProject11'.

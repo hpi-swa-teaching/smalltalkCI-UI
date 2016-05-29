@@ -1,6 +1,5 @@
 user interface
 testBuildSaveAndCloseButton
-
 	| builder editorTool panel |
 	builder := ToolBuilder default.
 	editorTool := self setup.
@@ -9,4 +8,4 @@ testBuildSaveAndCloseButton
 		assert: (panel notNil);
 		assert: (panel children size = 2);
 		assert: ((panel children at: 1) class = PluggableButtonSpec);
-		assert: ((panel children at: 2) class = PluggableButtonSpec).
+		assert: ((panel children at: 2) class = PluggableButtonSpec)

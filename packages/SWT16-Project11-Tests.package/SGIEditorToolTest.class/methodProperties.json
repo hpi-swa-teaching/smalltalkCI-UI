@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setup" : "nk 5/9/2016 16:05",
-		"testBuildBaselineConfigWith" : "nk 5/9/2016 16:20",
-		"testBuildPackagePath" : "Lars Lange 5/10/2016 20:13",
-		"testBuildPath" : "CF 5/16/2016 12:16",
-		"testRetrieveName" : "nk 5/9/2016 16:22",
-		"testSetup" : "nk 5/9/2016 16:06" } }
+		"setup" : "CF 5/29/2016 15:13",
+		"testBuildBaselineConfigWith" : "CF 5/29/2016 15:14",
+		"testBuildPackagePath" : "CF 5/29/2016 15:14",
+		"testBuildPath" : "CF 5/29/2016 15:14",
+		"testBuildSaveAndCloseButton" : "CF 5/29/2016 15:14",
+		"testRetrieveName" : "CF 5/29/2016 15:15",
+		"testSetup" : "CF 5/29/2016 15:15" } }
