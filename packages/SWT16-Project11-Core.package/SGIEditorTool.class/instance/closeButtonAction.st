@@ -1,6 +1,5 @@
 user interface
 closeButtonAction
-
 	| closeDialogSpec yesButtonSpec noButtonSpec |
 	closeDialogSpec := windowBuilder pluggableWindowSpec new.
 	yesButtonSpec := windowBuilder pluggableButtonSpec new.

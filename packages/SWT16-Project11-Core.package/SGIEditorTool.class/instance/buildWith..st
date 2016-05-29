@@ -1,8 +1,6 @@
 user interface
-buildWith: builder 
-
+buildWith: builder
 	| windowSpec pathSpec baselineConfigSpec packagePathSpec platformSpec saveAndCloseButtonSpec loadingSpecsSpec |
-	
 	windowSpec := builder pluggableWindowSpec new.
 	pathSpec := self buildPathWith: builder.
 	baselineConfigSpec := self buildBaselineConfigChoseWith: builder.

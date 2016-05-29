@@ -9,7 +9,5 @@ chosePackageOfPath
 		ifTrue: [
 			stringCollection := (folder subStrings: '\') asOrderedCollection.
 			choosenPackage := stringCollection at: stringCollection size.
-			self package: choosenPackage.
-			];
-		ifFalse: [].
-		]
+			self package: choosenPackage]
+		ifFalse: []]

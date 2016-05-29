@@ -1,6 +1,5 @@
 chosing
 retrieveName: aPackageName
-	
 	(aPackageName beginsWith: self class baselineOfPrefix)
 		ifTrue: [|baseline|
 			baseline := aPackageName copyFrom: (self class baselineOfPrefix size + 1) to: (aPackageName size).
@@ -17,4 +16,4 @@ retrieveName: aPackageName
 				self baseline: nil.
 				self projectName: configuration.
 				^ configuration]
-			ifFalse: [^ nil.]]
+			ifFalse: [^ nil]]

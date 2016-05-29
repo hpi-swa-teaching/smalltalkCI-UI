@@ -1,8 +1,6 @@
 user interface
 buildPlatformChoseWith: builder
-
 	| panelSpec squeakButtonSpec pharoButtonSpec gemStoneButtonSpec |
-	
 	panelSpec := builder pluggablePanelSpec new.
 	squeakButtonSpec := builder pluggableCheckBoxSpec new.
 	pharoButtonSpec := builder pluggableCheckBoxSpec new.

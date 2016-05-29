@@ -1,12 +1,10 @@
 user interface
 buildSaveAndCloseButtonWith: builder
-
-	| panelSpec saveButtonSpec closeButtonSpec |
-	
+	| panelSpec saveButtonSpec closeButtonSpec |	
 	panelSpec := builder pluggablePanelSpec new.
 	saveButtonSpec := builder pluggableButtonSpec new.
 	closeButtonSpec := builder pluggableButtonSpec new.
-	
+
 	panelSpec 
 		model: self;
 		frame: self class saveAndCloseButtonFrame;

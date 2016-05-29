@@ -1,6 +1,5 @@
 user interface
 saveButtonAction
-
 	((FileDirectory on: self path) fileExists: self fileName) 
 		ifFalse: [ self saveSton] 
 		ifTrue: [
@@ -32,5 +31,4 @@ saveButtonAction
 				add: yesButtonSpec;
 				add: noButtonSpec.
 		
-			self saveDialog: (ToolBuilder default open: ( windowBuilder build: saveDialogSpec)).
-		]
+			self saveDialog: (ToolBuilder default open: ( windowBuilder build: saveDialogSpec)).]

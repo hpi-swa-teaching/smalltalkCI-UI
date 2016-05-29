@@ -1,8 +1,6 @@
 user interface
 buildLoadingSpecsWith: builder
-
 	| panelSpec loadingSpecsListSpec addButtonSpec removeButtonSpec |
-	
 	panelSpec := builder pluggablePanelSpec new.
 	loadingSpecsListSpec := builder pluggableListSpec new.
 	addButtonSpec := builder pluggableButtonSpec new.

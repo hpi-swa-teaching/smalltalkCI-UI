@@ -1,8 +1,6 @@
 user interface
 buildPackagePathWith: builder
-
 	| panelSpec inputSpec choseSpec |
-	
 	panelSpec := builder pluggablePanelSpec new.
 	inputSpec := builder pluggableInputFieldSpec new.
 	choseSpec := builder pluggableButtonSpec new.

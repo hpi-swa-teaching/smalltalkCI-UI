@@ -1,8 +1,6 @@
 user interface
 buildBaselineConfigChoseWith: builder
-
 	| panelSpec inputSpec choseSpec |
-	
 	panelSpec := builder pluggablePanelSpec new.
 	inputSpec := builder pluggableInputFieldSpec new.
 	choseSpec := builder pluggableButtonSpec new.
@@ -25,5 +23,5 @@ buildBaselineConfigChoseWith: builder
 	panelSpec children 
 		add: inputSpec;
 		add: choseSpec.
-	
+
 	 ^ panelSpec

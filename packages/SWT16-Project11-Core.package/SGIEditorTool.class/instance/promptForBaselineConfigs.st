@@ -1,6 +1,5 @@
 chosing
 promptForBaselineConfigs
-
 	| subclasses baselines configurations |
 	baselines := BaselineOf allSubclasses.
 	configurations := (Object allSubclasses
