@@ -19,7 +19,6 @@ buildPackagePathWith: builder
 		label: #packagePathChoseButtonLabel;
 		frame: self class packagePathChoseFrame;
 		action: [self chosePackageOfPath].
-		
 	panelSpec children 
 		add: inputSpec;
 		add: choseSpec.

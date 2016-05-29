@@ -15,7 +15,6 @@ buildWith: builder
 		label: 'smalltalkCI';
 		extent: 800@600;
 		children: OrderedCollection new.
-
 	windowSpec children 
 		add: pathSpec;
 		add: baselineConfigSpec;
@@ -23,7 +22,6 @@ buildWith: builder
 		add: platformSpec;
 		add: saveAndCloseButtonSpec;
 		add: loadingSpecsSpec.
-			
 	self mainWindow: (builder build: windowSpec).
 		
 	^ self mainWindow

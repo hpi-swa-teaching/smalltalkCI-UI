@@ -28,7 +28,6 @@ buildPlatformChoseWith: builder
 		frame: self class gemStoneCheckBoxFrame;
 		state: #useGemStonePlatform;
 		action: #toggleUseGemStonePlatform.
-		
 	panelSpec children 
 		add: squeakButtonSpec;
 		add: pharoButtonSpec;

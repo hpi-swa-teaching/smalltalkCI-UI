@@ -10,25 +10,21 @@ buildLoadingSpecsWith: builder
 		model: self;
 		frame: self class loadingSpecsFrame;
 		children: OrderedCollection new.
-
 	loadingSpecsListSpec
 		model: self;
 		"list: self class loadingSpecs;"
 		frame: self class loadingSpecsListFrame.
-
 	addButtonSpec
 		model: self;
 		label: #addButtonLabel;
 		frame: self class loadingSpecsAddButtonFrame.
-	
 	removeButtonSpec
 		model: self;
 		label: #removeButtonLabel;
-		frame: self class loadingSpecsRemoveButtonFrame.
-		
+		frame: self class loadingSpecsRemoveButtonFrame.	
 	panelSpec children 
 		add: loadingSpecsListSpec;
 		add: addButtonSpec;
 		add: removeButtonSpec.
-	
+
 	 ^ panelSpec
