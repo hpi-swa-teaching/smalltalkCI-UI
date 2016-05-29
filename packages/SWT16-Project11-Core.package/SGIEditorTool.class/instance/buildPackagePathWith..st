@@ -1,8 +1,6 @@
 user interface
 buildPackagePathWith: builder
-
 	| panelSpec inputSpec choseSpec |
-	
 	panelSpec := builder pluggablePanelSpec new.
 	inputSpec := builder pluggableInputFieldSpec new.
 	choseSpec := builder pluggableButtonSpec new.
@@ -21,8 +19,8 @@ buildPackagePathWith: builder
 		label: #packagePathChoseButtonLabel;
 		frame: self class packagePathChoseFrame;
 		action: [self chosePackageOfPath].
-		
-	panelSpec children add: inputSpec.
-	panelSpec children add: choseSpec.
+	panelSpec children 
+		add: inputSpec;
+		add: choseSpec.
 	
-	 ^ panelSpec.
+	 ^ panelSpec

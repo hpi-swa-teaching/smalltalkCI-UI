@@ -1,4 +1,3 @@
 toolbuilder
-open 
-
-	^ ToolBuilder default open: self new.
+open
+	^ ToolBuilder default open: self new

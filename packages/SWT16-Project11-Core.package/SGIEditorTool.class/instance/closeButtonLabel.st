@@ -1,4 +1,3 @@
 constants
 closeButtonLabel
-
-	^ 'Close'.
+	^ 'Close'

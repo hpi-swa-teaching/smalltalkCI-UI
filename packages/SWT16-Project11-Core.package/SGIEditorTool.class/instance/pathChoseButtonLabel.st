@@ -1,4 +1,3 @@
 constants
 pathChoseButtonLabel
-
-	^ #'Path ...'.
+	^ 'Path'

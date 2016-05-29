@@ -1,4 +1,3 @@
 constants
 dontCloseButtonLabel
-
-	^ 'dont close SGIEditor!'.
+	^ 'Dont close SGIEditor!'

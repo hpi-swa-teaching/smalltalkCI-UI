@@ -1,8 +1,6 @@
 user interface
 buildPlatformChoseWith: builder
-
 	| panelSpec squeakButtonSpec pharoButtonSpec gemStoneButtonSpec |
-	
 	panelSpec := builder pluggablePanelSpec new.
 	squeakButtonSpec := builder pluggableCheckBoxSpec new.
 	pharoButtonSpec := builder pluggableCheckBoxSpec new.
@@ -30,10 +28,9 @@ buildPlatformChoseWith: builder
 		frame: self class gemStoneCheckBoxFrame;
 		state: #useGemStonePlatform;
 		action: #toggleUseGemStonePlatform.
-		
 	panelSpec children 
 		add: squeakButtonSpec;
 		add: pharoButtonSpec;
 		add: gemStoneButtonSpec.
 	
-	 ^ panelSpec.
+	 ^ panelSpec

@@ -1,4 +1,4 @@
 accessing
 projectName: anObject
 	projectName := anObject.
-	self changed: #projectName.
+	self changed: #projectName

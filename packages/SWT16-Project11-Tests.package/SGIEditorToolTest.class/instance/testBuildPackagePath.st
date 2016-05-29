@@ -1,6 +1,5 @@
 user interface
 testBuildPackagePath
-
 	| builder editorTool panel |
 	builder := ToolBuilder default.
 	editorTool := self setup.
@@ -9,4 +8,4 @@ testBuildPackagePath
 		assert: (panel notNil);
 		assert: (panel children size = 2);
 		assert: ((panel children at: 1) class = PluggableInputFieldSpec);
-		assert: ((panel children at: 2) class = PluggableButtonSpec).
+		assert: ((panel children at: 2) class = PluggableButtonSpec)

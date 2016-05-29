@@ -1,4 +1,3 @@
 constants
 exitSGIEditorButtonLabel
-
-	^ 'yes, close SGIEditor!'.
+	^ 'Yes, close SGIEditor!'
