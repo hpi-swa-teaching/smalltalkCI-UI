@@ -1,7 +1,7 @@
 accessing
 toggleUsePharoPlatform
 
-	self usePharoPlatform 
+	self usePharoPlatform == true
 		ifTrue: [self usePharoPlatform: false]
 		ifFalse: [self usePharoPlatform: true].
 	^ self usePharoPlatform.
