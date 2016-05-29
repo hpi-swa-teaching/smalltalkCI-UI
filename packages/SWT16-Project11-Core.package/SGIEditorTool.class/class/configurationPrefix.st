@@ -1,4 +1,3 @@
 constants
 configurationPrefix
-
-	^ 'ConfigurationOf'.
+	^ 'ConfigurationOf'
