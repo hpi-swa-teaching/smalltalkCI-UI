@@ -10,7 +10,7 @@ saveButtonAction
 		
  			saveDialogSpec 
 				model: self;
-				label: 'Name allready exists, overwrite?';
+				label: 'Name already exists, overwrite?';
 				extent: self class dialogExtent;
 				children: OrderedCollection new;
 				isDialog: true.

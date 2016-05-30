@@ -17,7 +17,8 @@ buildLoadingSpecsWith: builder
 	addButtonSpec
 		model: self;
 		label: #addButtonLabel;
-		frame: self class loadingSpecsAddButtonFrame.
+		frame: self class loadingSpecsAddButtonFrame;
+		action: #addSpecButtonAction.
 	removeButtonSpec
 		model: self;
 		label: #removeButtonLabel;

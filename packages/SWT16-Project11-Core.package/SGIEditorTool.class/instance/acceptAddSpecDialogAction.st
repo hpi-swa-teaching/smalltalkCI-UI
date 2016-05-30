@@ -1,0 +1,3 @@
+user interface
+acceptAddSpecDialogAction
+	self addSpecDialog delete
