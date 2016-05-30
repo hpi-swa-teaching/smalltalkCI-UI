@@ -12,7 +12,7 @@ buildLoadingSpecsWith: builder
 		children: OrderedCollection new.
 	loadingSpecsListSpec
 		model: self;
-		"list: self class loadingSpecs;"
+		list: #loadingSpecs;
 		frame: self class loadingSpecsListFrame.
 	addButtonSpec
 		model: self;
