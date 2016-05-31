@@ -27,4 +27,7 @@ saveButtonAction
 			saveDialogSpec children
 				add: yesButtonSpec;
 				add: noButtonSpec.
-			self saveDialog: (ToolBuilder default open: ( windowBuilder build: saveDialogSpec))]
+			(self saveDialog isNil)
+	ifTrue:  [self saveDialog: (ToolBuilder default open: (windowBuilder build: saveDialogSpec))].
+
+	^saveDialogSpec ]
