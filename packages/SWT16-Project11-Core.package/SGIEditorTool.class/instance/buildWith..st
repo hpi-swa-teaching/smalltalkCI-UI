@@ -1,6 +1,6 @@
 user interface
 buildWith: builder
-	| windowSpec pathSpec baselineConfigSpec packagePathSpec platformSpec saveAndCloseButtonSpec loadingSpecsSpec testsSpec |
+	| windowSpec pathSpec baselineConfigSpec packagePathSpec platformSpec saveAndCloseButtonSpec loadingSpecsSpec testsSpec packagesSpec|
 	windowSpec := builder pluggableWindowSpec new.
 	pathSpec := self buildPathWith: builder.
 	baselineConfigSpec := self buildBaselineConfigChoseWith: builder.
@@ -9,6 +9,7 @@ buildWith: builder
 	saveAndCloseButtonSpec := self buildSaveAndCloseButtonWith: builder.
 	loadingSpecsSpec := self buildLoadingSpecsWith: builder.
 	testsSpec := self buildTestsChooseWith: builder.
+	packagesSpec := self buildPackagesChooseWith: builder.
 	self windowBuilder: builder.
 		
 	windowSpec 
@@ -23,7 +24,8 @@ buildWith: builder
 		add: platformSpec;
 		add: saveAndCloseButtonSpec;
 		add: loadingSpecsSpec;
-		add: testsSpec.
+		add: testsSpec;
+		add: packagesSpec.
 	self mainWindow: (builder build: windowSpec).
 		
 	^ self mainWindow

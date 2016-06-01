@@ -7,5 +7,5 @@ promptForTestCases
 			chooseMultipleFrom: (testCases 
 				collect: [:subclass | subclass asString ])
 				values: testCases
-				title: 'Select Baseline or Configuration').
+				title: 'Select TestCases').
 	^ testCases

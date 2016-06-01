@@ -1,0 +1,3 @@
+constants
+packagesChoseButtonLabel
+	^ 'Packages...'
