@@ -8,4 +8,6 @@ testBuildSaveAndCloseButton
 		assert: (panel notNil);
 		assert: (panel children size = 2);
 		assert: ((panel children at: 1) class = PluggableButtonSpec);
-		assert: ((panel children at: 2) class = PluggableButtonSpec)
+		assert: ((panel children at: 2) class = PluggableButtonSpec);
+		shouldnt: ((panel children at: 1) action) raise: Error; 
+		shouldnt: ((panel children at: 2) action) raise: Error.

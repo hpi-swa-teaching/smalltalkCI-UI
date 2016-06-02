@@ -1,9 +1,9 @@
 user interface
 closeButtonAction
 	| closeDialogSpec yesButtonSpec noButtonSpec |
-	closeDialogSpec := windowBuilder pluggableWindowSpec new.
-	yesButtonSpec := windowBuilder pluggableButtonSpec new.
-	noButtonSpec := windowBuilder pluggableButtonSpec new.
+	closeDialogSpec := self windowBuilder pluggableWindowSpec new.
+	yesButtonSpec := self windowBuilder pluggableButtonSpec new.
+	noButtonSpec := self windowBuilder pluggableButtonSpec new.
 		
  	closeDialogSpec
 		model: self;
@@ -25,6 +25,6 @@ closeButtonAction
 		add: yesButtonSpec;
 		add: noButtonSpec.
 	(self closeDialog isNil)
-	ifTrue:  [self closeDialog: (ToolBuilder default open: (windowBuilder build: closeDialogSpec))].
+	ifTrue:  [self closeDialog: (ToolBuilder default open: (self windowBuilder build: closeDialogSpec))].
 
 	^closeDialogSpec
