@@ -1,8 +1,5 @@
 accessing
 loadingSpecs
-	"^ loadingSpecs"
-	| name testCollection |
-	name := 'test'.
-	testCollection := OrderedCollection with: name.
-	^ loadingSpecs ifNil: [testCollection] 
+	^ loadingSpecs 
+		ifNil: [loadingSpecs := OrderedCollection with: SCIMetacelloLoadSpec new]	"Note: firstLoadSpec nicht hardcoden"
 		ifNotNil: [loadingSpecs]
