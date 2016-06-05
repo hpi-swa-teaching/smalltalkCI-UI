@@ -14,6 +14,8 @@ buildLoadingSpecsWith: builder
 	loadingSpecsListSpec
 		model: self;
 		list: #loadingSpecs;
+		getIndex: #loadingSpecsIndex;
+		setIndex: #loadingSpecsIndex:;
 		frame: self class loadingSpecsListFrame.
 	addButtonSpec
 		model: self;

@@ -12,6 +12,7 @@
 		"path",
 		"package",
 		"loadingSpecs",
+		"loadingSpecsIndex",
 		"closeDialog",
 		"saveDialog",
 		"addSpecDialog",
