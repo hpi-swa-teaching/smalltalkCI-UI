@@ -10,7 +10,8 @@ buildStonInputFieldWith: builder
 		children: OrderedCollection new.
 	inputSpec
 		model: self;
-		getText: #stonName;
+		getText: #fileName;
+		setText: #fileName;
 		frame: self class stonInputFrame.
 	panelSpec children 
 		add: inputSpec.
