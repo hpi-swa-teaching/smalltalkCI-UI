@@ -1,5 +1,14 @@
 functionality
 testSaveButtonAction
-	| tool |
+	|file tool fileName|
+	file := FileDirectory default.
 	tool := self setup.
-	self shouldnt: tool saveButtonAction raise: Error.
+	tool fileName: '.dump.ston'.
+	tool path: ''.
+	fileName := tool fileName.
+	(file fileExists: fileName) ifTrue: [File deleteFileNamed: fileName].
+	tool generateDumpSpec.
+	tool saveSton.
+	self assert: (file fileExists: tool fileName).
+	
+	file deleteFileNamed: tool fileName.
