@@ -1,4 +1,4 @@
 chosing
-loadingSpecsIndex: anInteger
-	loadingSpecsIndex := anInteger 
+loadingSpecsIndex: anIndex
+	loadingSpecsIndex := anIndex 
 	"Tools-Browser . Browser . classListIndex"
