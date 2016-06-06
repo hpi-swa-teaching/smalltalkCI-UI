@@ -1,8 +1,10 @@
 generating
 saveSton
-	|convertedCollection aStream|
+	|convertedCollection aStream outputName|
 	convertedCollection := self generateSmalltalkCISpecObject.
-	aStream := StandardFileStream forceNewFileNamed: (self path,'\', self fileName).
+	outputName := self path.
+	(outputName = '') ifFalse: [outputName := outputName,'\'].
+	aStream := StandardFileStream forceNewFileNamed: (outputName, self fileName).
 	(STON writer on: aStream)
 	prettyPrint: true;
         jsonMode: false;
