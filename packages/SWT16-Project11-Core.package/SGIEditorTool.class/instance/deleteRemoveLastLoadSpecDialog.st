@@ -1,0 +1,3 @@
+user interface
+deleteRemoveLastLoadSpecDialog
+	self lastLoadSpecDialog delete.
