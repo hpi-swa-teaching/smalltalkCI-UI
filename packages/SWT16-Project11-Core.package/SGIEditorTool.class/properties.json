@@ -21,7 +21,8 @@
 		"fileName",
 		"useSqueakPlatform",
 		"usePharoPlatform",
-		"useGemStonePlatform" ],
+		"useGemStonePlatform",
+		"lastLoadSpecDialog" ],
 	"name" : "SGIEditorTool",
 	"pools" : [
 		 ],

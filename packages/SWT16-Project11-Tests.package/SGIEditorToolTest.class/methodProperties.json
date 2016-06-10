@@ -11,6 +11,7 @@
 		"testBuildSaveAndCloseButton" : "nk 6/2/2016 20:46",
 		"testBuildTestsChooseWith" : "nk 6/1/2016 17:22",
 		"testCloseButtonAction" : "nk 6/2/2016 20:55",
+		"testRemoveLastLoadSpecDialog" : "CF 6/10/2016 13:40",
 		"testRetrieveName" : "CF 5/29/2016 15:15",
 		"testSaveButtonAction" : "Lars Lange 6/6/2016 15:53",
 		"testSetup" : "nk 6/2/2016 20:58" } }
