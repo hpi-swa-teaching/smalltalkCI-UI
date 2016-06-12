@@ -31,8 +31,8 @@ buildLoadingSpecsWith: builder
 	loadButtonSpec
 		model: self;
 		label: #loadSpecButtonLabel;
-		frame: self class loadingSpecsLoadButtonFrame.
-		"action: #loadSpecButtonAction."	
+		frame: self class loadingSpecsLoadButtonFrame;
+		action: #loadSpecButtonAction.	
 	panelSpec children 
 		add: loadingSpecsListSpec;
 		add: addButtonSpec;

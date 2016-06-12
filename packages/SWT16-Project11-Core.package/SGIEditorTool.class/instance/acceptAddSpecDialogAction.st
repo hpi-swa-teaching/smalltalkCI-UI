@@ -19,7 +19,7 @@ acceptAddSpecDialogAction
 	self resetUsedPlatforms.
 	self package: ''.
 	
-	self changed: #baseline.
+	self changed: #baseline.	"Inputfeld bei Baseline | Configuration ändert sich nicht, das ist doof programmiert"
 	self changed: #configuration .
 		
 	self loadingSpecs: newLoadSpec.
