@@ -14,6 +14,14 @@ acceptAddSpecDialogAction
 		repository: self package.
 		"version: Wodurch bestimmt sich die Version?"
 	
-		self loadingSpecs: newLoadSpec.
+	self baseline: [ nil ].
+	self configuration: [ nil ].
+	self resetUsedPlatforms.
+	self package: ''.
+	
+	self changed: #baseline.	"Inputfeld bei Baseline | Configuration ändert sich nicht, das ist doof programmiert"
+	self changed: #configuration .
+		
+	self loadingSpecs: newLoadSpec.
 		
 	"self addSpecDialog delete"
