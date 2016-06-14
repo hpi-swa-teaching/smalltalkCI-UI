@@ -1,0 +1,3 @@
+choosing
+chooseTests
+	^ self promptForTestCases

@@ -1,0 +1,3 @@
+choosing
+choosePackages
+	^ self promptForPackagesWithTests

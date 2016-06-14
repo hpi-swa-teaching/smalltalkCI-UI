@@ -11,7 +11,8 @@
 		"fileName",
 		"loadingSpecs",
 		"package",
-		"path" ],
+		"path",
+		"projectName" ],
 	"name" : "SGIModel",
 	"pools" : [
 		 ],

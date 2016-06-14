@@ -1,5 +1,5 @@
-chosing
-choseBaselineOrConfig: anInputSpec
+choosing
+chooseBaselineOrConfig
 	| class |
 	class := self promptForBaselineConfigs at:  1.
 	class notNil

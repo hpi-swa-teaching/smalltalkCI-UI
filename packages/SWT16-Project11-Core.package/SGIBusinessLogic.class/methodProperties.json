@@ -1,5 +1,14 @@
 {
 	"class" : {
-		 },
+		"baselinePrefix" : "CF 6/14/2016 12:23",
+		"configurationPrefix" : "CF 6/14/2016 12:23" },
 	"instance" : {
-		 } }
+		"chooseBaselineOrConfig" : "CF 6/14/2016 12:11",
+		"choosePackages" : "CF 6/14/2016 11:58",
+		"choosePath" : "CF 6/14/2016 12:18",
+		"chooseTests" : "CF 6/14/2016 12:07",
+		"promptForPackagesWithTests" : "CF 6/14/2016 11:59",
+		"promptForTestCases" : "CF 6/14/2016 12:08",
+		"retrieveName:" : "CF 6/14/2016 12:23",
+		"sgiModel" : "CF 6/14/2016 12:16",
+		"sgiModel:" : "CF 6/14/2016 12:16" } }

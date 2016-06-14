@@ -1,0 +1,3 @@
+constants
+baselinePrefix
+	^ 'BaselineOf'
