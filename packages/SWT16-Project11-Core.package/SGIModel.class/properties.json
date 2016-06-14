@@ -1,0 +1,19 @@
+{
+	"category" : "SWT16-Project11-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"baseline",
+		"configuration",
+		"fileName",
+		"loadingSpecs",
+		"package",
+		"path" ],
+	"name" : "SGIModel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

@@ -1,0 +1,23 @@
+{
+	"category" : "SWT16-Project11-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"addSpecDialog",
+		"closeDialog",
+		"lastLoadSpecDialog",
+		"loadingSpecsIndex",
+		"mainWindow",
+		"projectName",
+		"saveDialog",
+		"useGemStonePlatform",
+		"usePharoPlatform",
+		"useSqueakPlatform" ],
+	"name" : "SGIEditorView",
+	"pools" : [
+		 ],
+	"super" : "SGIView",
+	"type" : "normal" }

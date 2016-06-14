@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addSpecDialog" : "CF 6/14/2016 11:52",
+		"addSpecDialog:" : "CF 6/14/2016 11:52",
+		"closeDialog" : "CF 6/14/2016 11:52",
+		"closeDialog:" : "CF 6/14/2016 11:52",
+		"lastLoadSpecDialog" : "CF 6/14/2016 11:52",
+		"lastLoadSpecDialog:" : "CF 6/14/2016 11:52",
+		"loadingSpecsIndex" : "CF 6/14/2016 11:52",
+		"loadingSpecsIndex:" : "CF 6/14/2016 11:52",
+		"mainWindow" : "CF 6/14/2016 11:52",
+		"mainWindow:" : "CF 6/14/2016 11:52",
+		"projectName" : "CF 6/14/2016 11:52",
+		"projectName:" : "CF 6/14/2016 11:52",
+		"saveDialog" : "CF 6/14/2016 11:52",
+		"saveDialog:" : "CF 6/14/2016 11:52",
+		"useGemStonePlatform" : "CF 6/14/2016 11:53",
+		"useGemStonePlatform:" : "CF 6/14/2016 11:53",
+		"usePharoPlatform" : "CF 6/14/2016 11:53",
+		"usePharoPlatform:" : "CF 6/14/2016 11:53",
+		"useSqueakPlatform" : "CF 6/14/2016 11:53",
+		"useSqueakPlatform:" : "CF 6/14/2016 11:53" } }

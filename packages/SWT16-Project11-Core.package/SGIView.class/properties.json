@@ -1,0 +1,14 @@
+{
+	"category" : "SWT16-Project11-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"windowBuilder" ],
+	"name" : "SGIView",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
