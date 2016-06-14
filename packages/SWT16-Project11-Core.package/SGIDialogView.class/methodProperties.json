@@ -1,5 +1,11 @@
 {
 	"class" : {
-		 },
+		"addSpecDialogAcceptButtonFrame" : "CF 6/14/2016 14:49",
+		"addSpecDialogExtent" : "CF 6/14/2016 14:49",
+		"addSpecDialogInputFrame" : "CF 6/14/2016 14:49",
+		"dialogExtent" : "CF 6/14/2016 14:50",
+		"dialogNoButtonFrame" : "CF 6/14/2016 14:50",
+		"dialogOkayButtonFrame" : "CF 6/14/2016 14:50",
+		"dialogYesButtonFrame" : "CF 6/14/2016 14:50" },
 	"instance" : {
 		 } }

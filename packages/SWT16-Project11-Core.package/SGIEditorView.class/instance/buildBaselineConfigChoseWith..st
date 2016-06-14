@@ -1,5 +1,5 @@
-user interface
-buildPackagePathWith: builder
+user-interface
+buildBaselineConfigChoseWith: builder
 	| panelSpec inputSpec choseSpec |
 	panelSpec := builder pluggablePanelSpec new.
 	inputSpec := builder pluggableInputFieldSpec new.
@@ -7,20 +7,20 @@ buildPackagePathWith: builder
 	
 	panelSpec 
 		model: self;
-		frame: self class packagePathPanelFrame;
+		frame: self class baselineConfigPanelFrame;
 		children: OrderedCollection new.
 	inputSpec
 		model: self;
-		getText: #package;
-		setText: #package:;
-		frame: self class packagePathInputFrame.
+		setText: #projectName:;
+		getText: #projectName;
+		frame: self class baselineConfigInputFrame.
 	choseSpec 
 		model: self;
-		label: #packagePathChoseButtonLabel;
-		frame: self class packagePathChoseFrame;
-		action: [self choosePackageOfPath].
+		label: #baselineConfigChoseButtonLabel;
+		frame: self class baselineConfigChoseFrame;
+		action: [self choseBaselineOrConfig].		
 	panelSpec children 
 		add: inputSpec;
 		add: choseSpec.
-	
+
 	 ^ panelSpec

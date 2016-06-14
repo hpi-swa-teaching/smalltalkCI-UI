@@ -1,0 +1,3 @@
+labels
+testsChoseButtonLabel
+	^ 'Tests'

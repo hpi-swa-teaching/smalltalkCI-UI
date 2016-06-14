@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"sgiModel" ],
+		"sgiModel",
+		"sgiView" ],
 	"name" : "SGIBusinessLogic",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "Object",
 	"type" : "normal" }

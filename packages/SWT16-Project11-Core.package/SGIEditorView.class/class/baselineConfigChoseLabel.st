@@ -1,0 +1,3 @@
+labels
+baselineConfigChoseLabel
+	^ 'ProjectName'

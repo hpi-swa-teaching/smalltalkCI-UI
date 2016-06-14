@@ -12,9 +12,10 @@
 		"loadingSpecs",
 		"package",
 		"path",
+		"platforms",
 		"projectName" ],
 	"name" : "SGIModel",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "SmalltalkCISpec",
 	"type" : "normal" }

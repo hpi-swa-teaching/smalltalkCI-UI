@@ -1,0 +1,3 @@
+labels
+pharoCheckBoxLabel
+	^ 'Pharo'

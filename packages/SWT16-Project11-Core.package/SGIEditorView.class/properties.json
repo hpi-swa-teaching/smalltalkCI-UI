@@ -12,6 +12,7 @@
 		"loadingSpecsIndex",
 		"mainWindow",
 		"saveDialog",
+		"sgiModel",
 		"useGemStonePlatform",
 		"usePharoPlatform",
 		"useSqueakPlatform" ],

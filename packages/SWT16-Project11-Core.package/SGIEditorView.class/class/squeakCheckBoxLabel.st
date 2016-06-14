@@ -1,0 +1,3 @@
+labels
+squeakCheckBoxLabel
+	^ 'Squeak'

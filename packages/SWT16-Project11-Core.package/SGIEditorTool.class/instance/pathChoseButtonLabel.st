@@ -1,3 +1,0 @@
-constants
-pathChoseButtonLabel
-	^ 'Path'

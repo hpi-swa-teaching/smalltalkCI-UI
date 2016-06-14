@@ -1,0 +1,3 @@
+labels
+dontSaveButtonLabel
+	^ 'Dont save!'
