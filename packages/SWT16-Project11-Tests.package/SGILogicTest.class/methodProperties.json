@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setup" : "nk 6/15/2016 18:30",
+		"testCloseButtonAction" : "nk 6/15/2016 18:35",
+		"testRemoveLastLoadSpecDialog" : "nk 6/15/2016 18:35",
+		"testRetrieveName" : "nk 6/15/2016 18:45" } }

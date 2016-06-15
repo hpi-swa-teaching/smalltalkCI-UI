@@ -1,4 +1,4 @@
-user interface
+testing
 testBuildPackagesChooseWith
 	| builder editorTool panel |
 	builder := ToolBuilder default.

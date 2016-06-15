@@ -1,12 +1,12 @@
-user interface
+testing
 testRemoveLastLoadSpecDialog
-	| builder editorTool panel |
+	| builder logic panel |
 	builder := ToolBuilder default.
-	editorTool := self setup.
-	editorTool buildWith: builder.
-	panel := editorTool removeLastLoadSpecDialog.
+	logic := self setup.
+	"todo!!"
+	"panel := logic removeLastLoadSpecDialog.
 	self 
 		assert: (panel notNil);
 		assert: (panel children size = 1);
 		assert: ((panel children at: 1) class = PluggableButtonSpec).
-	editorTool deleteRemoveLastLoadSpecDialog.
+	logic deleteRemoveLastLoadSpecDialog."
