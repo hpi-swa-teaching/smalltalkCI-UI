@@ -15,12 +15,12 @@ buildWith: builder
 		model: self;
 		label: self firstAnswer;
 		frame: self class firstAnswerButtonFrame;
-		action: [self firstAnswerAction].
+		action: [self firstAnswerAction value].
 	secondAnswerButtonSpec
 		model: self;
 		label: self secondAnswer;
 		frame: self class secondAnswerButtonFrame;
-		action: [self self secondAnswerAction].
+		action: [self secondAnswerAction value].
 	dialogSpec children
 		add: firstAnswerButtonSpec;
 		add: secondAnswerButtonSpec.

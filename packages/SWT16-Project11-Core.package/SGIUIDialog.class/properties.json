@@ -6,7 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"dialogQuestion",
+		"firstAnswer",
+		"secondAnswer",
+		"firstAnswerAction",
+		"secondAnswerAction" ],
 	"name" : "SGIUIDialog",
 	"pools" : [
 		 ],

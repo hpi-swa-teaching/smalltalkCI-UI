@@ -1,11 +1,18 @@
 {
 	"class" : {
-		"addSpecDialogAcceptButtonFrame" : "CF 6/14/2016 14:49",
-		"addSpecDialogExtent" : "CF 6/14/2016 14:49",
-		"addSpecDialogInputFrame" : "CF 6/14/2016 14:49",
 		"dialogExtent" : "CF 6/14/2016 14:50",
-		"dialogNoButtonFrame" : "CF 6/14/2016 14:50",
-		"dialogOkayButtonFrame" : "CF 6/14/2016 14:50",
-		"dialogYesButtonFrame" : "CF 6/14/2016 14:50" },
+		"firstAnswerButtonFrame" : "CF 6/15/2016 17:12",
+		"openWithQuestion:firstAction:andSecondAction:" : "CF 6/15/2016 17:35",
+		"secondAnswerButtonFrame" : "CF 6/15/2016 17:12" },
 	"instance" : {
-		"buildWith:" : "CF 6/15/2016 16:22" } }
+		"buildWith:" : "CF 6/15/2016 17:19",
+		"dialogQuestion" : "CF 6/15/2016 17:04",
+		"dialogQuestion:" : "CF 6/15/2016 17:04",
+		"firstAnswer" : "CF 6/15/2016 17:04",
+		"firstAnswer:" : "CF 6/15/2016 17:04",
+		"firstAnswerAction" : "CF 6/15/2016 17:10",
+		"firstAnswerAction:" : "CF 6/15/2016 17:10",
+		"secondAnswer" : "CF 6/15/2016 17:04",
+		"secondAnswer:" : "CF 6/15/2016 17:04",
+		"secondAnswerAction" : "CF 6/15/2016 17:10",
+		"secondAnswerAction:" : "CF 6/15/2016 17:10" } }
