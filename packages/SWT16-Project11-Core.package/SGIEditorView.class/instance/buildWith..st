@@ -9,9 +9,9 @@ buildWith: builder
 		children: OrderedCollection new.
 	windowSpec children 
 		add: (self buildPathWith: builder);
-		add: (self buildBaselineConfigChoseWith: builder);
+		add: (self buildBaselineConfigChooseWith: builder);
 		add: (self buildPackagePathWith: builder);
-		add: (self buildPlatformChoseWith: builder);
+		add: (self buildPlatformChooseWith: builder);
 		add: (self buildSaveAndCloseButtonWith: builder);
 		add: (self buildLoadingSpecsWith: builder);
 		add: (self buildStonInputFieldWith: builder);

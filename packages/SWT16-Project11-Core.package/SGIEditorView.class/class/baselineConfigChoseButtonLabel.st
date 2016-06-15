@@ -1,3 +1,0 @@
-labels
-baselineConfigChoseButtonLabel
-	^ 'Baseline | Config'

@@ -10,8 +10,8 @@ buildTestsChooseWith: builder
 		children: OrderedCollection new.
 	choseSpec 
 		model: self;
-		label: self class testsChoseButtonLabel;
-		frame: self class testsChoseFrame;
+		label: self class testsChooseButtonLabel;
+		frame: self class testsChooseFrame;
 		action: [self logic chooseTests].
 	panelSpec children
 		add: choseSpec.

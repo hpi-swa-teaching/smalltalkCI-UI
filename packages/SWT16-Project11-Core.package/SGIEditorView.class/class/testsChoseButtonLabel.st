@@ -1,3 +1,0 @@
-labels
-testsChoseButtonLabel
-	^ 'Tests'

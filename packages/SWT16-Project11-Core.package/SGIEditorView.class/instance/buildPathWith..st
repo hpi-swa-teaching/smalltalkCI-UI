@@ -16,8 +16,8 @@ buildPathWith: builder
 		frame: self class pathInputFrame.
 	choseSpec 
 		model: self;
-		label: self class pathChoseButtonLabel;
-		frame: self class pathChoseFrame;
+		label: self class pathChooseButtonLabel;
+		frame: self class pathChooseFrame;
 		action: [self logic choosePath].
 	panelSpec children 
 		add: inputSpec;

@@ -10,8 +10,8 @@ buildPackagesChooseWith: builder
 		children: OrderedCollection new.
 	choseSpec 
 		model: self;
-		label: self class packagesChoseButtonLabel;
-		frame: self class packagesChoseFrame;
+		label: self class packagesChooseButtonLabel;
+		frame: self class packagesChooseFrame;
 		action: [self logic choosePackages].	
 	panelSpec children 
 		add: choseSpec.

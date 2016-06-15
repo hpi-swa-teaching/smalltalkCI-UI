@@ -1,5 +1,6 @@
 initialize
-initialize 
+initialize
+	super initialize.
 	self 
 		fileName: self class defaultFileName;
 		loadingSpecs: self class defaultLoadingSpecs;

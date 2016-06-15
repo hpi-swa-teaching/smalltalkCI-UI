@@ -1,5 +1,5 @@
 user-interface
-buildPlatformChoseWith: builder
+buildPlatformChooseWith: builder
 	| panelSpec squeakButtonSpec pharoButtonSpec gemStoneButtonSpec |
 	panelSpec := builder pluggablePanelSpec new.
 	squeakButtonSpec := builder pluggableCheckBoxSpec new.
