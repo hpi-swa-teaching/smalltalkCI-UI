@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SGIDialogView",
+		"logic",
+		"model",
+		"toolBuilder" ],
+	"name" : "SGIUI",
 	"pools" : [
 		 ],
-	"super" : "SGIView",
+	"super" : "Model",
 	"type" : "normal" }

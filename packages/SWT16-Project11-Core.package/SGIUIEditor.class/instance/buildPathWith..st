@@ -10,7 +10,7 @@ buildPathWith: builder
 		frame: self class pathPanelFrame;
 		children: OrderedCollection new.
 	inputSpec
-		model: self;
+		model: self model;
 		getText: #path;
 		setText: #path:;
 		frame: self class pathInputFrame.

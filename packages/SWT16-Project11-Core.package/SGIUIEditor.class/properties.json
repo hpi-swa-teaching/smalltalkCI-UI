@@ -15,8 +15,8 @@
 		"useGemStonePlatform",
 		"usePharoPlatform",
 		"useSqueakPlatform" ],
-	"name" : "SGIEditorView",
+	"name" : "SGIUIEditor",
 	"pools" : [
 		 ],
-	"super" : "SGIView",
+	"super" : "SGIUI",
 	"type" : "normal" }
