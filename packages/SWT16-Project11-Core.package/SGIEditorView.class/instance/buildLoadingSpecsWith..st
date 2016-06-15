@@ -19,20 +19,20 @@ buildLoadingSpecsWith: builder
 		frame: self class loadingSpecsListFrame.
 	addButtonSpec
 		model: self;
-		label: #addButtonLabel;
+		label: self class addButtonLabel;
 		frame: self class loadingSpecsAddButtonFrame;
 		"action: #addSpecButtonAction."
-		action: #acceptAddSpecDialogAction.
+		action: [self logic acceptAddSpecDialogAction].
 	removeButtonSpec
 		model: self;
-		label: #removeButtonLabel;
+		label: self class removeButtonLabel;
 		frame: self class loadingSpecsRemoveButtonFrame;
-		action: #removeSpecButtonAction.
+		action: [self logic removeSpecButtonAction].
 	loadButtonSpec
 		model: self;
-		label: #loadSpecButtonLabel;
+		label: self class loadSpecButtonLabel;
 		frame: self class loadingSpecsLoadButtonFrame;
-		action: #loadSpecButtonAction.	
+		action: [self logic loadSpecButtonAction].
 	panelSpec children 
 		add: loadingSpecsListSpec;
 		add: addButtonSpec;

@@ -4,7 +4,7 @@ buildWith: builder
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec 
 		model: self;
-		label: self testsChoseButtonLabel;
+		label: self class sgiLabel;
 		extent: self class editorExtent;
 		children: OrderedCollection new.
 	windowSpec children 

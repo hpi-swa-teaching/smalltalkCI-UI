@@ -16,9 +16,9 @@ buildBaselineConfigChoseWith: builder
 		frame: self class baselineConfigInputFrame.
 	choseSpec 
 		model: self;
-		label: #baselineConfigChoseButtonLabel;
+		label: self class baselineConfigChoseButtonLabel;
 		frame: self class baselineConfigChoseFrame;
-		action: [self choseBaselineOrConfig].		
+		action: [self logic chooseBaselineOrConfig].		
 	panelSpec children 
 		add: inputSpec;
 		add: choseSpec.

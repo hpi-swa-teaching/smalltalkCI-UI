@@ -11,13 +11,13 @@ buildSaveAndCloseButtonWith: builder
 		children: OrderedCollection new.
 	saveButtonSpec
 		model: self;
-		label: #saveButtonLabel;
-		action: #saveButtonAction;
+		label: self class saveButtonLabel;
+		action: [self logic saveButtonAction];
 		frame: self class saveButtonFrame.
 	closeButtonSpec
 		model: self;
-		label: #closeButtonLabel;
-		action: #closeButtonAction;
+		label: self class closeButtonLabel;
+		action: [self logic closeButtonAction];
 		frame: self class closeButtonFrame.
 	panelSpec children
 		add: saveButtonSpec;
