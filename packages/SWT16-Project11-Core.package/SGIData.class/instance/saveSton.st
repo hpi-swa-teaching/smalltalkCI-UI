@@ -3,7 +3,7 @@ saveSton
 	| convertedCollection aStream outputName |
 	convertedCollection := self generateSmalltalkCISpecObject.
 	outputName := self path.
-	(outputName = '') ifFalse: [outputName := outputName, '\'].
+	(outputName = '') ifFalse: [outputName := outputName, FileDirectory primPathNameDelimiter].
 	aStream := StandardFileStream forceNewFileNamed: (outputName, self fileName).
 	(STON writer on: aStream)
 		prettyPrint: true;
