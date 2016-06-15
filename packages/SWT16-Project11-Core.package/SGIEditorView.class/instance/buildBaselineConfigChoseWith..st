@@ -11,8 +11,8 @@ buildBaselineConfigChoseWith: builder
 		children: OrderedCollection new.
 	inputSpec
 		model: self;
-		setText: #projectName:;
 		getText: #projectName;
+		setText: #projectName:;
 		frame: self class baselineConfigInputFrame.
 	choseSpec 
 		model: self;

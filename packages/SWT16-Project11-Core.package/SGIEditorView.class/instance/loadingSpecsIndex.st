@@ -1,3 +1,3 @@
 accessing
 loadingSpecsIndex
-	^ loadingSpecsIndex
+	^ loadingSpecsIndex ifNil: [1]

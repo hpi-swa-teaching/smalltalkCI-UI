@@ -8,9 +8,9 @@
 	"instvars" : [
 		"logic",
 		"model",
-		"toolBuilder" ],
-	"name" : "SGIView",
+		"viewList" ],
+	"name" : "SGIEditor",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "Object",
 	"type" : "normal" }

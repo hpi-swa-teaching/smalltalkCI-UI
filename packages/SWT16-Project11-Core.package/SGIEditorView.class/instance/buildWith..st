@@ -1,33 +1,22 @@
 user-interface
 buildWith: builder
-	| windowSpec pathSpec baselineConfigSpec packagePathSpec platformSpec saveAndCloseButtonSpec loadingSpecsSpec stonInputSpec testsChooseSpec packagesChooseSpec |
+	| windowSpec |
 	windowSpec := builder pluggableWindowSpec new.
-	pathSpec := self buildPathWith: builder.
-	baselineConfigSpec := self buildBaselineConfigChoseWith: builder.
-	packagePathSpec := self buildPackagePathWith: builder.
-	platformSpec := self buildPlatformChoseWith: builder.
-	saveAndCloseButtonSpec := self buildSaveAndCloseButtonWith: builder.
-	loadingSpecsSpec := self buildLoadingSpecsWith: builder.
-	stonInputSpec := self buildStonInputFieldWith: builder.
-	testsChooseSpec := self buildTestsChooseWith: builder.
-	packagesChooseSpec := self buildPackagesChooseWith: builder.
-	self windowBuilder: builder.
-		
 	windowSpec 
 		model: self;
-		label: 'smalltalkCI';
+		label: self testsChoseButtonLabel;
 		extent: self class editorExtent;
 		children: OrderedCollection new.
 	windowSpec children 
-		add: pathSpec;
-		add: baselineConfigSpec;
-		add: packagePathSpec;
-		add: platformSpec;
-		add: saveAndCloseButtonSpec;
-		add: loadingSpecsSpec;
-		add: stonInputSpec;
-		add: testsChooseSpec;
-		add: packagesChooseSpec.
+		add: (self buildPathWith: builder);
+		add: (self buildBaselineConfigChoseWith: builder);
+		add: (self buildPackagePathWith: builder);
+		add: (self buildPlatformChoseWith: builder);
+		add: (self buildSaveAndCloseButtonWith: builder);
+		add: (self buildLoadingSpecsWith: builder);
+		add: (self buildStonInputFieldWith: builder);
+		add: (self buildTestsChooseWith: builder);
+		add: (self buildPackagesChooseWith: builder).
 	self mainWindow: (builder build: windowSpec).
 		
 	^ self mainWindow

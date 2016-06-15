@@ -1,0 +1,3 @@
+defaults
+defaultProjectName
+	^ 'New Project'

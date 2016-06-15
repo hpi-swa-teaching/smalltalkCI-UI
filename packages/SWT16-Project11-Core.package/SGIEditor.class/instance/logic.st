@@ -1,0 +1,4 @@
+accessing
+logic
+
+	^ logic
