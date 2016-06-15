@@ -3,7 +3,7 @@ retrieveName: aPackageName
 	(aPackageName beginsWith: self class baselinePrefix)
 		ifTrue: [ | baseline |
 			baseline := aPackageName copyFrom: (self class baselinePrefix size + 1) to: (aPackageName size).
-			self sgiModel
+			self model
 				baseline: baseline;
 				configuration: nil;
 				projectName: baseline.

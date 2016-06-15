@@ -1,8 +1,8 @@
 button-actions
 removeLastLoadSpecDialog
 	| lastLoadSpecDialogSpec okayButtonSpec |
-	lastLoadSpecDialogSpec := self sgiView windowBuilder pluggableWindowSpec new.
-	okayButtonSpec := self sgiView windowBuilder pluggableButtonSpec new.
+	lastLoadSpecDialogSpec := self view windowBuilder pluggableWindowSpec new.
+	okayButtonSpec := self view windowBuilder pluggableButtonSpec new.
 	
 	lastLoadSpecDialogSpec 
 		model: self;
@@ -18,5 +18,5 @@ removeLastLoadSpecDialog
 	lastLoadSpecDialogSpec children
 		add: okayButtonSpec.
 	(self lastLoadSpecDialog isNil)
-		ifTrue:  [self lastLoadSpecDialog: (ToolBuilder default open: (self sgiView windowBuilder build: lastLoadSpecDialogSpec))].
+		ifTrue:  [self lastLoadSpecDialog: (ToolBuilder default open: (self view windowBuilder build: lastLoadSpecDialogSpec))].
 	^lastLoadSpecDialogSpec

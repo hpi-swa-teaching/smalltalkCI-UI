@@ -1,9 +1,9 @@
 button-actions
 addSpecButtonAction
 		| addSpecDialogSpec inputSpec acceptButtonSpec |
-		addSpecDialogSpec := self sgiView windowBuilder pluggableWindowSpec new.
-		inputSpec := self sgiView windowBuilder pluggableInputFieldSpec new.
-		acceptButtonSpec := self sgiView windowBuilder pluggableButtonSpec new.
+		addSpecDialogSpec := self view windowBuilder pluggableWindowSpec new.
+		inputSpec := self view windowBuilder pluggableInputFieldSpec new.
+		acceptButtonSpec := self view windowBuilder pluggableButtonSpec new.
 		
  		addSpecDialogSpec 
 			model: self;
@@ -22,4 +22,4 @@ addSpecButtonAction
 		addSpecDialogSpec children
 			add: inputSpec;
 			add: acceptButtonSpec.
-		self addSpecDialog: (ToolBuilder default open: ( self sgiView windowBuilder build: addSpecDialogSpec))
+		self addSpecDialog: (ToolBuilder default open: ( self view windowBuilder build: addSpecDialogSpec))

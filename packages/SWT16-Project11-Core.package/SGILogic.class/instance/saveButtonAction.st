@@ -4,9 +4,9 @@ saveButtonAction
 		ifFalse: [ self saveSton] 
 		ifTrue: [
 			| saveDialogSpec yesButtonSpec noButtonSpec |
-			saveDialogSpec:= self sgiView windowBuilder pluggableWindowSpec new.
-			yesButtonSpec := self sgiView windowBuilder pluggableButtonSpec new.
-			noButtonSpec := self sgiView windowBuilder pluggableButtonSpec new.
+			saveDialogSpec:= self view windowBuilder pluggableWindowSpec new.
+			yesButtonSpec := self view windowBuilder pluggableButtonSpec new.
+			noButtonSpec := self view windowBuilder pluggableButtonSpec new.
 		
  			saveDialogSpec 
 				model: self;
@@ -28,5 +28,5 @@ saveButtonAction
 				add: yesButtonSpec;
 				add: noButtonSpec.
 			(self saveDialog isNil)
-				ifTrue:  [self saveDialog: (ToolBuilder default open: (self sgiView windowBuilder build: saveDialogSpec))].
+				ifTrue:  [self saveDialog: (ToolBuilder default open: (self view windowBuilder build: saveDialogSpec))].
 			^saveDialogSpec ]

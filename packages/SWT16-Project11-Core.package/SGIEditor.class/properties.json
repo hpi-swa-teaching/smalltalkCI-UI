@@ -8,7 +8,7 @@
 	"instvars" : [
 		"logic",
 		"model",
-		"viewList" ],
+		"view" ],
 	"name" : "SGIEditor",
 	"pools" : [
 		 ],

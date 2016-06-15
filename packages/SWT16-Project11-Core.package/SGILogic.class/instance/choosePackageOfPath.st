@@ -1,7 +1,7 @@
 choosing
 choosePackageOfPath
 	| folder containsPath stringCollection choosenPackage |
-	folder := SGIFileList modalFolderSelector: (FileDirectory on: self sgiModel path) path: self sgiModel path.
+	folder := SGIFileList modalFolderSelector: (FileDirectory on: self model path) path: self sgiModel path.
 	folder ifNotNil: [
 		folder := folder fullName.
 		containsPath := folder includesSubString: self sgiModel path.

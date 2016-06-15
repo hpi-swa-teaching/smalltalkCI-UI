@@ -1,6 +1,5 @@
 initialize
 initialize
 	self model: SGIModel new;
-		logic: SGILogic new;
-		viewList: OrderedCollection new.
-	self viewList add: (SGIEditorView initializeWithModel: self model andLogic: self logic).
+		logic: (SGILogic initializeWithModel: self model);
+		view: (SGIEditorView initializeWithModel: self model andLogic: self logic).
