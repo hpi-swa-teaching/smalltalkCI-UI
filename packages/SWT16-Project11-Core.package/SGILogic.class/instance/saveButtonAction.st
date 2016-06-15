@@ -1,7 +1,7 @@
 button-actions
 saveButtonAction
 	((FileDirectory on: self path) fileExists: self fileName) 
-		ifFalse: [ self saveSton] 
+		ifFalse: [ self model saveSton] 
 		ifTrue: [
 			| saveDialogSpec yesButtonSpec noButtonSpec |
 			saveDialogSpec:= self view windowBuilder pluggableWindowSpec new.

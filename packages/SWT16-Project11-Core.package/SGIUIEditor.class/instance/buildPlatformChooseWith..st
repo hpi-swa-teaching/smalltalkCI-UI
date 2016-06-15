@@ -15,19 +15,19 @@ buildPlatformChooseWith: builder
 		label: #squeakCheckBoxLabel;
 		frame: self class squeakCheckBoxFrame;
 		state: #useSqueakPlatform;
-		action: [self logic toggleUseSqueakPlatform].
+		action: #toggleUseSqueakPlatform.
 	pharoButtonSpec 
 		model: self logic;
 		label: #pharoCheckBoxLabel;
 		frame: self class pharoCheckBoxFrame;
 		state: #usePharoPlatform;
-		action: [self logic toggleUsePharoPlatform].
+		action: #toggleUsePharoPlatform.
 	gemStoneButtonSpec 
 		model: self logic;
 		label: #gemStoneCheckBoxLabel;
 		frame: self class gemStoneCheckBoxFrame;
 		state: #useGemStonePlatform;
-		action: [self logic toggleUseGemStonePlatform].
+		action: #toggleUseGemStonePlatform.
 	panelSpec children 
 		add: squeakButtonSpec;
 		add: pharoButtonSpec;
