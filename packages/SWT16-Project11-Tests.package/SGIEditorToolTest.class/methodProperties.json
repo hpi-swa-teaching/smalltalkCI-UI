@@ -3,11 +3,11 @@
 		 },
 	"instance" : {
 		"setup" : "CF 5/29/2016 15:13",
-		"testBuildBaselineConfigWith" : "CF 5/29/2016 15:14",
+		"testBuildBaselineConfigWith" : "CF 6/15/2016 13:35",
 		"testBuildPackagePath" : "CF 5/29/2016 15:14",
 		"testBuildPackagesChooseWith" : "nk 6/1/2016 17:23",
 		"testBuildPath" : "CF 5/29/2016 15:14",
-		"testBuildPlatformChoseWith" : "CF 6/10/2016 12:21",
+		"testBuildPlatformChoseWith" : "CF 6/15/2016 13:35",
 		"testBuildSaveAndCloseButton" : "nk 6/2/2016 20:46",
 		"testBuildTestsChooseWith" : "nk 6/1/2016 17:22",
 		"testCloseButtonAction" : "nk 6/2/2016 20:55",

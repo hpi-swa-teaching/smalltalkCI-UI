@@ -3,7 +3,7 @@ testBuildBaselineConfigWith
 	| builder editorTool panel |
 	builder := ToolBuilder default.
 	editorTool := self setup.
-	panel := editorTool buildBaselineConfigChoseWith: builder.
+	panel := editorTool buildBaselineConfigChooseWith: builder.
 	self 
 		assert: (panel notNil);
 		assert: (panel children size = 2);

@@ -3,7 +3,7 @@ testBuildPlatformChoseWith
 	| builder editorTool panel |
 	builder := ToolBuilder default.
 	editorTool := self setup.
-	panel := editorTool buildPlatformChoseWith: builder.
+	panel := editorTool buildPlatformChooseWith: builder.
 	self 
 		assert: (panel notNil);
 		assert: (panel children size = 3);
