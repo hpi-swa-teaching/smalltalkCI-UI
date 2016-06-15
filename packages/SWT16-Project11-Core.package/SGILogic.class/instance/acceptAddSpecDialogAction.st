@@ -10,10 +10,9 @@ acceptAddSpecDialogAction
 		platforms: self writeUsedPlatforms;
 		repository: self package.
 	
-	self baseline: [ nil ].
-	self configuration: [ nil ].
-	self resetUsedPlatforms.
-	self package: ''.
-	self loadingSpecs: newLoadSpec.
-		
-	"self addSpecDialog delete"
+	self 
+		baseline: [ nil ];
+		configuration: [ nil ];
+		resetUsedPlatforms;
+		package: '';
+		addLoadingSpec: newLoadSpec
