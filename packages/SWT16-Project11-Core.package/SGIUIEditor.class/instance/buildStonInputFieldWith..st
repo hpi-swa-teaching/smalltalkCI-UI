@@ -5,11 +5,11 @@ buildStonInputFieldWith: builder
 	inputSpec := builder pluggableInputFieldSpec new.
 	
 	panelSpec 
-		model: self;
+		model: self logic;
 		frame: self class stonInputPanelFrame;
 		children: OrderedCollection new.
 	inputSpec
-		model: self;
+		model: self logic;
 		getText: #fileName;
 		setText: #fileName;
 		frame: self class stonInputFrame.

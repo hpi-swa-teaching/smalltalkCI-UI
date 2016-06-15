@@ -5,11 +5,11 @@ buildTestsChooseWith: builder
 	choseSpec := builder pluggableButtonSpec new.
 	
 	panelSpec 
-		model: self;
+		model: self logic;
 		frame: self class testsPanelFrame;
 		children: OrderedCollection new.
 	choseSpec 
-		model: self;
+		model: self logic;
 		label: self class testsChooseButtonLabel;
 		frame: self class testsChooseFrame;
 		action: [self logic chooseTests].

@@ -7,27 +7,27 @@ buildPlatformChooseWith: builder
 	gemStoneButtonSpec := builder pluggableCheckBoxSpec new.
 	
 	panelSpec 
-		model: self;
+		model: self logic;
 		frame: self class platformPanelFrame;
 		children: OrderedCollection new.
 	squeakButtonSpec
-		model: self;
+		model: self logic;
 		label: #squeakCheckBoxLabel;
 		frame: self class squeakCheckBoxFrame;
 		state: #useSqueakPlatform;
-		action: [self toggleUseSqueakPlatform].
+		action: [self logic toggleUseSqueakPlatform].
 	pharoButtonSpec 
-		model: self;
+		model: self logic;
 		label: #pharoCheckBoxLabel;
 		frame: self class pharoCheckBoxFrame;
 		state: #usePharoPlatform;
-		action: [self toggleUsePharoPlatform].
+		action: [self logic toggleUsePharoPlatform].
 	gemStoneButtonSpec 
-		model: self;
+		model: self logic;
 		label: #gemStoneCheckBoxLabel;
 		frame: self class gemStoneCheckBoxFrame;
 		state: #useGemStonePlatform;
-		action: [self toggleUseGemStonePlatform].
+		action: [self logic toggleUseGemStonePlatform].
 	panelSpec children 
 		add: squeakButtonSpec;
 		add: pharoButtonSpec;

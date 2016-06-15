@@ -6,7 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"loadingSpecsIndex",
 		"model",
+		"useGemStonePlatform",
+		"usePharoPlatform",
+		"useSqueakPlatform",
 		"view" ],
 	"name" : "SGILogic",
 	"pools" : [

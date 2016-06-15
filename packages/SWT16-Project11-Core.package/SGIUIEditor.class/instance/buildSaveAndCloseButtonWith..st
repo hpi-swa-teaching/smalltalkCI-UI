@@ -6,16 +6,16 @@ buildSaveAndCloseButtonWith: builder
 	closeButtonSpec := builder pluggableButtonSpec new.
 
 	panelSpec
-		model: self;
+		model: self logic;
 		frame: self class saveAndCloseButtonFrame;
 		children: OrderedCollection new.
 	saveButtonSpec
-		model: self;
+		model: self logic;
 		label: self class saveButtonLabel;
 		action: [self logic saveButtonAction];
 		frame: self class saveButtonFrame.
 	closeButtonSpec
-		model: self;
+		model: self logic;
 		label: self class closeButtonLabel;
 		action: [self logic closeButtonAction];
 		frame: self class closeButtonFrame.

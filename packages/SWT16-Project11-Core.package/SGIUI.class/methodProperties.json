@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"initializeWithModel:andLogic:" : "CF 6/15/2016 10:50" },
+		"initializeWithLogic:" : "CF 6/15/2016 14:19" },
 	"instance" : {
 		"logic" : "CF 6/15/2016 10:01",
 		"logic:" : "CF 6/15/2016 10:01",

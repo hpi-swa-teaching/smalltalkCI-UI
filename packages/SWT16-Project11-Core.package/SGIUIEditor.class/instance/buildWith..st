@@ -3,7 +3,7 @@ buildWith: builder
 	| windowSpec |
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec 
-		model: self;
+		model: self logic;
 		label: self class sgiLabel;
 		extent: self class editorExtent;
 		children: OrderedCollection new.

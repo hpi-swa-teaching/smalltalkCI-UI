@@ -9,12 +9,8 @@
 		"addSpecDialog",
 		"closeDialog",
 		"lastLoadSpecDialog",
-		"loadingSpecsIndex",
 		"mainWindow",
-		"saveDialog",
-		"useGemStonePlatform",
-		"usePharoPlatform",
-		"useSqueakPlatform" ],
+		"saveDialog" ],
 	"name" : "SGIUIEditor",
 	"pools" : [
 		 ],

@@ -8,28 +8,27 @@ buildLoadingSpecsWith: builder
 	loadButtonSpec := builder pluggableButtonSpec new.
 	
 	panelSpec
-		model: self;
+		model: self logic;
 		frame: self class loadingSpecsFrame;
 		children: OrderedCollection new.
 	loadingSpecsListSpec
-		model: self;
+		model: self logic;
 		list: #loadingSpecs;
 		getIndex: #loadingSpecsIndex;
 		setIndex: #loadingSpecsIndex:;
 		frame: self class loadingSpecsListFrame.
 	addButtonSpec
-		model: self;
+		model: self logic;
 		label: self class addButtonLabel;
 		frame: self class loadingSpecsAddButtonFrame;
-		"action: #addSpecButtonAction."
 		action: [self logic acceptAddSpecDialogAction].
 	removeButtonSpec
-		model: self;
+		model: self logic;
 		label: self class removeButtonLabel;
 		frame: self class loadingSpecsRemoveButtonFrame;
 		action: [self logic removeSpecButtonAction].
 	loadButtonSpec
-		model: self;
+		model: self logic;
 		label: self class loadSpecButtonLabel;
 		frame: self class loadingSpecsLoadButtonFrame;
 		action: [self logic loadSpecButtonAction].

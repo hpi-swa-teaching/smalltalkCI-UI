@@ -6,16 +6,16 @@ buildBaselineConfigChooseWith: builder
 	choseSpec := builder pluggableButtonSpec new.
 	
 	panelSpec 
-		model: self;
+		model: self logic;
 		frame: self class baselineConfigPanelFrame;
 		children: OrderedCollection new.
 	inputSpec
-		model: self;
+		model: self logic;
 		getText: #projectName;
 		setText: #projectName:;
 		frame: self class baselineConfigInputFrame.
 	choseSpec 
-		model: self;
+		model: self logic;
 		label: self class baselineConfigChooseButtonLabel;
 		frame: self class baselineConfigChooseFrame;
 		action: [self logic chooseBaselineOrConfig].		

@@ -6,16 +6,16 @@ buildPathWith: builder
 	choseSpec := builder pluggableButtonSpec new.
 	
 	panelSpec 
-		model: self;
+		model: self logic;
 		frame: self class pathPanelFrame;
 		children: OrderedCollection new.
 	inputSpec
-		model: self model;
+		model: self logic;
 		getText: #path;
 		setText: #path:;
 		frame: self class pathInputFrame.
 	choseSpec 
-		model: self;
+		model: self logic;
 		label: self class pathChooseButtonLabel;
 		frame: self class pathChooseFrame;
 		action: [self logic choosePath].
