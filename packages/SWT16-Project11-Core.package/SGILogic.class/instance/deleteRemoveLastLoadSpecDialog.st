@@ -1,3 +1,0 @@
-button-actions
-deleteRemoveLastLoadSpecDialog
-	self lastLoadSpecDialog delete.

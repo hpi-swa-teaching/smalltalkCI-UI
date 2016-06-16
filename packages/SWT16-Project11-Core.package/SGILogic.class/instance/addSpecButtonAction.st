@@ -1,9 +1,9 @@
 button-actions
 addSpecButtonAction
 		| addSpecDialogSpec inputSpec acceptButtonSpec |
-		addSpecDialogSpec := self view windowBuilder pluggableWindowSpec new.
-		inputSpec := self view windowBuilder pluggableInputFieldSpec new.
-		acceptButtonSpec := self view windowBuilder pluggableButtonSpec new.
+		addSpecDialogSpec := self windowBuilder pluggableWindowSpec new.
+		inputSpec := self windowBuilder pluggableInputFieldSpec new.
+		acceptButtonSpec := self windowBuilder pluggableButtonSpec new.
 		
  		addSpecDialogSpec 
 			model: self;

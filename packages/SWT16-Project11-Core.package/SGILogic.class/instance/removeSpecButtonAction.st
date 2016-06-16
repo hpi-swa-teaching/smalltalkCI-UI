@@ -1,7 +1,5 @@
 button-actions
 removeSpecButtonAction
-	(self model loadingSpecs size = 1) ifTrue: 
-		[self removeLastLoadSpecDialog].
-	(self sgiModel loadingSpecs size > 1) ifTrue: 
-		[self loadingSpecs removeAt: self view loadingSpecsIndex.
+	(self loadingSpecs size > 1) ifTrue: 
+		[self loadingSpecs removeAt: self loadingSpecsIndex.
 		self changed: #loadingSpecs]

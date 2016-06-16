@@ -1,3 +1,6 @@
 initialize
 initializeWithLogic: aLogic
-	^ ToolBuilder default open: (self new logic: aLogic)
+	| UI |
+	UI := self new logic: aLogic.
+	ToolBuilder default open: UI.
+	^ UI

@@ -3,9 +3,10 @@ buildWith: builder
 	| windowSpec |
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec 
-		model: self logic;
+		model: self;
 		label: self class sgiLabel;
 		extent: self class editorExtent;
+		closeAction: #systemCloseAction;
 		children: OrderedCollection new.
 	windowSpec children 
 		add: (self buildPathWith: builder);

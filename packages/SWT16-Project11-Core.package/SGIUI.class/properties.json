@@ -8,6 +8,7 @@
 	"instvars" : [
 		"logic",
 		"model",
+		"okToClose",
 		"window" ],
 	"name" : "SGIUI",
 	"pools" : [

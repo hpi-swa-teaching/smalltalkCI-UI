@@ -10,8 +10,7 @@
 		"model",
 		"useGemStonePlatform",
 		"usePharoPlatform",
-		"useSqueakPlatform",
-		"view" ],
+		"useSqueakPlatform" ],
 	"name" : "SGILogic",
 	"pools" : [
 		 ],
