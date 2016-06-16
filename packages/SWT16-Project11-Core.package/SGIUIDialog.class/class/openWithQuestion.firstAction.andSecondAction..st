@@ -1,6 +1,6 @@
 initialize
 openWithQuestion: aQuestion firstAction: aBlock andSecondAction: aSecondBlock
-	^ self new
+	^ ToolBuilder default open: (self new
 		dialogQuestion: aQuestion;
 		firstAnswerAction: aBlock;
-		secondAnswerAction: aSecondBlock
+		secondAnswerAction: aSecondBlock)

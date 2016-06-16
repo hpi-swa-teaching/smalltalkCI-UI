@@ -1,6 +1,4 @@
 utils
-overwriteSton 
-	self saveDialog delete.
-	self saveDialog: nil.
+overwriteSton
 	(FileDirectory on: self path) deleteFileNamed: self fileName. 
-	self  saveSton
+	self model saveSton

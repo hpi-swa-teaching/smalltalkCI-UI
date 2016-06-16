@@ -17,6 +17,5 @@ buildWith: builder
 		add: (self buildStonInputFieldWith: builder);
 		add: (self buildTestsChooseWith: builder);
 		add: (self buildPackagesChooseWith: builder).
-	self mainWindow: (builder build: windowSpec).
-		
-	^ self mainWindow
+	self window: (builder build: windowSpec).
+	^ self window

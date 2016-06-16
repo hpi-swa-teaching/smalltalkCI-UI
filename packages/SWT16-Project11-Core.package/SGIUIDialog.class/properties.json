@@ -8,8 +8,8 @@
 	"instvars" : [
 		"dialogQuestion",
 		"firstAnswer",
-		"secondAnswer",
 		"firstAnswerAction",
+		"secondAnswer",
 		"secondAnswerAction" ],
 	"name" : "SGIUIDialog",
 	"pools" : [

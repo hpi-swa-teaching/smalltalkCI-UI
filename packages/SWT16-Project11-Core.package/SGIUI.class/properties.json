@@ -8,7 +8,7 @@
 	"instvars" : [
 		"logic",
 		"model",
-		"toolBuilder" ],
+		"window" ],
 	"name" : "SGIUI",
 	"pools" : [
 		 ],
