@@ -1,6 +1,5 @@
 utils
 writeUsedPlatforms
-
 	| platforms |
 	
 	platforms := OrderedCollection new.

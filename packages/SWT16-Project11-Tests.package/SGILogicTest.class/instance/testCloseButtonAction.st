@@ -1,6 +1,6 @@
 testing
 testCloseButtonAction
-	| logic |
+	| logic dialog |
 	logic := self setup.
-	"todo!!"
-	"self shouldnt: logic closeButtonAction raise: Error."
+	self shouldnt: (dialog := logic closeButtonAction) raise: Error.
+	dialog delete

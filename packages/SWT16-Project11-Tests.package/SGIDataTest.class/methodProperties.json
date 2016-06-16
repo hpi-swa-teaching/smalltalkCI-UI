@@ -1,7 +1,15 @@
 {
 	"class" : {
-		 },
+		"defaultBaseline" : "nk 6/16/2016 17:07",
+		"defaultConfiguration" : "nk 6/16/2016 17:07",
+		"defaultFileName" : "nk 6/16/2016 17:07",
+		"defaultLoadingSpecs" : "nk 6/16/2016 17:07",
+		"defaultPackage" : "nk 6/16/2016 17:08",
+		"defaultPath" : "nk 6/16/2016 17:08",
+		"defaultPlatforms" : "nk 6/16/2016 17:32",
+		"defaultProjectName" : "nk 6/16/2016 17:08" },
 	"instance" : {
 		"generateDumpSpec" : "nk 6/15/2016 18:42",
 		"setup" : "nk 6/15/2016 18:38",
-		"testSaveSton" : "nk 6/15/2016 18:44" } }
+		"testSaveSton" : "nk 6/15/2016 18:44",
+		"testSetup" : "nk 6/16/2016 17:14" } }

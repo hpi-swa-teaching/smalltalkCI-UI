@@ -1,0 +1,3 @@
+constants
+defaultConfiguration
+	^ 'ConfigurationOfProject11'
