@@ -5,7 +5,10 @@ baseline: spec
 		for: #common
 		do: [
 			spec 
-				package: 'SmalltalkCI-Core';
+				baseline: 'SmalltalkCI' with: 
+					[ spec
+						loads: #('tests');
+						repository: 'github://hpi-swa/smalltalkCI:master/repository' ];
 				package: 'STON-Core';
 				package: 'SWT16-Project11-Core';
 				package: 'SWT16-Project11-Tests'

@@ -1,0 +1,3 @@
+constants
+defaultProjectName 
+	^ 'Project11'

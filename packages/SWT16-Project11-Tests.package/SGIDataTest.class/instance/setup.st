@@ -1,0 +1,3 @@
+testing
+setup
+	^ SGIData new

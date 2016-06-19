@@ -1,3 +1,0 @@
-constants
-overwriteButtonLabel
-	^ 'Overwrite!'

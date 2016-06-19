@@ -1,0 +1,18 @@
+{
+	"category" : "SWT16-Project11-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dialogQuestion",
+		"firstAnswer",
+		"firstAnswerAction",
+		"secondAnswer",
+		"secondAnswerAction" ],
+	"name" : "SGIUIDialog",
+	"pools" : [
+		 ],
+	"super" : "SGIUI",
+	"type" : "normal" }

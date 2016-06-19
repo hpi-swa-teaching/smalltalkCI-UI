@@ -1,0 +1,17 @@
+{
+	"category" : "SWT16-Project11-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"logic",
+		"model",
+		"okToClose",
+		"window" ],
+	"name" : "SGIUI",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

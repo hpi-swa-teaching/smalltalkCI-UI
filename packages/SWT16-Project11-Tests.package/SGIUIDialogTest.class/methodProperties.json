@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"defaultDialogQuestion" : "nk 6/16/2016 17:50",
+		"defaultFirstAction" : "nk 6/16/2016 17:50",
+		"defaultSecondAction" : "nk 6/16/2016 17:50" },
+	"instance" : {
+		"open" : "nk 6/16/2016 17:58",
+		"setup" : "nk 6/16/2016 17:58",
+		"testExecuteFirstAnswerAction" : "nk 6/16/2016 18:01",
+		"testExecuteSecondAnswerAction" : "nk 6/16/2016 18:02",
+		"testOpen" : "nk 6/16/2016 17:58",
+		"testSetup" : "nk 6/16/2016 18:14" } }

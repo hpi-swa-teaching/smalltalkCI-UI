@@ -1,0 +1,3 @@
+labels
+packagesChooseButtonLabel
+	^ 'Packages'

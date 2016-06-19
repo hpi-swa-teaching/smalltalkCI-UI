@@ -1,0 +1,14 @@
+{
+	"category" : "SWT16-Project11-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"addSpecDialog" ],
+	"name" : "SGIUIEditor",
+	"pools" : [
+		 ],
+	"super" : "SGIUI",
+	"type" : "normal" }

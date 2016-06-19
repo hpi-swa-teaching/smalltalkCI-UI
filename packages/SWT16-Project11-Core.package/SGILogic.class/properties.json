@@ -1,0 +1,18 @@
+{
+	"category" : "SWT16-Project11-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"loadingSpecsIndex",
+		"model",
+		"useGemStonePlatform",
+		"usePharoPlatform",
+		"useSqueakPlatform" ],
+	"name" : "SGILogic",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

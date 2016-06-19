@@ -1,0 +1,3 @@
+testing
+setup 
+	^ SGIUIDialog new

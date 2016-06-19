@@ -1,3 +1,0 @@
-constants
-dontSaveButtonLabel
-	^ 'Dont save!'

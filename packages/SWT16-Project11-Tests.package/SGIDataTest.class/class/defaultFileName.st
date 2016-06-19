@@ -1,0 +1,3 @@
+constants
+defaultFileName 
+	^ 'smalltalk.ston'

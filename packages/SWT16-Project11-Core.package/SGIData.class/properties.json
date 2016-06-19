@@ -1,0 +1,21 @@
+{
+	"category" : "SWT16-Project11-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"baseline",
+		"configuration",
+		"fileName",
+		"loadingSpecs",
+		"package",
+		"path",
+		"platforms",
+		"projectName" ],
+	"name" : "SGIData",
+	"pools" : [
+		 ],
+	"super" : "SmalltalkCISpec",
+	"type" : "normal" }
