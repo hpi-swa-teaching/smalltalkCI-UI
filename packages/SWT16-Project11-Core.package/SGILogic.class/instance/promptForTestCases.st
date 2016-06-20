@@ -1,4 +1,4 @@
-file-chooser
+prompting
 promptForTestCases
 	| testCases |
 	testCases := TestCase allSubclasses sort: [:a :b | a  asString < b asString].

@@ -13,7 +13,9 @@
 		"package",
 		"path",
 		"platforms",
-		"projectName" ],
+		"projectName",
+		"include",
+		"exclude" ],
 	"name" : "SGIData",
 	"pools" : [
 		 ],

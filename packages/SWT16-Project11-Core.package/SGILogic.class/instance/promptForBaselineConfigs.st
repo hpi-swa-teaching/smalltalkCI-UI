@@ -1,4 +1,4 @@
-file-chooser
+prompting
 promptForBaselineConfigs
 	| subclasses baselines configurations |
 	baselines := BaselineOf allSubclasses.
