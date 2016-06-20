@@ -7,5 +7,6 @@ promptForTestCases
 			chooseMultipleFrom: (testCases 
 				collect: [:subclass | subclass asString ])
 				values: testCases
+				lines: #('AliasTest')
 				title: 'Select TestCases').
 	^ testCases

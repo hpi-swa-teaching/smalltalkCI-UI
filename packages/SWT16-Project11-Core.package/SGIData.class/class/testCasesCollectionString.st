@@ -1,3 +1,3 @@
 constants
 testCasesCollectionString
-	^ 'classes'
+	^ #classes
