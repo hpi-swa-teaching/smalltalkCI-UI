@@ -10,7 +10,9 @@ testSetup
 		package: self class defaultPackage;
 		path: self class defaultPath;
 		platforms: self class defaultPlatforms;
-		projectName: self class defaultProjectName.
+		projectName: self class defaultProjectName;
+		exclude: self class defaultExcluding;
+		include: self class defaultIncluding.
 	self 
 		assert: dataObject notNil;
 		assert: dataObject baseline = self class defaultBaseline;
@@ -20,4 +22,6 @@ testSetup
 		assert: dataObject package = self class defaultPackage;
 		assert: dataObject path = self class defaultPath;
 		assert: dataObject platforms = self class defaultPlatforms;
-		assert: dataObject projectName = self class defaultProjectName
+		assert: dataObject projectName = self class defaultProjectName;
+		assert: dataObject exclude = self class defaultExcluding;
+		assert: dataObject include = self class defaultIncluding

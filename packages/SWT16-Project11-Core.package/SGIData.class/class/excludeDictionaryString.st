@@ -1,0 +1,3 @@
+constants
+excludeDictionaryString
+	^ #exclude

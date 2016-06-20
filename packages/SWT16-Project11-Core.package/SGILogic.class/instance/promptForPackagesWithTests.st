@@ -1,4 +1,4 @@
-file-chooser
+prompting
 promptForPackagesWithTests
 	| packages testPackages |
 	testPackages := (PackageOrganizer default packages

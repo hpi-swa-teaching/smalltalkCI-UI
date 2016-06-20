@@ -16,7 +16,7 @@ buildWith: builder
 		add: (self buildSaveAndCloseButtonWith: builder);
 		add: (self buildLoadingSpecsWith: builder);
 		add: (self buildStonInputFieldWith: builder);
-		add: (self buildTestsChooseWith: builder);
-		add: (self buildPackagesChooseWith: builder).
+		add: (self buildTestsIncludeWith: builder);
+		add: (self buildPackagesExcludeWith: builder).
 	self window: (builder build: windowSpec).
 	^ self window

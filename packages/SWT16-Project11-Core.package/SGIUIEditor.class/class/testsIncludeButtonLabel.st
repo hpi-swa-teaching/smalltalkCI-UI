@@ -1,0 +1,3 @@
+labels
+testsIncludeButtonLabel
+	^ 'include Tests'

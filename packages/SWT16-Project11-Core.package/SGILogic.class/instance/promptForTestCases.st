@@ -1,4 +1,4 @@
-file-chooser
+prompting
 promptForTestCases
 	| testCases |
 	testCases := TestCase allSubclasses sort: [:a :b | a  asString < b asString].
@@ -7,5 +7,6 @@ promptForTestCases
 			chooseMultipleFrom: (testCases 
 				collect: [:subclass | subclass asString ])
 				values: testCases
+				lines: #('AliasTest')
 				title: 'Select TestCases').
 	^ testCases
