@@ -1,12 +1,11 @@
 prompting
-promptForTestCases
+promptForTestCasesWithPreChoice: aCollection
 	| testCases |
 	testCases := TestCase allSubclasses sort: [:a :b | a  asString < b asString].
 	testCases := Array
-		with: (UIManager default
-			chooseMultipleFrom: (testCases 
+		with: (SGIListMultipleChooser
+			chooseItemListFrom: (testCases 
 				collect: [:subclass | subclass asString ])
-				values: testCases
-				lines: #('AliasTest')
-				title: 'Select TestCases').
+				title: 'Select TestCases'
+				preChoose: aCollection).
 	^ testCases

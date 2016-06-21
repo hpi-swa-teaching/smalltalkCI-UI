@@ -5,8 +5,10 @@
 		"setup" : "nk 6/15/2016 18:25",
 		"testBuildBaselineConfigWith" : "nk 6/15/2016 18:27",
 		"testBuildPackagePath" : "nk 6/15/2016 18:27",
+		"testBuildPackagesChooseWith" : "nk 6/20/2016 20:34:38.000822",
 		"testBuildPackagesExcludeWith" : "nk 6/20/2016 19:11",
 		"testBuildPath" : "nk 6/15/2016 18:28",
 		"testBuildPlatformChoseWith" : "nk 6/15/2016 18:28",
 		"testBuildSaveAndCloseButton" : "nk 6/15/2016 18:34",
+		"testBuildTestsChooseWith" : "nk 6/20/2016 20:34:38.000822",
 		"testBuildTestsIncludeWith" : "nk 6/20/2016 19:13" } }

@@ -1,3 +1,0 @@
-choosing
-choosePackages
-	^ self promptForPackagesWithTests

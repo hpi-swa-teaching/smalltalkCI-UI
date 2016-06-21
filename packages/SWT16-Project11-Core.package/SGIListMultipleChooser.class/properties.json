@@ -1,0 +1,14 @@
+{
+	"category" : "SWT16-Project11-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SGIListMultipleChooser",
+	"pools" : [
+		 ],
+	"super" : "ListMultipleChooser",
+	"type" : "normal" }
