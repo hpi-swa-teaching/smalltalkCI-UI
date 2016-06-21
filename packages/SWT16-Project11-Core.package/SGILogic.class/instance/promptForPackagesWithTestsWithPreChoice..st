@@ -1,5 +1,5 @@
 prompting
-promptForPackagesWithTests
+promptForPackagesWithTestsWithPreChoice: aCollection
 	| packages testPackages |
 	testPackages := (PackageOrganizer default packages
 					select: [:package|  
@@ -7,9 +7,9 @@ promptForPackagesWithTests
 							detect: [:class | class allSuperclasses includes: TestCase] ifNone: []) notNil])
 					sort: [:a :b | a packageName < b packageName].
 	packages := Array
-				with: (UIManager default
-						chooseMultipleFrom: (testPackages
-								collect: [:package | package packageName])
-						values: testPackages
-						title: 'Select Packages').
+				with: (SGIListMultipleChooser
+						chooseItemListFrom: (testPackages
+						collect: [:package | package packageName])
+						title: 'Select Packages'
+						preChoose: aCollection).
 	^ packages

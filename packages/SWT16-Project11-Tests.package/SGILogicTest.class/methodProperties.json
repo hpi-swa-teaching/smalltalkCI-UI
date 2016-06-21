@@ -4,12 +4,14 @@
 	"instance" : {
 		"setup" : "nk 6/15/2016 18:30",
 		"testCloseButtonAction" : "nk 6/16/2016 17:37",
-		"testExcludeAt" : "nk 6/20/2016 20:27",
-		"testIncludeAt" : "nk 6/20/2016 20:29",
+		"testExcludeAt" : "nk 6/21/2016 11:38",
+		"testIncludeAt" : "nk 6/21/2016 11:47",
 		"testLoadUsedPlatforms" : "nk 6/16/2016 17:44",
 		"testPlatformChoosing" : "nk 6/16/2016 17:40",
 		"testPlatformUsing" : "nk 6/16/2016 17:39",
 		"testRemoveSpecButtonAction" : "nk 6/16/2016 17:21",
+		"testResetExclude" : "nk 6/21/2016 11:45",
+		"testResetInclude" : "nk 6/21/2016 11:46",
 		"testRetrieveName" : "nk 6/15/2016 18:45",
 		"testSetup" : "nk 6/16/2016 17:29",
 		"testWriteUsedPlatforms" : "nk 6/16/2016 17:42" } }
