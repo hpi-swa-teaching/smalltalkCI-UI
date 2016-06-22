@@ -1,7 +1,8 @@
 button-actions
 acceptAddSpecDialogAction
-	| newLoadSpec |
+	| newLoadSpec name |
 	newLoadSpec := SCIMetacelloLoadSpec new.
+	name := self projectName.
 	
 	newLoadSpec
 		baseline: self baseline;
@@ -16,4 +17,4 @@ acceptAddSpecDialogAction
 		projectName: '';
 		resetUsedPlatforms;
 		package: '';
-		addLoadingSpec: newLoadSpec
+		addLoadingSpec: newLoadSpec with: name

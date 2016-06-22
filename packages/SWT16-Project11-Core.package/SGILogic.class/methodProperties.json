@@ -4,8 +4,8 @@
 		"configurationPrefix" : "CF 6/14/2016 12:23",
 		"initializeWithModel:" : "CF 6/15/2016 13:30" },
 	"instance" : {
-		"acceptAddSpecDialogAction" : "l 6/22/2016 20:26",
-		"addLoadingSpec:" : "l 6/22/2016 17:30",
+		"acceptAddSpecDialogAction" : "l 6/22/2016 20:37",
+		"addLoadingSpec:with:" : "l 6/22/2016 20:33",
 		"addSpecButtonAction" : "CF 6/16/2016 13:56",
 		"baseline" : "CF 6/15/2016 14:50",
 		"baseline:" : "CF 6/15/2016 14:50",
