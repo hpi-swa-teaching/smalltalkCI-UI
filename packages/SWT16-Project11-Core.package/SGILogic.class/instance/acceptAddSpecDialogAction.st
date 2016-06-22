@@ -4,7 +4,6 @@ acceptAddSpecDialogAction
 	newLoadSpec := SCIMetacelloLoadSpec new.
 	
 	newLoadSpec
-		name: self projectName;
 		baseline: self baseline;
 		configuration: self configuration;
 		directory: self path;
