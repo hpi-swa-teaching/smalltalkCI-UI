@@ -10,6 +10,7 @@
 		"configuration",
 		"fileName",
 		"loadingSpecs",
+		"loadingSpecsNames",
 		"package",
 		"path",
 		"platforms",

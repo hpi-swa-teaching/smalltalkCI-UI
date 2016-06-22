@@ -13,7 +13,7 @@ buildLoadingSpecsWith: builder
 		children: OrderedCollection new.
 	loadingSpecsListSpec
 		model: self logic;
-		list: #loadingSpecs;
+		list: #loadingSpecsNames;
 		getIndex: #loadingSpecsIndex;
 		setIndex: #loadingSpecsIndex:;
 		frame: self class loadingSpecsListFrame.
