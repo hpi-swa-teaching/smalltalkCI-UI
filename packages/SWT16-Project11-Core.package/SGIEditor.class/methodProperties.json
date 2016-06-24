@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"open" : "CF 6/15/2016 09:32" },
+		"open" : "CF 6/15/2016 09:32",
+		"squeakInstall" : "nk 6/24/2016 11:47" },
 	"instance" : {
 		"initialize" : "nk 6/20/2016 19:25",
 		"logic" : "CF 6/15/2016 14:14",
