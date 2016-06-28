@@ -2,14 +2,15 @@ coverage
 finishUpAfterCoverage
 	| output |
 	output := OrderedCollection new.
-	
-	coverageWrappers do: [:wrapper |
+
+	coverageWrappers do: [ :wrapper | | loadSpec |
 		wrapper uninstall.
-		self spec loading
-			detect: [ :loadspec | 
-				self class fileExists: (self absoluteFileNameFor: wrapper in: loadspec directory)]
-			ifFound: [ :loadspec |
-				output add: (self coverageDictFor: wrapper in: (loadspec directory))]
-			ifNone: [ ] ].
+		loadSpec := self spec loading
+			detect: [ :loadspec | | directory |
+				directory :=  self projectDirectory, SmalltalkCI pathNameDelimiter, loadspec directory.
+				self class fileExists: (self absoluteFileNameFor: wrapper in: directory)]
+			ifNone: [].
+		loadSpec ifNotNil: [
+			output add: (self coverageDictFor: wrapper in: (loadSpec directory)) ] ].
 	
 	self writeCoverageReport: output asArray
