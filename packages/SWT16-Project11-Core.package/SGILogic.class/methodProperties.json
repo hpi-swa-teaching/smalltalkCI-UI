@@ -5,6 +5,7 @@
 		"initializeWithModel:" : "CF 6/15/2016 13:30" },
 	"instance" : {
 		"acceptAddSpecDialogAction" : "l 6/22/2016 20:37",
+		"addLoadingSpec:" : "l 6/22/2016 20:39:26.923069",
 		"addLoadingSpec:with:" : "l 6/22/2016 20:33",
 		"addSpecButtonAction" : "CF 6/16/2016 13:56",
 		"baseline" : "CF 6/15/2016 14:50",
@@ -41,6 +42,7 @@
 		"path" : "CF 6/15/2016 10:49",
 		"path:" : "CF 6/15/2016 14:44",
 		"pharoCheckBoxLabel" : "CF 6/15/2016 10:29",
+		"previewButtonAction" : "nk 6/29/2016 18:12",
 		"projectName" : "CF 6/15/2016 10:49",
 		"projectName:" : "CF 6/15/2016 14:26",
 		"promptForBaselineConfigs" : "CF 6/14/2016 14:03",

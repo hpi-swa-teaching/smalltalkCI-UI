@@ -17,6 +17,7 @@ buildWith: builder
 		add: (self buildLoadingSpecsWith: builder);
 		add: (self buildStonInputFieldWith: builder);
 		add: (self buildTestsIncludeWith: builder);
-		add: (self buildPackagesExcludeWith: builder).
+		add: (self buildPackagesExcludeWith: builder);
+		add: (self buildPreviewButtonWith: builder).
 	self window: (builder build: windowSpec).
 	^ self window
