@@ -1,0 +1,3 @@
+labels
+previewButtonLabel
+	^ 'Preview'
