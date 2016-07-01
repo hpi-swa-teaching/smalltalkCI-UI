@@ -1,16 +1,17 @@
 {
 	"class" : {
-		"defaultExcluding" : "nk 6/20/2016 19:41",
+		"categoriesCollectionString" : "Lars Lange 7/1/2016 17:14",
+		"defaultExcluding" : "Lars Lange 7/1/2016 17:26",
 		"defaultFileName" : "CF 6/15/2016 11:21",
-		"defaultIncluding" : "nk 6/20/2016 19:42",
+		"defaultIncluding" : "Lars Lange 7/1/2016 17:27",
 		"defaultLoadingSpecs" : "CF 6/15/2016 11:21",
 		"defaultLoadingSpecsNames" : "l 6/22/2016 17:25",
 		"defaultPath" : "CF 6/15/2016 11:28",
 		"defaultProjectName" : "CF 6/15/2016 11:24",
 		"excludeDictionaryString" : "nk 6/20/2016 20:10",
-		"includeDictionaryString" : "nk 6/20/2016 20:10",
+		"includeDictionaryString" : "Lars Lange 7/1/2016 17:16",
 		"packagesCollectionString" : "nk 6/20/2016 20:10",
-		"testCasesCollectionString" : "nk 6/20/2016 20:10" },
+		"testCasesCollectionString" : "Lars Lange 7/1/2016 17:16" },
 	"instance" : {
 		"baseline" : "CF 6/14/2016 11:40",
 		"baseline:" : "CF 6/14/2016 11:40",
@@ -36,4 +37,4 @@
 		"platforms:" : "CF 6/14/2016 14:15",
 		"projectName" : "CF 6/14/2016 12:21",
 		"projectName:" : "CF 6/14/2016 12:21",
-		"saveSton" : "nk 6/15/2016 18:03" } }
+		"saveSton" : "Lars Lange 7/1/2016 16:09" } }
