@@ -1,0 +1,3 @@
+labels
+testsExcludeButtonLabel
+	^ 'exclude Tests'

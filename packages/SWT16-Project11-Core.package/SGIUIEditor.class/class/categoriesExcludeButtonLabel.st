@@ -1,0 +1,3 @@
+labels
+categoriesExcludeButtonLabel
+	^ 'exclude Categories'
