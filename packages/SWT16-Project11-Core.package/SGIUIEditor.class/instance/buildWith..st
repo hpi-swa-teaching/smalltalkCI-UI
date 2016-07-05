@@ -21,6 +21,8 @@ buildWith: builder
 		add: (self buildPackagesExcludeWith: builder);
 		add: (self buildPackagesIncludeWith: builder);
 		add: (self buildPreviewButtonWith: builder);
-		add: (self buildCategoriesExcludeWith: builder).
+		add: (self buildCategoriesExcludeWith: builder);
+		add: (self buildCategoriesIncludeWith: builder).
+
 	self window: (builder build: windowSpec).
 	^ self window
