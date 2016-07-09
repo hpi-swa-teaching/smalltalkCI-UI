@@ -7,7 +7,7 @@ saveButtonAction
 		ifFalse: [ self model saveSton.
 				 self inform: 'saved succesfully!' ] 
 		ifTrue: [ SGIUIDialog 
-				openWithQuestion: 'File allready exists, overwrite?'
+				openWithQuestion: 'File already exists, overwrite?'
 				firstAction: [self overwriteSton.
 							self inform: 'saved successfully!']
 				andSecondAction: [] ].

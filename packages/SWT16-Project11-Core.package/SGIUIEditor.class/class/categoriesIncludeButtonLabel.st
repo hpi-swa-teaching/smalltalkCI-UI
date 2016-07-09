@@ -1,0 +1,3 @@
+labels
+categoriesIncludeButtonLabel
+	^ 'include Categories'
