@@ -1,3 +1,3 @@
 frames
 pathPanelFrame
-	^ (0.5@0 corner: 1@0.07)
+	^ (0@0.07 corner: 0.5@0.14)

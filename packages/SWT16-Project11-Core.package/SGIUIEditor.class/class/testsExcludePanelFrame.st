@@ -1,3 +1,3 @@
 frames
 testsExcludePanelFrame
-	^ (0@0.85 corner: 0.167@0.95)
+	^ (0.5@0.45 corner: 0.66@0.5)

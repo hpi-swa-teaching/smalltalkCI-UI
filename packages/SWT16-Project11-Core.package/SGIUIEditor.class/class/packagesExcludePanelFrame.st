@@ -1,3 +1,3 @@
 frames
 packagesExcludePanelFrame
-	^ (0.167@0.85 corner: 0.33@0.95)
+	^ (0.66@0.45 corner: 0.83@0.5)

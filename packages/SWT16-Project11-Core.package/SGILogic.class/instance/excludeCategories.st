@@ -5,4 +5,5 @@ excludeCategories
 	self resetExclude: SGIData categoriesCollectionString.
 	category := (self promptForCategoriesWithPreChoice: category) at: 1.
 	category ifNotNil: [
-		category do: [:categories | self exclude: (categories asString) at: SGIData categoriesCollectionString]]
+		category do: [:categories | self exclude: (categories asString) at: SGIData categoriesCollectionString]].
+	self changed: #includedTestsNames

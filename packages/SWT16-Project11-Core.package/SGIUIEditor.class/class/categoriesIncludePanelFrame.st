@@ -1,3 +1,3 @@
 frames
 categoriesIncludePanelFrame
-	^ (0.33@0.75 corner: 0.5@0.85)
+	^ (0.83@0.4 corner: 1@0.45)
