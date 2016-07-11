@@ -13,6 +13,7 @@ buildWith: builder
 		add: (self buildBaselineConfigChooseWith: builder);
 		add: (self buildPackagePathWith: builder);
 		add: (self buildPlatformChooseWith: builder);
+		add: (self buildIncludedTestsListWith: builder);
 		add: (self buildSaveAndCloseButtonWith: builder);
 		add: (self buildLoadingSpecsWith: builder);
 		add: (self buildStonInputFieldWith: builder);

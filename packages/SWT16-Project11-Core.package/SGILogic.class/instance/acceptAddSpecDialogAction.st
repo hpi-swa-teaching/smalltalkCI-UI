@@ -17,4 +17,6 @@ acceptAddSpecDialogAction
 		projectName: '';
 		resetUsedPlatforms;
 		package: '';
-		addLoadingSpec: newLoadSpec with: name
+		addLoadingSpec: newLoadSpec with: name.
+
+	self changed: #includedTestsNames

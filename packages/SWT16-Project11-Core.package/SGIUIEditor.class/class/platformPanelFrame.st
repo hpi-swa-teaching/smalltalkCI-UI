@@ -1,3 +1,3 @@
 frames
 platformPanelFrame
-	^ (0.5@0.47 corner: 1@0.54)
+	^ (0@0.28 corner: 0.5@0.35)

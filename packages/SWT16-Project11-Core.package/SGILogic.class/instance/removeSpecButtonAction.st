@@ -4,4 +4,5 @@ removeSpecButtonAction
 		[self loadingSpecs removeAt: self loadingSpecsIndex.
 		self loadingSpecsNames removeAt: self loadingSpecsIndex.
 		self changed: #loadingSpecsNames.
+		self changed: #includedTestsNames.
 		self changed: #loadingSpecs]
