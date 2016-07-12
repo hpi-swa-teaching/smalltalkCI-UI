@@ -1,3 +1,3 @@
 frames
 loadingSpecsLoadButtonFrame
-	^ (0@0.95 corner: 0.25@1)
+	^ (0.66@0 corner: 1@0.05)

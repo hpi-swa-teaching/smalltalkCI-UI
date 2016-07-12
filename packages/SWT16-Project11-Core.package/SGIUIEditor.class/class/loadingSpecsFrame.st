@@ -1,3 +1,3 @@
 frames
 loadingSpecsFrame
-	^ (0.5@0 corner: 1@0.4)
+	^ (0@0.27 corner: 0.49@1)
