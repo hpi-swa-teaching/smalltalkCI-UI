@@ -3,18 +3,13 @@
 		 },
 	"instance" : {
 		"setup" : "nk 6/15/2016 18:25",
-		"testBuildBaselineConfigWith" : "nk 6/15/2016 18:27",
-		"testBuildCategoriesExcludeWith" : "Lars Lange 7/1/2016 17:03",
-		"testBuildCategoriesIncludeWith" : "SL 7/9/2016 17:00",
+		"testBuildBaselineConfigWith" : "CF 7/12/2016 14:36",
+		"testBuildIncludeExcludeWith" : "CF 7/12/2016 14:38",
 		"testBuildIncludedTestsListWith" : "CF 7/11/2016 22:10",
 		"testBuildPackagePath" : "nk 6/15/2016 18:27",
 		"testBuildPackagesChooseWith" : "nk 6/20/2016 20:34:38.000822",
-		"testBuildPackagesExcludeWith" : "nk 6/20/2016 19:11",
-		"testBuildPackagesIncludeWith" : "Lars Lange 7/1/2016 17:02",
 		"testBuildPath" : "nk 6/15/2016 18:28",
 		"testBuildPlatformChoseWith" : "nk 6/15/2016 18:28",
 		"testBuildPreviewButton" : "nk 6/29/2016 18:38",
 		"testBuildSaveAndCloseButton" : "nk 6/15/2016 18:34",
-		"testBuildTestsChooseWith" : "nk 6/20/2016 20:34:38.000822",
-		"testBuildTestsExcludeWith" : "Lars Lange 7/1/2016 17:03",
-		"testBuildTestsIncludeWith" : "nk 6/20/2016 19:13" } }
+		"testBuildTestsChooseWith" : "nk 6/20/2016 20:34:38.000822" } }
