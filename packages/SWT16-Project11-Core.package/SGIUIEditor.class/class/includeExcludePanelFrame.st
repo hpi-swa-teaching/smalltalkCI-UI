@@ -1,3 +1,3 @@
 frames
 includeExcludePanelFrame
-	^ (0.5@0.4 corner: 1@0.5)
+	^ (0.51@0.1 corner: 1@0.2)

@@ -9,16 +9,14 @@ buildWith: builder
 		closeAction: #systemCloseAction;
 		children: OrderedCollection new.
 	windowSpec children 
-		add: (self buildPathWith: builder);
+		add: (self buildFilenameAndPathWith: builder);
 		add: (self buildBaselineConfigChooseWith: builder);
 		add: (self buildPackagePathWith: builder);
 		add: (self buildPlatformChooseWith: builder);
 		add: (self buildIncludedTestsListWith: builder);
-		add: (self buildSaveAndCloseButtonWith: builder);
+		add: (self buildMenuButtonsWith: builder);
 		add: (self buildLoadingSpecsWith: builder);
-		add: (self buildStonInputFieldWith: builder);
-		add: (self buildIncludeExcludeWith: builder);
-		add: (self buildPreviewButtonWith: builder).
+		add: (self buildIncludeExcludeWith: builder).
 
 	self window: (builder build: windowSpec).
 	^ self window

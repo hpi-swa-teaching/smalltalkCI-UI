@@ -1,3 +1,3 @@
 labels
 removeButtonLabel
-	^ '-'
+	^ 'Remove'

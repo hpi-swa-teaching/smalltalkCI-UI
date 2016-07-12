@@ -1,3 +1,3 @@
 labels
 loadSpecButtonLabel
-	^ 'load'
+	^ 'Load'
