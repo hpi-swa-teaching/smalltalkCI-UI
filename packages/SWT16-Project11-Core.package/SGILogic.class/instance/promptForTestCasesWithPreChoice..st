@@ -5,7 +5,7 @@ promptForTestCasesWithPreChoice: aCollection
 	testCases := Array
 		with: (SGIListMultipleChooser
 			chooseItemListFrom: (testCases 
-				collect: [:subclass | subclass asString ])
+				collect: [:subclass | subclass name ])
 				title: 'Select TestCases'
 				preChoose: aCollection).
 	^ testCases
