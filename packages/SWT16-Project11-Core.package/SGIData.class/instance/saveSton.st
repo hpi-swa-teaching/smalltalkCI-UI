@@ -2,6 +2,7 @@ file-operations
 saveSton
 	| convertedCollection aStream outputName |
 	convertedCollection := self generateSmalltalkCISpecObject.
+	convertedCollection := self testingChecker: convertedCollection  .
 	outputName := self path.
 	(outputName = '') ifFalse: [outputName := outputName, FileDirectory primPathNameDelimiter].
 	aStream := StandardFileStream forceNewFileNamed: (outputName, self fileName).
