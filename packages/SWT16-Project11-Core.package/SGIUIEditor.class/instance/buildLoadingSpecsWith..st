@@ -21,7 +21,7 @@ buildLoadingSpecsWith: builder
 		model: self logic;
 		label: self class addButtonLabel;
 		frame: self class loadingSpecsAddButtonFrame;
-		action: [self logic acceptAddSpecDialogAction].
+		action: [self logic addSpecButtonAction].
 	removeButtonSpec
 		model: self logic;
 		label: self class removeButtonLabel;

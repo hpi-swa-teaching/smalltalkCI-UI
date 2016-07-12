@@ -1,3 +1,3 @@
 defaults
 defaultLoadingSpecsNames
-	^ OrderedCollection new
+	^ OrderedCollection with: 'Standart-LoadSpec'
