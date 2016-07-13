@@ -8,5 +8,6 @@ loadSton: aFileStream
 				fileName: aFileStream localName;
 				path: aFileStream fullName;
 				loadingSpecs: spec loading;
-				loadingSpecsNames: (self convertNamesFromLoadingSpecs: self loadingSpecs);
-				testing: spec testing]
+				loadingSpecsNames: (self convertNamesFromLoadingSpecs: self loadingSpecs).
+			(spec testing includes: self class excludeDictionaryString) ifTrue: [self exclude: (spec testing at: self class excludeDictionaryString)].
+			(spec testing includes: self class includeDictionaryString) ifTrue: [self include: (spec testing at: self class includeDictionaryString)].]
