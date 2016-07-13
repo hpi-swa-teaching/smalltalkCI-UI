@@ -1,0 +1,3 @@
+defaults
+defaultLoadingSpecName
+	^ 'a LoadingSpec'
