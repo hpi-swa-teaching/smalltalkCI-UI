@@ -20,5 +20,5 @@
 	"name" : "SGIData",
 	"pools" : [
 		 ],
-	"super" : "SmalltalkCISpec",
+	"super" : "Object",
 	"type" : "normal" }

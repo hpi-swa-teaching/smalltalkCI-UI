@@ -6,9 +6,7 @@ testSaveSton
 	dataStorage fileName: '.dump.ston'.
 	dataStorage path: ''.
 	fileName := dataStorage fileName.
-	(FileDirectory default fileExists: fileName) ifTrue: [FileDirectory deleteFileNamed: fileName].
+	(FileDirectory default fileExists: fileName) ifTrue: [FileDirectory default deleteFileNamed: fileName].
 	dataStorage loadingSpecs add: self generateDumpSpec.
 	dataStorage saveSton.
 	self assert: (FileDirectory default fileExists: dataStorage fileName).
-	
-	FileDirectory default deleteFileNamed: dataStorage fileName.
