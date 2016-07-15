@@ -9,7 +9,7 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #categories : [ 'SWT16Project11-Core' ]
+      #categories : [ 'SWT16-Project11-Core' ]
     }
   }
 }
