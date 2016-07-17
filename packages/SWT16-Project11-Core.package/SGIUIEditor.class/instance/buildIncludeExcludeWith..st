@@ -17,7 +17,7 @@ buildIncludeExcludeWith: builder
 		model: self logic;
 		label: self class testsIncludeButtonLabel;
 		frame: self class testsIncludeFrame;
-		action: [self logic includePackages].
+		action: [self logic includeTests].
 	excludeTestsSpec 
 		model: self logic;
 		label: self class testsExcludeButtonLabel;
