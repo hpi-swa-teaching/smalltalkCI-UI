@@ -1,3 +1,3 @@
 frames
 pathInputFrame
-	^ (0@0 corner: 0.5@1)
+	^ (0.5@0 corner: 0.9@1)

@@ -2,6 +2,7 @@ button-actions
 loadSpecButtonAction
 	| selectedLoadSpec loadingSpecsCollection testIndex |
 	loadingSpecsCollection := SCIMetacelloLoadSpec new.
+	self halt.
 	testIndex := self loadingSpecsIndex.	"remove later, added due to a bug"
 	(testIndex == 0)
 	ifTrue: [testIndex := 1].

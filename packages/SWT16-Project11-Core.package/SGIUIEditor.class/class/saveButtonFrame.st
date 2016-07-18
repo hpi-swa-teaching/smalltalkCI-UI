@@ -1,3 +1,3 @@
 frames
 saveButtonFrame
-	^ (0@0 corner: 0.5@1)
+	^ (0.66@0 corner: 1@1)

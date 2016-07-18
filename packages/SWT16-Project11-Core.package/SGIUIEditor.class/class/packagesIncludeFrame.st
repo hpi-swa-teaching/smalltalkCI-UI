@@ -1,3 +1,3 @@
 frames
 packagesIncludeFrame
-	^ (0@0 corner: 1@1)
+	^ (0.66@0 corner: 1@0.5)

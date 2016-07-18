@@ -1,3 +1,3 @@
 defaults
 defaultLoadingSpecsNames
-	^ OrderedCollection with: 'Standart-LoadSpec'
+	^ OrderedCollection with: 'New Project'
