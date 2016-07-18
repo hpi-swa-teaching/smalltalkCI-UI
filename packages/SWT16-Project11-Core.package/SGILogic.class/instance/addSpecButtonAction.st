@@ -8,7 +8,7 @@ addSpecButtonAction
 		baseline: self baseline;
 		configuration: self configuration;
 		directory: self path;
-		platforms: self writeUsedPlatforms;
+		platforms: self platforms;
 		repository: self package.
 	
 	self

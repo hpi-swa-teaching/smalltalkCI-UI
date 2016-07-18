@@ -1,6 +1,5 @@
 utils
 loadUsedPlatforms: anOrderedCollection
-
 	| platforms |
 	
 	platforms := anOrderedCollection.

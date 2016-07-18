@@ -1,0 +1,3 @@
+labels
+saveloadingSpecButtonLabel
+	^ 'Save LoadSpec'

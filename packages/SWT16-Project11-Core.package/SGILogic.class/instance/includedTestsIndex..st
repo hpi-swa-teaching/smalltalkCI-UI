@@ -1,3 +1,3 @@
 accessing
 includedTestsIndex: anIndex
-	 ^ includedTestsIndex := anIndex 
+	 ^ includedTestsIndex := anIndex
