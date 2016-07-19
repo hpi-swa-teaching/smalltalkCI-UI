@@ -1,11 +1,11 @@
 user-interface
 buildLoadingSpecsWith: builder
-	| panelSpec loadingSpecsListSpec addButtonSpec removeButtonSpec loadButtonSpec |
+	| panelSpec loadingSpecsListSpec addButtonSpec removeButtonSpec saveButtonSpec |
 	panelSpec := builder pluggablePanelSpec new.
 	loadingSpecsListSpec := builder pluggableListSpec new.
 	addButtonSpec := builder pluggableButtonSpec new.
 	removeButtonSpec := builder pluggableButtonSpec new.
-	loadButtonSpec := builder pluggableButtonSpec new.
+	saveButtonSpec := builder pluggableButtonSpec new.
 	
 	panelSpec
 		model: self logic;
@@ -21,21 +21,21 @@ buildLoadingSpecsWith: builder
 		model: self logic;
 		label: self class addButtonLabel;
 		frame: self class loadingSpecsAddButtonFrame;
-		action: [self logic acceptAddSpecDialogAction].
+		action: [self logic addSpecButtonAction].
 	removeButtonSpec
 		model: self logic;
 		label: self class removeButtonLabel;
 		frame: self class loadingSpecsRemoveButtonFrame;
 		action: [self logic removeSpecButtonAction].
-	loadButtonSpec
+	saveButtonSpec
 		model: self logic;
-		label: self class loadSpecButtonLabel;
-		frame: self class loadingSpecsLoadButtonFrame;
-		action: [self logic loadSpecButtonAction].
+		label: self class saveLoadingSpecButtonLabel;
+		frame: self class loadingSpecsSaveButtonFrame;
+		action: [self logic saveSpecButtonAction].
 	panelSpec children 
 		add: loadingSpecsListSpec;
 		add: addButtonSpec;
 		add: removeButtonSpec;
-		add: loadButtonSpec.
+		add: saveButtonSpec.
 
 	 ^ panelSpec

@@ -1,3 +1,3 @@
 defaults
 defaultLoadingSpecs
-	^ OrderedCollection new
+	^ OrderedCollection with: (SCIMetacelloLoadSpec new)

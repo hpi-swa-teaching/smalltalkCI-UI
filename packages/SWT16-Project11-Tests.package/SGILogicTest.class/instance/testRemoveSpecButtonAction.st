@@ -2,8 +2,7 @@ testing
 testRemoveSpecButtonAction
 	|  logic |
 	logic := self setup.
-	logic addLoadingSpec: SCIMetacelloLoadSpec new.
-	logic addLoadingSpec: SCIMetacelloLoadSpec new.
+	logic addLoadingSpec: SCIMetacelloLoadSpec new with: 'name'.
 	logic removeSpecButtonAction.
 	self assert: logic loadingSpecs size = 1.
 	

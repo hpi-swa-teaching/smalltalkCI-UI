@@ -1,25 +1,22 @@
 button-actions
 addSpecButtonAction
-		| addSpecDialogSpec inputSpec acceptButtonSpec |
-		addSpecDialogSpec := self windowBuilder pluggableWindowSpec new.
-		inputSpec := self windowBuilder pluggableInputFieldSpec new.
-		acceptButtonSpec := self windowBuilder pluggableButtonSpec new.
-		
- 		addSpecDialogSpec 
-			model: self;
-			label: 'Which name should the new loadingSpec have?';
-			extent: self class addSpecDialogExtent;
-			children: OrderedCollection new;
-			isDialog: true.
-		inputSpec
-			model: self;
-			frame: self class addSpecDialogInputFrame.
-		acceptButtonSpec
-			model: self;
-			label: #acceptButtonLabel;
-			frame: self class addSpecDialogAcceptButtonFrame;
-			action: #acceptAddSpecDialogAction.
-		addSpecDialogSpec children
-			add: inputSpec;
-			add: acceptButtonSpec.
-		self addSpecDialog: (ToolBuilder default open: ( self view windowBuilder build: addSpecDialogSpec))
+	| newLoadSpec name |
+	newLoadSpec := SCIMetacelloLoadSpec new.
+	name := self projectName.
+	
+	newLoadSpec
+		baseline: self baseline;
+		configuration: self configuration;
+		directory: self path;
+		platforms: self platforms;
+		repository: self package.
+	
+	self
+		baseline: [ nil ];
+		configuration: [ nil ];
+		projectName: '';
+		resetUsedPlatforms;
+		package: '';
+		addLoadingSpec: newLoadSpec with: name.
+
+	self changed: #includedTestsNames
