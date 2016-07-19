@@ -1,3 +1,0 @@
-labels
-closeButtonLabel
-	^ 'Close'

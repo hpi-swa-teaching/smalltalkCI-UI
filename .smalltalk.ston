@@ -6,5 +6,10 @@ SmalltalkCISpec {
       #load : 'Tests',
       #platforms : [ #squeak ]
     }
-  ]
+  ],
+  #testing : {
+    #coverage : {
+      #categories : [ 'SWT16-Project11-Core' ]
+    }
+  }
 }
