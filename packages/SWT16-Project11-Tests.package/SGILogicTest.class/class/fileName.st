@@ -1,0 +1,3 @@
+default
+fileName
+	^ '.dump.ston'

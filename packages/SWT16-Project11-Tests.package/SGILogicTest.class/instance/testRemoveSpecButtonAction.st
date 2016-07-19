@@ -8,6 +8,6 @@ testRemoveSpecButtonAction
 	
 	"last loading spec should not be removed"
 	logic removeSpecButtonAction.
-	self assert: logic loadingSpecs size = 1.
+	self assert: logic loadingSpecs size = 1
 	
 	

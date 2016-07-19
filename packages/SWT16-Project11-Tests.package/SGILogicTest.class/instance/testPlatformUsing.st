@@ -1,10 +1,10 @@
 testing
 testPlatformUsing
 	| logicObject |
-	logicObject := self setup.
-	logicObject useSqueakPlatform: true.
-	logicObject usePharoPlatform: true.
-	logicObject useGemStonePlatform: true.
+	logicObject := self setup
+		useSqueakPlatform: true;
+		usePharoPlatform: true;
+		useGemStonePlatform: true.
 	self 
 		assert: logicObject useSqueakPlatform  = true;
 		assert: logicObject usePharoPlatform = true;
