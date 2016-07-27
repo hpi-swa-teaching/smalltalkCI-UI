@@ -1,6 +1,7 @@
 utils
 loadSton: aFileStream 
 	| spec |
+	self refactoringNote: 'Kommentare wären hier nett.'.
 	spec := SmalltalkCISpec fromStream: aFileStream.
 	(spec notNil) ifTrue: [
 		self

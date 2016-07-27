@@ -1,8 +1,8 @@
 button-actions
 loadSpecButtonAction
-	| selectedLoadSpec loadingSpecsCollection testIndex |
+	| selectedLoadSpec loadingSpecsCollection |
+	self refactoringNote: 'Sollte die Methode nicht loadLoadSpecButtonAction heißen?'.
 	loadingSpecsCollection := SCIMetacelloLoadSpec new.
-	testIndex := self loadingSpecsIndex.
 	(self loadingSpecs size >= self loadingSpecsIndex)
 		ifTrue: [
 			selectedLoadSpec := self loadingSpecs at: self loadingSpecsIndex.

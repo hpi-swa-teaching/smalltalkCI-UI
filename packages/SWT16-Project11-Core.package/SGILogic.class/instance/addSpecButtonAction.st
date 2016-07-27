@@ -1,6 +1,7 @@
 button-actions
 addSpecButtonAction
 	| newLoadSpec name |
+	self refactoringNote: 'acceptAddSpecDialogAction und addSpecDialogAction sehen ziemlich identisch aus. Kann man die Logik in eine gemeinsam benutzte Methode auslagern?'.
 	newLoadSpec := SCIMetacelloLoadSpec new.
 	name := self projectName.
 	newLoadSpec

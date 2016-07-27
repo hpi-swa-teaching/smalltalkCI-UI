@@ -1,5 +1,7 @@
 utils
-retrieveName: aPackageName 
+retrieveName: aPackageName
+	self refactoringNote: 'Eine einsame Methode auf der Suche nach ihren Kommentaren.'.
+	self refactoringNote: 'Vielleicht kann man die Methode in unterschiedliche Abstraktionslevel aufbrechen und diese aulagern? Ist doch etwas lang.'.
 	(aPackageName beginsWith: self class baselinePrefix)
 		ifTrue: [
 			| baseline |

@@ -1,5 +1,6 @@
 button-actions
 saveButtonAction
+	self refactoringNote: 'Das ist definitiv zu verschachtelt!'.
 	(self path = FileDirectory root fullName)
 		ifTrue: [ self inform: 'You can not save in root' ]
 		ifFalse: [ ((FileDirectory on: self path) fileExists: self fileName)
