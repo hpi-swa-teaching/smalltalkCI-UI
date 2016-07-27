@@ -1,3 +1,3 @@
 defaults
 previewExtent
-	^ 500@500
+	^ 500 @ 500

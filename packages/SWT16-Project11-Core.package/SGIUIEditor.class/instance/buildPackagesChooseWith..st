@@ -1,19 +1,16 @@
 user-interface
-buildPackagesChooseWith: builder
+buildPackagesChooseWith: builder 
 	| panelSpec choseSpec |
 	panelSpec := builder pluggablePanelSpec new.
 	choseSpec := builder pluggableButtonSpec new.
-	
-	panelSpec 
+	panelSpec
 		model: self logic;
 		frame: self class packagesPanelFrame;
 		children: OrderedCollection new.
-	choseSpec 
+	choseSpec
 		model: self logic;
 		label: self class packagesChooseButtonLabel;
 		frame: self class packagesChooseFrame;
-		action: [self logic choosePackages].	
-	panelSpec children 
-		add: choseSpec.
-
-	 ^ panelSpec
+		action: [ self logic choosePackages ].
+	panelSpec children add: choseSpec.
+	^ panelSpec

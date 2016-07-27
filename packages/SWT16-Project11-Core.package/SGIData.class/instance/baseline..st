@@ -1,3 +1,3 @@
 accessing
-baseline: anObject
+baseline: anObject 
 	baseline := anObject

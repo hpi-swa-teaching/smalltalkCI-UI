@@ -1,4 +1,4 @@
 button-actions
 executeSecondAnswerAction
 	self secondAnswerAction value.
-	self window delete.
+	self window delete

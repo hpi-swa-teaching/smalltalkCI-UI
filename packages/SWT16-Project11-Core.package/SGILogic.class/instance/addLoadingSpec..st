@@ -1,5 +1,5 @@
 accessing
-addLoadingSpec: aLoadingSpec
+addLoadingSpec: aLoadingSpec 
 	self loadingSpecs add: aLoadingSpec.
 	self loadingSpecsNames add: aLoadingSpec name.
 	self changed: #loadingSpecsNames.

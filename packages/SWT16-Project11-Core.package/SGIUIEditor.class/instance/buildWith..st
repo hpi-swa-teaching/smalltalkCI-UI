@@ -1,14 +1,14 @@
 user-interface
-buildWith: builder
+buildWith: builder 
 	| windowSpec |
 	windowSpec := builder pluggableWindowSpec new.
-	windowSpec 
+	windowSpec
 		model: self;
 		label: self class sgiLabel;
 		extent: self class editorExtent;
 		closeAction: #systemCloseAction;
 		children: OrderedCollection new.
-	windowSpec children 
+	windowSpec children
 		add: (self buildFilenameAndPathWith: builder);
 		add: (self buildBaselineConfigChooseWith: builder);
 		add: (self buildPackagePathWith: builder);
@@ -17,6 +17,5 @@ buildWith: builder
 		add: (self buildMenuButtonsWith: builder);
 		add: (self buildLoadingSpecsWith: builder);
 		add: (self buildIncludeExcludeWith: builder).
-
 	self window: (builder build: windowSpec).
 	^ self window

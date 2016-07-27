@@ -1,3 +1,3 @@
 accessing
-logic: anObject
+logic: anObject 
 	logic := anObject

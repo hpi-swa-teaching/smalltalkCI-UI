@@ -1,3 +1,3 @@
 accessing
-view: anObject
+view: anObject 
 	view := anObject

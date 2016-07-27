@@ -5,8 +5,8 @@ choosePackageOfPath
 	folder ifNotNil: [
 		folder := folder fullName.
 		(folder includesSubString: self path)
-		ifTrue: [
-			stringCollection := (folder subStrings: '\') asOrderedCollection.
-			choosenPackage := stringCollection at: stringCollection size.
-			self package: choosenPackage]
-		ifFalse: []]
+			ifTrue: [
+				stringCollection := (folder subStrings: '\') asOrderedCollection.
+				choosenPackage := stringCollection at: stringCollection size.
+				self package: choosenPackage ]
+			ifFalse: [  ] ]

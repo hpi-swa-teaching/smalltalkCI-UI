@@ -1,4 +1,3 @@
 interface-actions
 systemCloseAction
-	self okToClose
-	ifFalse: [self logic closeButtonAction]
+	self okToClose ifFalse: [ self logic closeButtonAction ]

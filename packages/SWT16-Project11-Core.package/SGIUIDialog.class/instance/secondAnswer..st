@@ -1,3 +1,3 @@
 accessing
-secondAnswer: anObject
+secondAnswer: anObject 
 	secondAnswer := anObject

@@ -1,3 +1,3 @@
 accessing
-package: anObject
+package: anObject 
 	package := anObject

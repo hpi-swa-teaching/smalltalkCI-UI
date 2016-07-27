@@ -6,5 +6,5 @@ loadLoadingSpecs
 	self baseline: selectedLoadSpec baseline.
 	self configuration: selectedLoadSpec configuration.
 	self package: selectedLoadSpec repository.
-	self projectName: (self loadingSpecsNames at:  self loadingSpecsIndex).
+	self projectName: (self loadingSpecsNames at: self loadingSpecsIndex).
 	self platforms: selectedLoadSpec platforms

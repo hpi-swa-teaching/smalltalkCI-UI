@@ -1,4 +1,4 @@
 accessing
-baseline: aBaseline
+baseline: aBaseline 
 	self model baseline: aBaseline.
 	self changed: #baseline

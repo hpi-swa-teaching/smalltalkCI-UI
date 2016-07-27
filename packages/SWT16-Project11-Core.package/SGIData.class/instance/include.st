@@ -1,3 +1,3 @@
 accessing
 include
-	^ include ifNil: [ include := Dictionary new]
+	^ include ifNil: [ include := Dictionary new ]

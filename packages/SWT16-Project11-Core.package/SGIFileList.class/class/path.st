@@ -1,4 +1,5 @@
 accessing
 path
-	Path ifNil: [^ ''].
+	Path ifNil: [
+		^ '' ].
 	^ Path

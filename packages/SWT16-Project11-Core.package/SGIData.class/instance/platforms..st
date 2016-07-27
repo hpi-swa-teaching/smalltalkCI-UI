@@ -1,3 +1,3 @@
 accessing
-platforms: anObject
+platforms: anObject 
 	platforms := anObject

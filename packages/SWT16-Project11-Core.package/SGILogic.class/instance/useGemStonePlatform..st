@@ -1,3 +1,3 @@
 accessing
-useGemStonePlatform: anObject
+useGemStonePlatform: anObject 
 	useGemStonePlatform := anObject

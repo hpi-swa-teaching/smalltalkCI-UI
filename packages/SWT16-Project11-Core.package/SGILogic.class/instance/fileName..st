@@ -1,4 +1,4 @@
 accessing
-fileName: aFileName
+fileName: aFileName 
 	self model fileName: aFileName.
 	self changed: #fileName

@@ -1,3 +1,3 @@
 accessing
-addSpecDialog: anObject
+addSpecDialog: anObject 
 	addSpecDialog := anObject

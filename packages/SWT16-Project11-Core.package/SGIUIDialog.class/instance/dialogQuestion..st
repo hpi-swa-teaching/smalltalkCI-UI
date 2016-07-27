@@ -1,3 +1,3 @@
 accessing
-dialogQuestion: anObject
+dialogQuestion: anObject 
 	dialogQuestion := anObject

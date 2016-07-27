@@ -1,3 +1,3 @@
 frames
 dialogExtent
-	^ 430@50
+	^ 430 @ 50

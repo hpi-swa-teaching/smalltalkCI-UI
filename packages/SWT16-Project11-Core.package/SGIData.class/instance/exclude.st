@@ -1,3 +1,3 @@
 accessing
 exclude
-	^ exclude ifNil: [ exclude := Dictionary new]
+	^ exclude ifNil: [ exclude := Dictionary new ]

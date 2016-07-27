@@ -1,4 +1,4 @@
 accessing
-configuration: aConfiguration
+configuration: aConfiguration 
 	self model configuration: aConfiguration.
 	self changed: #configuration

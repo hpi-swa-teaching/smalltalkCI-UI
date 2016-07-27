@@ -1,6 +1,6 @@
 button-actions
-saveSpecButtonAction	
-| selectedLoadSpec name |
+saveSpecButtonAction
+	| selectedLoadSpec name |
 	selectedLoadSpec := self loadingSpecs at: self loadingSpecsIndex.
 	name := self projectName.
 	selectedLoadSpec
