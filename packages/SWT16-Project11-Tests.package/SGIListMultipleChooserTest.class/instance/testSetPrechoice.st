@@ -2,6 +2,6 @@ testing
 testSetPrechoice
 	| chooser |
 	chooser := self setup.
-	self 
+	self
 		shouldnt: (chooser setPrechoice: self class defaultValues) raise: Error;
 		assert: (chooser selection size > 0)

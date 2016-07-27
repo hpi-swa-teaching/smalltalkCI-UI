@@ -3,7 +3,7 @@ testIncludeAt
 	| logic |
 	logic := self setup.
 	logic include: 'TestCase' at: SGIData packagesCollectionString.
-	self 
+	self
 		assert: (logic include size > 0);
 		assert: ((logic include at: SGIData packagesCollectionString) at: 1) = 'TestCase'.
 	^ logic

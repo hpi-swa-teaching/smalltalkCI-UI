@@ -2,7 +2,7 @@ testing
 testSetup
 	| dataObject |
 	dataObject := self setup.
-	dataObject 
+	dataObject
 		baseline: self class defaultBaseline;
 		configuration: self class defaultConfiguration;
 		fileName: self class defaultFileName;
@@ -13,7 +13,7 @@ testSetup
 		projectName: self class defaultProjectName;
 		exclude: self class defaultExcluding;
 		include: self class defaultIncluding.
-	self 
+	self
 		assert: dataObject notNil;
 		assert: dataObject baseline = self class defaultBaseline;
 		assert: dataObject configuration = self class defaultConfiguration;

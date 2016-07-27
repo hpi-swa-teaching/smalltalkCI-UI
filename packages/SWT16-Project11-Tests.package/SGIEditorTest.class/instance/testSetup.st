@@ -5,4 +5,4 @@ testSetup
 	self assert: (editorTool notNil).
 	self assert: (editorTool view okToClose = false).
 	editorTool view okToClose: true.
-	editorTool view window delete. 
+	editorTool view window delete

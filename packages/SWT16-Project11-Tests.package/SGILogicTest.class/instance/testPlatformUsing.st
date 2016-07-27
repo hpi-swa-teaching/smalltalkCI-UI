@@ -5,9 +5,7 @@ testPlatformUsing
 		useSqueakPlatform: true;
 		usePharoPlatform: true;
 		useGemStonePlatform: true.
-	self 
-		assert: logicObject useSqueakPlatform  = true;
+	self
+		assert: logicObject useSqueakPlatform = true;
 		assert: logicObject usePharoPlatform = true;
 		assert: logicObject useGemStonePlatform = true
-	
-	

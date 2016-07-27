@@ -1,3 +1,3 @@
 default
-defaultConfiguration 
+defaultConfiguration
 	^ 'ConfigurationOfProject11'

@@ -1,8 +1,8 @@
 testing
-setup 
+setup
 	| model |
 	model := SGIData new.
 	^ SGIUI new
-		model:  model;
+		model: model;
 		logic: (SGILogic initializeWithModel: model);
 		window: (ToolBuilder default open: SystemWindow new)

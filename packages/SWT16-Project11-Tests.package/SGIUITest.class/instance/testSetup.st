@@ -1,7 +1,7 @@
 testing
-testSetup 
+testSetup
 	| uiObject |
-	self 
+	self
 		shouldnt: (uiObject := self setup) raise: Error;
 		assert: uiObject logic notNil;
 		assert: uiObject model notNil;

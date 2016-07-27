@@ -1,4 +1,3 @@
 constants
 defaultPlatforms
-	^ (OrderedCollection new)
-		add: #Squeak
+	^ (OrderedCollection new) add: #Squeak

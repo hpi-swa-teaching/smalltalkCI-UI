@@ -1,3 +1,3 @@
 constants
 defaultFirstAction
-	^ [true]
+	^ [ true ]

@@ -1,6 +1,6 @@
 testing
 open
-	^ SGIUIDialog 
+	^ SGIUIDialog
 		openWithQuestion: self class defaultDialogQuestion
-		firstAction: self class defaultFirstAction  
+		firstAction: self class defaultFirstAction
 		andSecondAction: self class defaultSecondAction

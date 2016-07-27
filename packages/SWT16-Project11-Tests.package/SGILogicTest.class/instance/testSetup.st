@@ -2,15 +2,15 @@ testing
 testSetup
 	| logicObject |
 	logicObject := self setup.
-	logicObject 
+	logicObject
 		baseline: SGIDataTest defaultBaseline;
-		configuration: SGIDataTest  defaultConfiguration;
+		configuration: SGIDataTest defaultConfiguration;
 		fileName: SGIDataTest defaultFileName;
-		addLoadingSpec: SCIMetacelloLoadSpec new with: 'name'; 
+		addLoadingSpec: SCIMetacelloLoadSpec new with: 'name';
 		package: SGIDataTest defaultPackage;
 		path: SGIDataTest defaultPath;
 		projectName: SGIDataTest defaultProjectName.
-	self 
+	self
 		assert: logicObject notNil;
 		assert: logicObject baseline = SGIDataTest defaultBaseline;
 		assert: logicObject configuration = SGIDataTest defaultConfiguration;

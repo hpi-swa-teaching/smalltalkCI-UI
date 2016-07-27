@@ -4,7 +4,7 @@ testBuildPlatformChoseWith
 	builder := ToolBuilder default.
 	editorTool := self setup.
 	panel := editorTool buildPlatformChooseWith: builder.
-	self 
+	self
 		assert: (panel notNil);
 		assert: (panel children size = 3);
 		assert: ((panel children at: 1) class = PluggableCheckBoxSpec);

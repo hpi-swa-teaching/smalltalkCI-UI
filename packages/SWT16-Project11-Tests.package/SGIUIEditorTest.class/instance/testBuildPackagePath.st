@@ -4,7 +4,7 @@ testBuildPackagePath
 	builder := ToolBuilder default.
 	editorTool := self setup.
 	panel := editorTool buildPackagePathWith: builder.
-	self 
+	self
 		assert: (panel notNil);
 		assert: (panel children size = 2);
 		assert: ((panel children at: 1) class = PluggableInputFieldSpec);

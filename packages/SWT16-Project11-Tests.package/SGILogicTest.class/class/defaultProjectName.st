@@ -1,3 +1,3 @@
 default
-defaultProjectName 
+defaultProjectName
 	^ 'Project11'
