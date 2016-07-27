@@ -2,9 +2,8 @@
 	"class" : {
 		"defaultBaseline" : "nk 6/16/2016 17:07",
 		"defaultConfiguration" : "nk 6/16/2016 17:07",
-		"defaultExcluding" : "nk 6/20/2016 20:13",
 		"defaultFileName" : "nk 6/16/2016 17:07",
-		"defaultIncluding" : "nk 6/20/2016 20:14",
+		"defaultIncludingAndExcluding" : "CF 7/27/2016 16:45",
 		"defaultLoadingSpecs" : "nk 6/16/2016 17:07",
 		"defaultPackage" : "nk 6/16/2016 17:08",
 		"defaultPath" : "nk 6/16/2016 17:08",
@@ -15,4 +14,4 @@
 		"setup" : "nk 6/15/2016 18:38",
 		"testCheckTesting" : "nk 7/19/2016 14:07",
 		"testSaveSton" : "ll 7/14/2016 22:25",
-		"testSetup" : "nk 6/20/2016 20:14" } }
+		"testSetup" : "CF 7/27/2016 16:45" } }

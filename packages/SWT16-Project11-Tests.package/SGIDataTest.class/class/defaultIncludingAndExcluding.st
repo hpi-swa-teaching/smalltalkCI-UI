@@ -1,5 +1,5 @@
 constants
-defaultExcluding
+defaultIncludingAndExcluding
 	| dictionary |
 	dictionary := Dictionary new.
 	dictionary at: (SGIData packagesCollectionString) put: OrderedCollection new.

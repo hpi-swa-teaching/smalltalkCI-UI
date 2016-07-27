@@ -1,5 +1,6 @@
 checking
 check: anObject withKey: aKey 
+	"Removes the #categories, #packages and #classes string from the ston output and preview."
 	| dictionary |
 	dictionary := anObject testing at: aKey.
 	self

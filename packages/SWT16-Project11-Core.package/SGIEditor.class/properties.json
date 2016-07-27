@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"data",
 		"logic",
-		"model",
-		"view" ],
+		"uiEditor" ],
 	"name" : "SGIEditor",
 	"pools" : [
 		 ],

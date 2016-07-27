@@ -1,5 +1,5 @@
 defaults
-defaultIncluding
+defaultIncludingAndExcluding
 	| dictionary |
 	dictionary := Dictionary new.
 	dictionary at: (self packagesCollectionString) put: OrderedCollection new.
