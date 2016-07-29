@@ -7,7 +7,7 @@ choosePackageOfPath
 		folder := folder fullName.
 		(folder includesSubString: self path)
 			ifTrue: [
-				stringCollection := (folder subStrings: '\') asOrderedCollection.
+				stringCollection := (folder subStrings:  FileDirectory primPathNameDelimiter asString) asOrderedCollection.
 				choosenPackage := stringCollection at: stringCollection size.
 				self package: choosenPackage ]
 			ifFalse: [  ] ]
