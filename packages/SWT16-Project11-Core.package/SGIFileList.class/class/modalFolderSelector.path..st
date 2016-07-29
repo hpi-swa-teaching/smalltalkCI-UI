@@ -1,7 +1,6 @@
 modal dialogs
 modalFolderSelector: aDir path: aPath 
 	| window fileModel |
-	self refactoringNote: 'Kann fileModel nicht komplett raus?'.
 	self path: aPath.
 	window := self morphicViewFolderSelector: aDir.
 	fileModel := window model.

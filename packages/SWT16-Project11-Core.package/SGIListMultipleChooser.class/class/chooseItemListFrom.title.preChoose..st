@@ -1,9 +1,9 @@
 ui requests
-chooseItemListFrom: someObjects title: aString preChoose: preObjects 
-	self refactoringNote: 'Was macht diese Methode? Bitte Methodenkommentar schreiben.'.
+chooseItemListFrom: someObjects title: aString preChoose: prechoiceObjects 
+	"opens a new list-multi-chooser with the given prechoice"
 	^ self new
 		title: aString;
 		labels: (someObjects collect: [ :ea | ea asString ]);
 		values: someObjects;
-		setPrechoice: preObjects;
+		setPrechoice: prechoiceObjects;
 		choose
