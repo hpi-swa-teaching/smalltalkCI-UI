@@ -1,0 +1,1 @@
+I dsiplay the current STON-File in an extra window.

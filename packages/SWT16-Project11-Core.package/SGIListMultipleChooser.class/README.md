@@ -1,0 +1,1 @@
+I am a modified ListMultipleChooser that can still remember the selected list entries after I was closed.

@@ -1,0 +1,1 @@
+With me, you can add the SmalltalkCI-UI project to the apps-tab and open the project.

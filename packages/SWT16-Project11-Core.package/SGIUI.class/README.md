@@ -1,0 +1,1 @@
+I am the actual UI, which you can see when you open the SGIEditor. My logic is SGILogic.

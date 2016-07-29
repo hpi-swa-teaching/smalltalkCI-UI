@@ -1,0 +1,1 @@
+I save every instance variables used. Other classes retrieve data from me.
