@@ -1,11 +1,10 @@
 user-interface
-buildPackagePathWith: builder
+buildPackagePathWith: builder 
 	| panelSpec inputSpec choseSpec |
 	panelSpec := builder pluggablePanelSpec new.
 	inputSpec := builder pluggableInputFieldSpec new.
 	choseSpec := builder pluggableButtonSpec new.
-	
-	panelSpec 
+	panelSpec
 		model: self logic;
 		frame: self class packagePathPanelFrame;
 		children: OrderedCollection new.
@@ -14,13 +13,12 @@ buildPackagePathWith: builder
 		getText: #package;
 		setText: #package:;
 		frame: self class packagePathInputFrame.
-	choseSpec 
+	choseSpec
 		model: self logic;
 		label: self class packagePathChooseButtonLabel;
 		frame: self class packagePathChooseFrame;
-		action: [self logic choosePackageOfPath].
-	panelSpec children 
+		action: [ self logic choosePackageOfPath ].
+	panelSpec children
 		add: inputSpec;
 		add: choseSpec.
-	
-	 ^ panelSpec
+	^ panelSpec

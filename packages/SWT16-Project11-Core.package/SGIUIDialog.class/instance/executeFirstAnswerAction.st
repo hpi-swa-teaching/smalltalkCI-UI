@@ -1,4 +1,4 @@
 button-actions
 executeFirstAnswerAction
 	self firstAnswerAction value.
-	self window delete.
+	self window delete

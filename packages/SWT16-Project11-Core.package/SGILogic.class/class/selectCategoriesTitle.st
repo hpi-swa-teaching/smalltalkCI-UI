@@ -1,0 +1,3 @@
+constants
+selectCategoriesTitle
+	^ 'Select Categories'

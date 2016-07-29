@@ -1,12 +1,11 @@
 user-interface
-buildPlatformChooseWith: builder
+buildPlatformChooseWith: builder 
 	| panelSpec squeakButtonSpec pharoButtonSpec gemStoneButtonSpec |
 	panelSpec := builder pluggablePanelSpec new.
 	squeakButtonSpec := builder pluggableCheckBoxSpec new.
 	pharoButtonSpec := builder pluggableCheckBoxSpec new.
 	gemStoneButtonSpec := builder pluggableCheckBoxSpec new.
-	
-	panelSpec 
+	panelSpec
 		model: self logic;
 		frame: self class platformPanelFrame;
 		children: OrderedCollection new.
@@ -16,21 +15,20 @@ buildPlatformChooseWith: builder
 		frame: self class squeakCheckBoxFrame;
 		state: #useSqueakPlatform;
 		action: #toggleUseSqueakPlatform.
-	pharoButtonSpec 
+	pharoButtonSpec
 		model: self logic;
 		label: #pharoCheckBoxLabel;
 		frame: self class pharoCheckBoxFrame;
 		state: #usePharoPlatform;
 		action: #toggleUsePharoPlatform.
-	gemStoneButtonSpec 
+	gemStoneButtonSpec
 		model: self logic;
 		label: #gemStoneCheckBoxLabel;
 		frame: self class gemStoneCheckBoxFrame;
 		state: #useGemStonePlatform;
 		action: #toggleUseGemStonePlatform.
-	panelSpec children 
+	panelSpec children
 		add: squeakButtonSpec;
 		add: pharoButtonSpec;
 		add: gemStoneButtonSpec.
-	
-	 ^ panelSpec
+	^ panelSpec

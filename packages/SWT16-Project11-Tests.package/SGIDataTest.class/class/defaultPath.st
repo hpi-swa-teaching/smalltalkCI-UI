@@ -1,3 +1,3 @@
 constants
-defaultPath 
+defaultPath
 	^ FileDirectory root

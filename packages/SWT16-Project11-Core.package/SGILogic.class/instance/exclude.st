@@ -1,3 +1,3 @@
 accessing
 exclude
-	^ self model exclude
+	^ self data exclude

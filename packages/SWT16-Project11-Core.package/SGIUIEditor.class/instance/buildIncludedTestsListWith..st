@@ -1,9 +1,8 @@
 user-interface
-buildIncludedTestsListWith: builder
+buildIncludedTestsListWith: builder 
 	| panelSpec includedTestsListSpec |
 	panelSpec := builder pluggablePanelSpec new.
 	includedTestsListSpec := builder pluggableListSpec new.
-	
 	panelSpec
 		model: self logic;
 		frame: self class includedTestsPanelFrame;
@@ -14,7 +13,5 @@ buildIncludedTestsListWith: builder
 		getIndex: #includedTestsIndex;
 		setIndex: #includedTestsIndex:;
 		frame: self class includedTestsListFrame.
-
 	panelSpec children add: includedTestsListSpec.
-
-	 ^ panelSpec
+	^ panelSpec

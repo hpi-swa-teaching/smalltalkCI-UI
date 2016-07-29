@@ -1,3 +1,3 @@
 constants
-defaultFileName 
+defaultFileName
 	^ 'smalltalk.ston'

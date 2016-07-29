@@ -1,3 +1,3 @@
 accessing
 includedTestsIndex
-	 ^ includedTestsIndex
+	^ includedTestsIndex

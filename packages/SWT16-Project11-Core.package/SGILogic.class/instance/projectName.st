@@ -1,3 +1,3 @@
 accessing
 projectName
-	^ self model projectName
+	^ self data projectName

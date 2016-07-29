@@ -4,10 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "l 7/29/2016 14:08",
 	"instvars" : [
 		"logic",
-		"model",
 		"okToClose",
 		"window" ],
 	"name" : "SGIUI",

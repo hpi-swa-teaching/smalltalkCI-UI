@@ -1,12 +1,11 @@
 user-interface
-buildFilenameAndPathWith: builder
+buildFilenameAndPathWith: builder 
 	| panelSpec nameInputSpec pathInputSpec pathButtonSpec |
 	panelSpec := builder pluggablePanelSpec new.
 	nameInputSpec := builder pluggableInputFieldSpec new.
 	pathInputSpec := builder pluggableInputFieldSpec new.
 	pathButtonSpec := builder pluggableButtonSpec new.
-	
-	panelSpec 
+	panelSpec
 		model: self logic;
 		frame: self class FilenameAndPathPanelFrame;
 		children: OrderedCollection new.
@@ -20,14 +19,13 @@ buildFilenameAndPathWith: builder
 		getText: #path;
 		setText: #path:;
 		frame: self class pathInputFrame.
-	pathButtonSpec 
+	pathButtonSpec
 		model: self logic;
 		label: self class pathChooseButtonLabel;
 		frame: self class pathChooseButtonFrame;
-		action: [self logic choosePath].
-	panelSpec children 
+		action: [ self logic choosePath ].
+	panelSpec children
 		add: nameInputSpec;
 		add: pathInputSpec;
 		add: pathButtonSpec.
-	
-	 ^ panelSpec
+	^ panelSpec

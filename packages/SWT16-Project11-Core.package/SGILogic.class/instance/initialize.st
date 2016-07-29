@@ -1,3 +1,4 @@
-accessing
+instance creation
 initialize
-	self includedTestsIndex: 0
+	super initialize.
+	self includedTestsIndex: self class defaultIncludedTestsIndex

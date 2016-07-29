@@ -1,0 +1,3 @@
+default
+defaultDumpClass
+	^ 'DumpClass'

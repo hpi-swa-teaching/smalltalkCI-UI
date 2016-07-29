@@ -1,3 +1,3 @@
 accessing
-useSqueakPlatform: anObject
+useSqueakPlatform: anObject 
 	useSqueakPlatform := anObject

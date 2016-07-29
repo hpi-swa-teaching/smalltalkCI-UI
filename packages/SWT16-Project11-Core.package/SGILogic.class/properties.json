@@ -4,14 +4,14 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "l 7/29/2016 14:02",
 	"instvars" : [
 		"loadingSpecsIndex",
-		"model",
 		"useGemStonePlatform",
 		"usePharoPlatform",
 		"useSqueakPlatform",
-		"includedTestsIndex" ],
+		"includedTestsIndex",
+		"data" ],
 	"name" : "SGILogic",
 	"pools" : [
 		 ],

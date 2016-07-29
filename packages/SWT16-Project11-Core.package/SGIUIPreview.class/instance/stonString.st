@@ -1,3 +1,3 @@
 accessing
 stonString
-	^ STON toStringPretty: (self model testingChecker:  (self model generateSmalltalkCISpecObject))
+	^ STON toStringPretty: (self logic data checkTesting: (self logic data generateSmalltalkCISpecObject))

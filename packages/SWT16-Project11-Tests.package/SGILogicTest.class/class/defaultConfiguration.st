@@ -1,0 +1,3 @@
+default
+defaultConfiguration
+	^ 'ConfigurationOfProject11'

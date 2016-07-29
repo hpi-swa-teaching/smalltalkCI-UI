@@ -1,11 +1,10 @@
 user-interface
-buildWith: builder
+buildWith: builder 
 	| dialogSpec firstAnswerButtonSpec secondAnswerButtonSpec |
 	dialogSpec := builder pluggableWindowSpec new.
 	firstAnswerButtonSpec := builder pluggableButtonSpec new.
 	secondAnswerButtonSpec := builder pluggableButtonSpec new.
-
-	dialogSpec 
+	dialogSpec
 		model: self;
 		label: self dialogQuestion;
 		extent: self class dialogExtent;
@@ -15,15 +14,14 @@ buildWith: builder
 		model: self;
 		label: self firstAnswer;
 		frame: self class firstAnswerButtonFrame;
-		action: [self executeFirstAnswerAction].
+		action: [ self executeFirstAnswerAction ].
 	secondAnswerButtonSpec
 		model: self;
 		label: self secondAnswer;
 		frame: self class secondAnswerButtonFrame;
-		action: [self executeSecondAnswerAction].
+		action: [ self executeSecondAnswerAction ].
 	dialogSpec children
 		add: firstAnswerButtonSpec;
 		add: secondAnswerButtonSpec.
 	self window: (builder build: dialogSpec).
 	^ self window
-	

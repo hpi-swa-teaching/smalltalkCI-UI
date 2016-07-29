@@ -1,0 +1,3 @@
+constants
+defaultIncludedTestsIndex
+	^ 0

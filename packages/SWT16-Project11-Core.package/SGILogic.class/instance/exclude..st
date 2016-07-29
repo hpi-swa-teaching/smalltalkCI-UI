@@ -1,4 +1,4 @@
 accessing
-exclude: aDictionary
-	self model exclude: aDictionary.
+exclude: aDictionary 
+	self data exclude: aDictionary.
 	self changed: #exclude

@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "l 7/29/2016 14:42",
 	"instvars" : [
+		"data",
 		"logic",
-		"model",
-		"view" ],
+		"uiEditor" ],
 	"name" : "SGIEditor",
 	"pools" : [
 		 ],

@@ -1,3 +1,3 @@
 accessing
-configuration: anObject
+configuration: anObject 
 	configuration := anObject

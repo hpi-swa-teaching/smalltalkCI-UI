@@ -1,3 +1,3 @@
 initialize
-initializeWithModel: aModel
-	^ self new model: aModel.
+initializeWithModel: aModel 
+	^ self new data: aModel

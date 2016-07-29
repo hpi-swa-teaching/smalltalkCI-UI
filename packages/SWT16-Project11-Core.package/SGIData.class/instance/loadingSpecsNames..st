@@ -1,4 +1,4 @@
 accessing
-loadingSpecsNames: anObject
+loadingSpecsNames: anObject 
 	loadingSpecsNames := anObject.
 	self changed: #loadingSpecsNames

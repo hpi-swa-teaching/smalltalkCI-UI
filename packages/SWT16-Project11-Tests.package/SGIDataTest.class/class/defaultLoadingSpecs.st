@@ -1,3 +1,3 @@
 constants
-defaultLoadingSpecs 
+defaultLoadingSpecs
 	^ OrderedCollection new

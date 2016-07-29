@@ -1,3 +1,3 @@
 utils
-exclude: aString at: aIdentifier
-	(self model exclude at: aIdentifier) add: aString
+exclude: aString at: anIdentifier 
+	(self data exclude at: anIdentifier) add: aString

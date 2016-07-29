@@ -1,3 +1,3 @@
 frames
 editorExtent
-	^ 800@600
+	^ 800 @ 600

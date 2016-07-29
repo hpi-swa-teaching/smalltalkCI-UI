@@ -1,3 +1,3 @@
 accessing
 package
-	^ self model package
+	^ self data package

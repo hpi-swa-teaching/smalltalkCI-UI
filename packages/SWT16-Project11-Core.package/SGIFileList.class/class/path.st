@@ -1,4 +1,4 @@
 accessing
 path
-	Path ifNil: [^ ''].
+	Path ifNil: [ ^ FileDirectory root ].
 	^ Path

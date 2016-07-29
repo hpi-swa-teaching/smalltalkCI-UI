@@ -1,3 +1,3 @@
 accessing
 fileName
-	^ self model fileName
+	^ self data fileName

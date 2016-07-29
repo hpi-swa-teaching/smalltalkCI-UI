@@ -1,3 +1,3 @@
 constants
-defaultProjectName 
+defaultProjectName
 	^ 'Project11'

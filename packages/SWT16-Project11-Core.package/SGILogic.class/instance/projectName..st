@@ -1,4 +1,4 @@
 accessing
-projectName: aProjectName
-	self model projectName: aProjectName.
+projectName: aProjectName 
+	self data projectName: aProjectName.
 	self changed: #projectName

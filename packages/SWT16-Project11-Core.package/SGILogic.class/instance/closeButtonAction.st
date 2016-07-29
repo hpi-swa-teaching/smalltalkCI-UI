@@ -1,6 +1,6 @@
 button-actions
 closeButtonAction
-	^ SGIUIDialog 
+	^ SGIUIDialog
 		openWithQuestion: 'There might be unsaved changes, close anyway?'
-		firstAction: [self changed: #exit]
-		andSecondAction: []
+		firstAction: [ self changed: #exit ]
+		andSecondAction: [  ]

@@ -1,3 +1,3 @@
 accessing
-usePharoPlatform: anObject
+usePharoPlatform: anObject 
 	usePharoPlatform := anObject

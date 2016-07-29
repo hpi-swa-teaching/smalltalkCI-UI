@@ -1,10 +1,9 @@
 {
 	"class" : {
 		"defaultReadOnly" : "nk 6/29/2016 18:27",
-		"initializeWithModel:" : "nk 6/29/2016 18:12",
 		"previewExtent" : "nk 6/29/2016 17:58",
 		"previewLabel" : "nk 6/29/2016 17:56",
 		"previewTextFrame" : "nk 6/29/2016 18:21" },
 	"instance" : {
-		"buildWith:" : "nk 6/29/2016 18:31",
-		"stonString" : "SL 7/12/2016 15:04" } }
+		"buildWith:" : "nk 7/29/2016 12:10",
+		"stonString" : "nk 7/29/2016 15:45" } }

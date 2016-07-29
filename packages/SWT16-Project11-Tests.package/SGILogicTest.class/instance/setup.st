@@ -1,3 +1,3 @@
 testing
 setup
-	^ SGILogic initializeWithModel: SGIData new.
+	^ SGILogic initializeWithModel: SGIData new

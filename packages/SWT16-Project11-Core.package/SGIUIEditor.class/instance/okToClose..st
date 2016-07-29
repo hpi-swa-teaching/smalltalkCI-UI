@@ -1,3 +1,3 @@
 accessing
-okToClose: anObject
+okToClose: anObject 
 	okToClose := anObject

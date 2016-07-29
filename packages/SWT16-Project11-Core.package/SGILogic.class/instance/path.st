@@ -1,3 +1,3 @@
 accessing
 path
-	^ self model path
+	^ self data path
