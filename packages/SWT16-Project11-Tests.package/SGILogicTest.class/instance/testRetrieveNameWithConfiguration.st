@@ -1,5 +1,5 @@
 testing
-testRetrieveNameFromConfiguration
+testRetrieveNameWithConfiguration
 	| logic configurationName |
 	logic := self setup.
 	configurationName := logic retrieveName: self class defaultConfiguration.

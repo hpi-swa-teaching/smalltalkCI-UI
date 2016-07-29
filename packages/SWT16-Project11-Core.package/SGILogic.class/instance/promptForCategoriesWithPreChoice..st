@@ -4,6 +4,6 @@ promptForCategoriesWithPreChoice: aCollection
 	categories := SmalltalkCI allCategoryNames.
 	categories := Array with: (SGIListMultipleChooser
 		chooseItemListFrom: (categories collect: [ :subclass | subclass asString ])
-		title: 'Select Categories'
+		title: self class selectCategoriesTitle
 		preChoose: aCollection).
 	^ categories

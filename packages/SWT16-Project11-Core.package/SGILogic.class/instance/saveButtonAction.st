@@ -1,15 +1,8 @@
 button-actions
 saveButtonAction
-	self refactoringNote: 'Das ist definitiv zu verschachtelt!'.
 	(self path = FileDirectory root fullName)
 		ifTrue: [ self inform: 'You can not save in root' ]
 		ifFalse: [ ((FileDirectory on: self path) fileExists: self fileName)
-			ifFalse: [
-				self data saveSton.
+			ifFalse: [ self data saveSton.
 				self inform: 'saved succesfully!' ]
-			ifTrue: [ SGIUIDialog
-				openWithQuestion: 'File already exists, overwrite?'
-				firstAction: [
-					self overwriteSton.
-					self inform: 'saved successfully!' ]
-				andSecondAction: [  ] ] ]
+			ifTrue: [ self askForOverwriting ] ]

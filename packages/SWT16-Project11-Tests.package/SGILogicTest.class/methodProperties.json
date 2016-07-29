@@ -19,7 +19,7 @@
 		"testResetExclude" : "nk 7/19/2016 14:13",
 		"testResetInclude" : "nk 7/19/2016 14:13",
 		"testRetrieveName" : "nk 7/19/2016 14:27",
-		"testRetrieveNameFromBaseline" : "nk 7/19/2016 14:26",
-		"testRetrieveNameFromConfiguration" : "nk 7/19/2016 14:27",
+		"testRetrieveNameWithBaseline" : "nk 7/29/2016 16:08",
+		"testRetrieveNameWithConfiguration" : "nk 7/29/2016 16:08",
 		"testSetup" : "l 7/18/2016 19:46",
 		"testWriteUsedPlatforms" : "nk 6/16/2016 17:42" } }

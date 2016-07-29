@@ -1,5 +1,5 @@
 testing
-testRetrieveNameFromBaseline
+testRetrieveNameWithBaseline
 	| logic baselineName |
 	logic := self setup.
 	baselineName := logic retrieveName: self class defaultBaseline.
