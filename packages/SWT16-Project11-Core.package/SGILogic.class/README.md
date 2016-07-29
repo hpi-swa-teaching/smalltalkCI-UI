@@ -1,0 +1,1 @@
+I have most of the important functions and logic. I get my data from SGIData.

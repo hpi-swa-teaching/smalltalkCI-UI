@@ -1,0 +1,1 @@
+I own all the logic for the dialogs used in the UI.
