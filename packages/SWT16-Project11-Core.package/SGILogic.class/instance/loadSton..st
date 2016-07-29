@@ -1,7 +1,7 @@
 utils
 loadSton: aFileStream 
-	| spec |
-	self refactoringNote: 'Kommentare wären hier nett.'.
+	"it loads the completely STON-spec from the given file and loads it to the UI and the model"
+	| spec |.
 	spec := SmalltalkCISpec fromStream: aFileStream.
 	(spec notNil) ifTrue: [
 		self

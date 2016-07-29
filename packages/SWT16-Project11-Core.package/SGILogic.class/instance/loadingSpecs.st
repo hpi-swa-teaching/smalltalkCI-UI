@@ -1,3 +1,3 @@
 accessing
 loadingSpecs
-	^ self model loadingSpecs
+	^ self data loadingSpecs

@@ -1,4 +1,4 @@
 accessing
 loadingSpecs: aCollection 
-	self model loadingSpecs: aCollection.
+	self data loadingSpecs: aCollection.
 	self changed: #loadingSpecs

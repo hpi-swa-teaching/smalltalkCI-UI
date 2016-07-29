@@ -1,3 +1,3 @@
 accessing
 baseline
-	^ self model baseline
+	^ self data baseline

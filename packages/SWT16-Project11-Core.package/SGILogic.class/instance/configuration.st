@@ -1,3 +1,3 @@
 accessing
 configuration
-	^ self model configuration
+	^ self data configuration

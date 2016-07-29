@@ -1,4 +1,4 @@
 accessing
 path: aPath 
-	self model path: aPath.
+	self data path: aPath.
 	self changed: #path

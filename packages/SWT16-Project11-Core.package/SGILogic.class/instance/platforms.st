@@ -1,3 +1,3 @@
 accessing
 platforms
-	^ self model platforms
+	^ self data platforms

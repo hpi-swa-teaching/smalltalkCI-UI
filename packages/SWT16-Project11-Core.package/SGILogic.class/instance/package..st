@@ -1,4 +1,4 @@
 accessing
 package: aPackage 
-	self model package: aPackage.
+	self data package: aPackage.
 	self changed: #package

@@ -1,5 +1,4 @@
-accessing
+instance creation
 initialize
 	super initialize.
-	self refactoringNote: 'Ist diese Magic Number böse?'.
-	self includedTestsIndex: 0
+	self includedTestsIndex: self class defaultIncludedTestsIndex

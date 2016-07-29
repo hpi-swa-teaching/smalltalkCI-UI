@@ -1,4 +1,4 @@
 accessing
 platforms: aCollection 
-	self model platforms: aCollection.
+	self data platforms: aCollection.
 	self changed: #platforms

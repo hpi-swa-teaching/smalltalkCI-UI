@@ -5,7 +5,7 @@ saveButtonAction
 		ifTrue: [ self inform: 'You can not save in root' ]
 		ifFalse: [ ((FileDirectory on: self path) fileExists: self fileName)
 			ifFalse: [
-				self model saveSton.
+				self data saveSton.
 				self inform: 'saved succesfully!' ]
 			ifTrue: [ SGIUIDialog
 				openWithQuestion: 'File already exists, overwrite?'

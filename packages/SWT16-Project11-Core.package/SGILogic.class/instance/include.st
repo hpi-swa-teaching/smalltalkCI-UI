@@ -1,3 +1,3 @@
 accessing
 include
-	^ self model include
+	^ self data include
