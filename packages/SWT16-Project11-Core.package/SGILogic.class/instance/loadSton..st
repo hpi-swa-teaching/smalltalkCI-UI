@@ -1,6 +1,6 @@
 utils
 loadSton: aFileStream 
-	"it loads the completely STON-spec from the given file and loads it to the UI and the model"
+	"loading the complete STON-spec from a given file to the data and updating the ui"
 	| spec |.
 	spec := SmalltalkCISpec fromStream: aFileStream.
 	(spec notNil) ifTrue: [

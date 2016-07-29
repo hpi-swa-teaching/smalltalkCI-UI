@@ -6,5 +6,5 @@ replaceLoadingSpec: aLoadingSpec with: aName at: anIndex
 	self loadingSpecsNames
 		add: aName afterIndex: anIndex;
 		removeAt: anIndex.
-	self changed: #loadingSpecsNames.
-	self changed: #loadingSpecs
+	self changed: #loadingSpecsNames;
+		changed: #loadingSpecs

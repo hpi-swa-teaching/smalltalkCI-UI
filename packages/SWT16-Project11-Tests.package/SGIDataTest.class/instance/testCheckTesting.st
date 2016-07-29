@@ -5,5 +5,5 @@ testCheckTesting
 	self
 		shouldnt: (object := object checkTesting: (object generateSmalltalkCISpecObject))
 		raise: Error;
-	assert: object notNil;
-	assert: (object testing size = 0)
+		assert: object notNil;
+		assert: (object testing size = 0)
