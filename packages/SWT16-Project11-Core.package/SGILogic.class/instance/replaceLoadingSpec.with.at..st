@@ -1,5 +1,5 @@
 accessing
-addLoadingSpec: aLoadingSpec with: aName replaceAt: anIndex 
+replaceLoadingSpec: aLoadingSpec with: aName at: anIndex 
 	self loadingSpecs
 		add: aLoadingSpec afterIndex: anIndex;
 		removeAt: anIndex.

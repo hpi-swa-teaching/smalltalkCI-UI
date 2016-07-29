@@ -8,4 +8,4 @@ saveSpecButtonAction
 		directory: self path;
 		platforms: self writeUsedPlatforms;
 		repository: self package.
-	self addLoadingSpec: selectedLoadSpec with: (self projectName) replaceAt: (self loadingSpecsIndex)
+	self replaceLoadingSpec: selectedLoadSpec with: (self projectName) at: (self loadingSpecsIndex)
