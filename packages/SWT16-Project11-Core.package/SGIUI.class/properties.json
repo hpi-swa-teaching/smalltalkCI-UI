@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"logic",
-		"model",
 		"okToClose",
 		"window" ],
 	"name" : "SGIUI",
