@@ -1,4 +1,4 @@
-# SWT16-Project-11 [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-11.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-11) [![Coverage Status](https://coveralls.io/repos/github/HPI-SWA-Teaching/SWT16-Project-11/badge.svg?branch=master)](https://coveralls.io/github/HPI-SWA-Teaching/SWT16-Project-11?branch=master)
+# User Interface for smalltalkCI [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/smalltalkCI-UI.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/smalltalkCI-UI) [![Coverage Status](https://coveralls.io/repos/github/HPI-SWA-Teaching/smalltalkCI-UI/badge.svg?branch=master)](https://coveralls.io/github/HPI-SWA-Teaching/smalltalkCI-UI?branch=master)
 
 Lars Lange, Leonard Pabst, Christian Friedow, Sven Ladusch, Niklas Kiefer
 
